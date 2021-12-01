@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&family=PT+Sans:ital,wght@0,400;0,700;1,400&family=Poppins:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&family=PT+Sans:ital,wght@0,400;0,700;1,400&family=Poppins:wght@400;600&display=swap');
+
+*{
+    margin:0px ;
+    padding: 0px;
+    font-family: "PT Sans", sans-serif;
+}
+.sticky{
+    position: sticky;
+    top:0px;
+    width: 100%;
+    height: 116px;
+    z-index: 20000000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    position: absolute;
+    left: 10%;
+}
+.subrayado{
+    position: absolute;
+    width: 40px;
+    height: 3px;
+    left: 24%;
+    top: 76px;
+    background: #504DF2;
+}
+.display{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85vw;
+    flex-wrap: wrap;
+}
+
+
+.iconos a{
+   margin: 5px;
+}
+.iconos {
+    display: flex;
+    position: absolute;
+    right: 20%;
+}
+nav{
+    display: flex;
+    position: absolute;
+    left:21%
+}
+nav a{
+    text-decoration: none;
+    color: white;
+   margin:20px;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 23px;
+   
+    font-kerning:none;
+    letter-spacing: 0px;
+    font-weight: lighter;
+    
+}
+
+span{
+font-weight: 700;
+}
+.stickyScroll{
+    background-color:  rgba(34,34,34,0.5);
+}
+body{
+    height: 2000px;
+    background-color: #222222;
+}
+.mask{
+    position: absolute;
+    top:0px;
+    height: 100vh;
+    width: 85vw;
+    opacity: 0.7;
+}
+.identify{
+    position: absolute;
+    color: white;
+    left: 10%;
+    top: 66%;
+    font-family: "PT Sans",sans-serif;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 26px;
+}
+.titulo{ 
+position: absolute;
+left: 10%;
+color: white;
+top: 65%;
+font-family: "Poppins",sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 110px;
+line-height: 165px;
+}
+.proyect{
+position: absolute;
+color: white;
+left: 10%;
+top: 88.5%;
+font-family: 'PT Serif', serif;
+font-style: italic;
+font-size: 24px;
+line-height: 32px;
+
+}
+.subrayado2{
+    position: absolute;
+    width: 75px;
+    height: 3px;
+    left: 12.5%;
+    top: 92.5%;
+    background: #FFFFFF;
+}
+.flecha{
+    position: absolute;
+    right: 12%;
+    top:39%;
+    width: 135px;
+    height: 135px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    border: solid 4px #AEAEAE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.flecha:hover{
+    background-color: gray;
+}
+.flecha img{
+    
+}
