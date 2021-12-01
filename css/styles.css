@@ -125,10 +125,10 @@ line-height: 32px;
 }
 .flecha{
     position: absolute;
-    right: 12%;
-    top:39%;
-    width: 135px;
-    height: 135px;
+    right: 12.6%;
+    top:41%;
+    width: 105px;
+    height: 105px;
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
     border-radius: 50%;
@@ -140,6 +140,6 @@ line-height: 32px;
 .flecha:hover{
     background-color: gray;
 }
-.flecha img{
-    
+a:hover{
+    opacity: 0.8;
 }
