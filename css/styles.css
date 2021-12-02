@@ -4,7 +4,7 @@
 *{
     margin:0px ;
     padding: 0px;
-    font-family: "PT Sans", sans-serif;
+    font-family: 'PT Sans', sans-serif;
     overflow-x: hidden;
 }
 .sticky{
@@ -285,24 +285,204 @@ main{
 }
 .unaSection{
   display: flex;
- 
+ flex-wrap: wrap;
   justify-content: space-around;
+  max-width: 100vw;
 }
 .sectionCard{
     width: 33%;
-    height: 580px;
+    height: 615px;
     background-color: #333333;
-    margin:2px;
+    margin:1px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
+    position: relative;
+   
 }
-.titlee{
+
+.padd{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 451px;
+    text-align: center;
+   
+}
+.padd a {
+    text-decoration: none;
+    color: aliceblue;
+}
+.padd p:hover{
+    opacity: 0.85;
+    text-decoration: underline;
+}
+.padd p{
+    font-family: "PT Sans", sans-serif;
+font-style: italic;
+font-weight: normal;
+font-size: 20px;
+
+}
+#titlee{
     font-family: "Poppins",sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 45px;  
     color: white;
+    line-height: 63px;
+    position: absolute;
+    top:15%;
+    margin:0px 100px;
+    
 }
+#description{
+    font-family: "PT Serif",sans-serif;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 20px;
+    position: absolute;
+    text-align: center;
+    color: #FFFFFF;
+    line-height: 26px;
+    top:50%;
+    margin: 0px 30px;
+}
+.padd div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 10%;
+}
+.padd div img{
+    margin:15px;
+}
+.weWork{
+    background-color: #222222;
+    height: 504px;
+   position: relative;
+}
+.ppp{
+    padding: 0px 0px 0px 50px;
+    font-family: 'PT Serif', serif;
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 36px;
+    line-height: 48px;
+    color: white;
+    position: absolute;
+    left:91px;
+    top:70px;
+}
+.padWeWork{
+    padding: 175px 80px 50px 131px;
+
+}
+.padWeWork ul{
+   display: flex;
+   flex-wrap: wrap;
+}
+.padWeWork li{
+    margin: 3px 7px;
+}
+hr{
+    width: 2px;
+    height: 30px;
+    text-align: center;
+   
+    background-color: #555555;
+    border:2px solid #555555;
+}
+li{
+    display: flex;
+    align-items: center;
+}
+li p{
+    font-family: "Poppins",sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 60px;
+    color: white;
+}
+.contactAss{
+    height: 556px;
+    background-color: #303030;
+}
+.contactAss{
+    display: flex;
+    align-items: center;
+    position: relative;
+    
+}
+.aboutUs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 130px 60px 100px 150px;
+    
+}
+.aboutUs p{
+    
+font-family: 'PT Sans', sans-serif;
+font-style: italic;
+
+color: white;
+font-size: 22px;
+line-height: 34px;
+}
+.aboutUs div p{
+    font-family: 'PT Serif',serif;
+    font-style: italic;
+    font-size: 36px;
+    line-height: 48px;
+    color: white;
+    margin:25px;
+
+}
+
+.aboutUs div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    position: absolute;
+    top:130px;
+    left:150px;
+}
+.contactUs{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 50px 0px 0px;
+}
+.contactUs p {
+    font-family: 'Poppins',sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 39.095px;
+color: white;
+
+}
+.sis{
+    color:white;
+    text-decoration: none;
+    font-family: "Poppins",sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    border: solid 1px white;
+}
+
