@@ -16,6 +16,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 .logo{
     position: absolute;
@@ -85,20 +86,40 @@ body{
 .mask{
     position: absolute;
     top:0px;
+    max-height: 100vh;
+    width: 85vw;
     height: 100vh;
-    width: 100vw;
-    opacity: 0.7;
+    background-image:url("../img/principalNasty.png") ;
+    background-size: cover;
+    background-position-y: 30%;
+    background-position-x:left;
+   
     transition-property: transform;
     transition-duration: 1.5s;
+    z-index: 3;
+   
     
 }
+.nasty{
+    transition-duration: 1.5s;
+
+}
+
 
 .gato{
-    left:100%;
+    left:50%;
+    background-image:url("../img/principalMandatos.png") ;
+    z-index: 2 ;
+    background-position-y: 50%;
+    width: 100%;
+    
     
 }
 .buller{
+    background-image: url("../img/principalBuller.png");
     left:100%;
+    z-index: 1;
+    width: 100%;
 }
 
 .identify{
@@ -111,6 +132,7 @@ body{
     font-weight: normal;
     font-size: 20px;
     line-height: 26px;
+    z-index: 123213213 ;
 }
 .titulo{ 
 position: absolute;
@@ -122,6 +144,7 @@ font-style: normal;
 font-weight: bold;
 font-size: 110px;
 line-height: 165px;
+z-index: 123213213 ;
 
 }
 .proyect{
@@ -133,7 +156,17 @@ font-family: 'PT Serif', serif;
 font-style: italic;
 font-size: 24px;
 line-height: 32px;
+z-index: 123213213 ;
 
+}
+#see{
+    background-color: rgba(0, 0, 0, 0.15);
+    height: 100vh;
+    position: absolute;
+    top:0;
+    width: 100%;
+    z-index: 23;
+   
 }
 .subrayado2{
     position: absolute;
@@ -142,6 +175,7 @@ line-height: 32px;
     left: 12.5%;
     top: 92.5%;
     background: #FFFFFF;
+    z-index: 123213213 ;
 }
 .flecha{
     position: absolute;
@@ -156,6 +190,7 @@ line-height: 32px;
     display: flex;
     align-items: center;
     justify-content: center;
+    z-index: 123213213 ;
 }
 .flecha a{
     padding: 20px;
@@ -247,4 +282,27 @@ main{
 .carGa{
     display: flex;
     justify-content: center;
+}
+.unaSection{
+  display: flex;
+ 
+  justify-content: space-around;
+}
+.sectionCard{
+    width: 33%;
+    height: 580px;
+    background-color: #333333;
+    margin:2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.titlee{
+    font-family: "Poppins",sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;  
+    color: white;
 }
