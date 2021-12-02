@@ -1,10 +1,14 @@
 
 
 function stickyScroll(){
+    
     window.addEventListener("scroll", function(){
+   
+     
         let sticky= document.querySelector(".sticky")
-        sticky.classList.add("stickyScroll")
-    })
+        sticky.classList.add("stickyScroll")}
+       
+    )
 }
 stickyScroll();
 
@@ -14,13 +18,11 @@ stickyScroll();
     let img=document.querySelector(".nasty");
     let gato=document.querySelector(".gato");
     let titulo=document.querySelector(".titulo");
-    let buller=document.querySelector(".buller")
+    let buller=document.querySelector(".buller");
+    let identify=document.querySelector(".identify");
+    let proyectLink=document.querySelector("#proyectLink")
     carrusel.addEventListener("click", function(e){
         e.preventDefault();
-        
-        //img.src="img/gato.png";
-        //img.style.transition.duration="3s"
-        //gato.style.left="0%"
         console.log(contador);
         switch(contador){
             case 0:   
@@ -30,6 +32,8 @@ stickyScroll();
             buller.style.transform="translate(0%)";
             buller.style.visibility="hidden";
             titulo.innerHTML="Mandatos";
+            identify.innerHTML="Campaña - Eva Miller";
+            proyectLink.innerHTML="<a href=#><p class=proyect>See proyect</p> ";
             contador= contador+1;
             console.log(contador);
             break;
@@ -38,20 +42,22 @@ stickyScroll();
             gato.style.transform="translate(-200%)";
             buller.style.transform="translate(-100%)";
             titulo.innerHTML="Buller";
+            identify.innerHTML="Web Site";
+            proyectLink.innerHTML="<a href=#><p class=proyect>See proyect</p> ";
             contador= contador+1;
             img.style.visibility="hidden";
             img.style.transform="translate(100%)";
             console.log(contador);
             break;
             case 2:
-                img.style.visibility="visible";
-           
+            img.style.visibility="visible";
             img.style.transform="translate(0%)";
             titulo.innerHTML="Nasty People";
+            proyectLink.innerHTML="<a href=#><p class=proyect>See proyect</p> ";
             gato.style.visibility="hidden";
-            
             gato.style.transform="translate(0%)";
             buller.style.transform="translate(-200%)";
+            identify.innerHTML="Identift for vorterix"
             contador= 0;
             console.log(contador);
             break;
