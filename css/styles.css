@@ -127,7 +127,7 @@ body{
     color: white;
     left: 10%;
     top: 66%;
-    font-family: "PT Sans",sans-serif;
+    font-family: 'PT Sans', sans-serif;
     font-style: italic;
     font-weight: normal;
     font-size: 20px;
@@ -139,7 +139,7 @@ position: absolute;
 left: 10%;
 color: white;
 top: 65%;
-font-family: "Poppins",sans-serif;
+font-family: 'Poppins',sans-serif;
 font-style: normal;
 font-weight: bold;
 font-size: 110px;
@@ -203,7 +203,7 @@ a:hover{
 }
 main{
     position: absolute;
-    top:100vh;
+    top:110vh;
     width: 100%;
     
 }
@@ -211,7 +211,7 @@ main{
     margin: 5% auto;
 }
 .proyects p{
-    font-family: "Poppins",sans-serif;
+    font-family: 'Poppins',sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 36px;
@@ -245,21 +245,21 @@ main{
     flex-wrap: wrap;
 }
 .contenedor p{
-    font-family: "PT Sans",sans-serif;
+    font-family: 'PT Sans', sans-serif;
     font-style: italic;
     font-weight: bold;
     font-size: 26px;
     line-height: 34px;
 }
 #segundo{
-    font-family: "PT Serif",sans-serif;
+    font-family: 'PT Serif',sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 24px;
 }
 .cargaMas p{
-    font-family: "Poppins",sans-serif;
+    font-family: 'Poppins',sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -323,14 +323,14 @@ main{
     text-decoration: underline;
 }
 .padd p{
-    font-family: "PT Sans", sans-serif;
+    font-family: 'PT Sans', sans-serif;
 font-style: italic;
 font-weight: normal;
 font-size: 20px;
 
 }
 #titlee{
-    font-family: "Poppins",sans-serif;
+    font-family: 'Poppins',sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 45px;  
@@ -342,7 +342,7 @@ font-size: 20px;
     
 }
 #description{
-    font-family: "PT Serif",sans-serif;
+    font-family: 'PT Serif', serif;
     font-style: italic;
     font-weight: normal;
     font-size: 20px;
@@ -378,10 +378,11 @@ font-size: 20px;
     color: white;
     position: absolute;
     left:91px;
-    top:70px;
+    top:17%;
 }
 .padWeWork{
-    padding: 175px 80px 50px 131px;
+    padding: 13% 120px 50px 131px;
+   
 
 }
 .padWeWork ul{
@@ -404,7 +405,7 @@ li{
     align-items: center;
 }
 li p{
-    font-family: "Poppins",sans-serif;
+    font-family: 'Poppins',sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 36px;
@@ -427,7 +428,7 @@ li p{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    padding: 130px 60px 100px 150px;
+    padding: 130px 90px 100px 150px;
     
 }
 .aboutUs p{
@@ -478,11 +479,28 @@ color: white;
 .sis{
     color:white;
     text-decoration: none;
-    font-family: "Poppins",sans-serif;
+    font-family: 'Poppins',sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 27px;
-    border: solid 1px white;
+    border: solid 2px white;
 }
 
+footer{
+    height: 180px;
+    background-color: #504DF2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   position: relative;
+}
+.navito{
+    left:40%;
+}
+.logitor{
+    top:43%
+}
+.footerIconos{
+    right: 5%;
+}
