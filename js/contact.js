@@ -1,10 +1,9 @@
 function stickyScroll(){
-    
-    window.addEventListener("scroll", function(){
-   
-     
-        let sticky= document.querySelector(".sticky")
-        sticky.classList.add("stickyScroll")}
+    window.addEventListener("scroll", function(){   
+        let sticky= document.querySelector(".sticky");
+        sticky.classList.add("stickyScroll");
+        
+    }
        
     )
 }

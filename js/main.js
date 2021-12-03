@@ -3,10 +3,9 @@
 function stickyScroll(){
     
     window.addEventListener("scroll", function(){
-   
-     
-        let sticky= document.querySelector(".sticky")
-        sticky.classList.add("stickyScroll")}
+        let sticky= document.querySelector(".sticky"); 
+       sticky.classList.add("stickyScroll");
+    }
        
     )
 }
@@ -56,7 +55,7 @@ stickyScroll();
             break;
             case 2:
             img.style.visibility="visible";
-            img.style.transform="translate(-235%)";
+            img.style.transform="translate(-223%)";
             buller.style.transform="translate(-50%)";
             titulo.innerHTML="Nasty People";
             proyectLink.innerHTML="<a href=#><p class=proyect>See proyect</p> ";
@@ -73,7 +72,7 @@ stickyScroll();
             case 3:
                 gato.style.visibility="visible";
                 img.style.transform="translate(-333%)";
-                gato.style.transform="translate(-308%)";
+                gato.style.transform="translate(-305%)";
                 buller.style.zIndex="0";
                 buller.style.left="300%";
                 buller.style.transform="translate(-270%)";
@@ -95,7 +94,7 @@ stickyScroll();
             buller.style.zIndex="12";
             img.style.zIndex="-2";
             img.style.left="400%";
-            img.style.transform="translate(-403%)";
+            img.style.transform="translate(-393%)";
             
             console.log(contador);
             break;

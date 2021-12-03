@@ -16,8 +16,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+
 }
+
 .logo{
     position: absolute;
     left: 10%;
@@ -41,7 +42,7 @@
 
 
 .iconos a{
-   margin: 5px;
+   margin: 10px;
 }
 .iconos {
     display: flex;
@@ -71,12 +72,13 @@ span{
 font-weight: 700;
 }
 .stickyScroll{
-    
-    transition-property: background-color;
+    backdrop-filter:blur(15px);
+    transition-property: background-color, backdrop-filter;
     transition-duration: 2s;
     position: fixed;
     background-color:  rgba(34,34,34,0.5);
     border:3px;
+    z-index: 213123123123;
 }
 body{
    
@@ -110,7 +112,7 @@ font-style: italic;
 font-size: 26px;
 line-height: 34px;
 color: white;
-padding: 20px 300px 0px 130px;
+padding: 20px 40% 0px 130px;
 }
 #parrafo2{
     font-family: 'PT Sans',sans-serif;
@@ -118,7 +120,7 @@ padding: 20px 300px 0px 130px;
     font-size: 26px;
     line-height: 34px;
     color: white;
-    padding: 0px 300px 0px 130px;
+    padding: 0px 40% 0px 130px;
 }
 main div p{
     font-family: 'Poppins',sans-serif;
@@ -164,15 +166,15 @@ footer{
 main div{
     height: 55px;
     width: 380px;
-    border: solid 1px white;
     border-radius: 2px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin:20px 130px;
+    margin:5% 130px;
+    background-color: #504DF2;
 }
 main div:hover{
-    background-color: #504DF2;
+    background-color:dimgrey;
 }
 #primerParrafo{
     padding: 0px 300px 0px 130px;

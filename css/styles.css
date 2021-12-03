@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&family=PT+Sans:ital,wght@0,400;0,700;1,400&family=Poppins:wght@400;600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&family=PT+Sans:ital,wght@0,400;0,700;1,400&family=Poppins:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&family=PT+Sans:ital,wght@0,400;0,700;1,400&family=PT+Serif:ital,wght@1,400;1,700&family=Poppins:wght@400;600&display=swap');
+
 
 *{
     margin:0px ;
@@ -16,6 +16,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+   
     
 }
 .logo{
@@ -41,7 +42,7 @@
 
 
 .iconos a{
-   margin: 5px;
+   margin: 10px;
 }
 .iconos {
     display: flex;
@@ -60,23 +61,22 @@ nav a{
     font-style: normal;
     font-size: 18px;
     line-height: 23px;
-   
     font-kerning:none;
     letter-spacing: 0px;
     font-weight: lighter;
-    
 }
 
 span{
 font-weight: 700;
 }
 .stickyScroll{
-    
-    transition-property: background-color;
-    transition-duration: 2s;
+    backdrop-filter: blur(15px);
+    transition-property: background-color, backdrop-filter;
+    transition-duration: 3s;
     position: fixed;
     background-color:  rgba(34,34,34,0.5);
     border:3px;
+    z-index: 21321381263127321639129739213;
 }
 body{
     
@@ -87,7 +87,7 @@ body{
     position: absolute;
     top:0px;
     max-height: 100vh;
-    width: 85vw;
+    width: 88.9vw;
     height: 100vh;
     background-image:url("../img/principalNasty.png") ;
     background-size: cover;
@@ -129,7 +129,6 @@ body{
     top: 66%;
     font-family: 'PT Sans', sans-serif;
     font-style: italic;
-    font-weight: normal;
     font-size: 20px;
     line-height: 26px;
     z-index: 123213213 ;
@@ -139,12 +138,13 @@ position: absolute;
 left: 10%;
 color: white;
 top: 65%;
-font-family: 'Poppins',sans-serif;
-font-style: normal;
+font-family: 'Poppins', sans-serif;
+
 font-weight: bold;
 font-size: 110px;
 line-height: 165px;
 z-index: 123213213 ;
+
 
 }
 .proyect{
@@ -211,8 +211,7 @@ main{
     margin: 5% auto;
 }
 .proyects p{
-    font-family: 'Poppins',sans-serif;
-    font-style: normal;
+    font-family: 'Poppins', sans-serif;
     font-weight: bold;
     font-size: 36px;
     line-height: 54px;
@@ -231,6 +230,18 @@ main{
 .central{
     padding: 8% 0px 0px 0px;
 }
+.card a:hover{
+    opacity: 0.6;
+}
+.card img{
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+#rodo{
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+
+
 .column{
     display: flex;
     flex-direction: column;
@@ -253,15 +264,11 @@ main{
 }
 #segundo{
     font-family: 'PT Serif',sans-serif;
-    font-style: normal;
-    font-weight: normal;
     font-size: 18px;
     line-height: 24px;
 }
 .cargaMas p{
-    font-family: 'Poppins',sans-serif;
-    font-style: normal;
-    font-weight: normal;
+    font-family: 'Poppins', sans-serif;
     font-size: 18px;
     line-height: 27px;
 }
@@ -318,20 +325,18 @@ main{
     text-decoration: none;
     color: aliceblue;
 }
-.padd p:hover{
+.padd a p:hover{
     opacity: 0.85;
     text-decoration: underline;
 }
 .padd p{
     font-family: 'PT Sans', sans-serif;
 font-style: italic;
-font-weight: normal;
 font-size: 20px;
 
 }
 #titlee{
-    font-family: 'Poppins',sans-serif;
-    font-style: normal;
+    font-family: 'Poppins', sans-serif;
     font-weight: bold;
     font-size: 45px;  
     color: white;
@@ -341,17 +346,27 @@ font-size: 20px;
     margin:0px 100px;
     
 }
+#titlee2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 45px;  
+    color: white;
+    line-height: 63px;
+    position: absolute;
+    top:24%;
+    margin:0px 100px;
+
+}
 #description{
     font-family: 'PT Serif', serif;
     font-style: italic;
-    font-weight: normal;
     font-size: 20px;
     position: absolute;
     text-align: center;
     color: #FFFFFF;
     line-height: 26px;
-    top:50%;
-    margin: 0px 30px;
+    top:45%;
+    margin: 0px 20%;
 }
 .padd div{
     display: flex;
@@ -405,8 +420,8 @@ li{
     align-items: center;
 }
 li p{
-    font-family: 'Poppins',sans-serif;
-    font-style: normal;
+    font-family: 'Poppins', sans-serif;
+    
     font-weight: bold;
     font-size: 36px;
     line-height: 60px;
@@ -428,12 +443,12 @@ li p{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    padding: 130px 90px 100px 150px;
+    padding: 130px 90px 100px 10%;
     
 }
 .aboutUs p{
     
-font-family: 'PT Sans', sans-serif;
+    font-family: 'PT Sans', sans-serif;
 font-style: italic;
 
 color: white;
@@ -457,7 +472,7 @@ line-height: 34px;
     flex-wrap: wrap;
     position: absolute;
     top:130px;
-    left:150px;
+    left:10%;
 }
 .contactUs{
     width: 100%;
@@ -469,8 +484,7 @@ line-height: 34px;
     padding: 0px 50px 0px 0px;
 }
 .contactUs p {
-    font-family: 'Poppins',sans-serif;
-font-style: normal;
+    font-family: 'Poppins', sans-serif;
 font-weight: bold;
 font-size: 39.095px;
 color: white;
@@ -479,14 +493,14 @@ color: white;
 .sis{
     color:white;
     text-decoration: none;
-    font-family: 'Poppins',sans-serif;
-    font-style: normal;
-    font-weight: normal;
+    font-family: 'Poppins', sans-serif;
     font-size: 18px;
     line-height: 27px;
-    border: solid 2px white;
+    background-color:#504DF2; 
 }
-
+.sis:hover{
+    background-color:rgba(112, 110, 110, 0.8);
+}
 footer{
     height: 180px;
     background-color: #504DF2;
@@ -512,4 +526,8 @@ footer{
     top: 106px;
     background: white;
 
+}
+#segundo{
+    font-weight: 400;
+    letter-spacing: 0.5;
 }
