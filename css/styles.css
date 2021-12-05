@@ -6,6 +6,10 @@
     padding: 0px;
     font-family: 'PT Sans', sans-serif;
     overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+.mask{
+    overflow-x: hidden;
 }
 .sticky{
     position:sticky;
@@ -16,6 +20,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    transition-duration: 1.5s ;
    
     
 }
@@ -23,13 +28,24 @@
     position: absolute;
     left: 10%;
 }
+#subra{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    
+    margin: 0px 20px;
+}
 .subrayado{
     position: absolute;
     width: 40px;
     height: 3px;
-    left: 24%;
-    top: 76px;
+    left: 38%;
+    top: 83%;
     background: #504DF2;
+    z-index: 213123123123124124123;
+}
+span{
+    margin:21px;
 }
 .display{
     
@@ -148,10 +164,9 @@ z-index: 123213213 ;
 
 }
 .proyect{
-position: absolute;
+
 color: white;
-left: 10%;
-top: 88.5%;
+
 font-family: 'PT Serif', serif;
 font-style: italic;
 font-size: 24px;
@@ -159,6 +174,7 @@ line-height: 32px;
 z-index: 123213213 ;
 
 }
+
 #see{
     background-color: rgba(0, 0, 0, 0.15);
     height: 100vh;
@@ -172,21 +188,34 @@ z-index: 123213213 ;
     position: absolute;
     width: 75px;
     height: 3px;
-    left: 12.5%;
-    top: 92.5%;
+    left: 2.6%;
+    top: 90.9%;
     background: #FFFFFF;
     z-index: 123213213 ;
+
+}
+#proyectLink a{
+    text-decoration: none;
+}
+#subra3{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    left: 10%;
+    top: 90.5%;
+    z-index: 213213123123123123;
 }
 .flecha{
     position: absolute;
     right: 8.5%;
     top:41%;
-    width: 105px;
-    height: 105px;
+    width: 135px;
+    height: 135px;
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
     border-radius: 50%;
-    border: solid 4px #AEAEAE;
+    border: solid 5px #AEAEAE;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -201,12 +230,16 @@ z-index: 123213213 ;
 a:hover{
     opacity: 0.8;
 }
+#imaFle{
+    width: 100%;
+    height: 100%;
+}
 main{
     position: absolute;
     top:110vh;
     width: 100%;
-    
 }
+
 .proyects{
     margin: 5% auto;
 }
@@ -396,7 +429,7 @@ font-size: 20px;
     top:17%;
 }
 .padWeWork{
-    padding: 13% 120px 50px 131px;
+    padding: 180px 150px 50px 131px;
    
 
 }
@@ -522,12 +555,66 @@ footer{
     position: absolute;
     width: 40px;
     height: 3px;
-    left: 43.4%;
-    top: 106px;
     background: white;
-
+    left: 38%;
+    top: 77%;
+    z-index: 213123123123124124123;
 }
 #segundo{
     font-weight: 400;
     letter-spacing: 0.5;
+}
+.flechita{
+    position: absolute;
+    right: 8.5%;
+    top:41%;
+    width: 55px;
+    height: 55px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    border: solid 2px #AEAEAE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 123213213 ;
+}
+.flechita a{
+    padding: 10px;
+    
+}
+.flechita:hover{
+    background-color: rgba(112, 110, 110, 0.8);
+}
+
+
+@media all and (max-width:500px){
+    .mask{
+        width: 100%;
+        height: 100vh;
+        background-size: cover;
+        background-position-x: center;
+    }
+    .gato{
+        left:55%;
+    }
+    .buller{
+        left:110%;
+    }
+    .sticky{
+        display: none;
+        
+    }
+    .identify{
+        display: none;
+    }
+    .titulo{
+        display: none;
+    }
+    #proyectLink{
+        display: none;
+       
+    }
+
+
 }

@@ -5,7 +5,7 @@
     margin:0px ;
     padding: 0px;
     font-family: 'PT Sans', sans-serif;
-    overflow-x: hidden;
+
 }
 .sticky{
     position:sticky;
@@ -16,6 +16,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    transition-duration: 1.5s ;
 
 }
 
@@ -23,12 +24,15 @@
     position: absolute;
     left: 10%;
 }
+.contact{
+    position: relative;
+}
 .subrayado{
     position: absolute;
-    width: 40px;
+    width: 30px;
     height: 3px;
-    left: 39%;
-    top: 70px;
+    left: 30%;
+    top: 120%;
     background: #504DF2;
 }
 .display{
@@ -75,7 +79,7 @@ font-weight: 700;
     backdrop-filter:blur(15px);
     transition-property: background-color, backdrop-filter;
     transition-duration: 2s;
-    position: fixed;
+ 
     background-color:  rgba(34,34,34,0.5);
     border:3px;
     z-index: 213123123123;
@@ -131,7 +135,7 @@ line-height: 30px;
 }
 main{
     
-   padding: 100px 0px 150px 0px;
+   padding: 50px 0px 150px 0px;
 
     width: 100%;
 }
@@ -156,10 +160,10 @@ footer{
 }
 .subrayado3{
     position: absolute;
-    width: 40px;
+    width: 30px;
     height: 3px;
-    left: 57.9%;
-    top: 76px;
+    left: 27%;
+    top: 109%;
     background: white;
 
 }

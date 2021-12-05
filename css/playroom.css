@@ -14,19 +14,14 @@
     display: flex;
     justify-content: space-between;
     align-items: center;  
+    z-index: 2141235134513453145123412342342134234;
+    transition-duration: 1.5s ;
 }
 .logo{
     position: absolute;
     left: 10%;
 }
-.subrayado{
-    position: absolute;
-    width: 40px;
-    height: 3px;
-    left: 24%;
-    top: 76px;
-    background: #504DF2;
-}
+
 .display{
     
     display: flex;
@@ -210,10 +205,7 @@ z-index: 123213213 ;
 
 }
 .proyect{
-position: absolute;
 color: white;
-left: 10%;
-top: 88.5%;
 font-family: 'PT Serif', serif;
 font-weight: 400;
 font-style: italic;
@@ -226,7 +218,7 @@ z-index: 123213213 ;
     position: absolute;
     width: 75px;
     height: 3px;
-    left: 19.5%;
+    left:9.6%;
     top: 92.5%;
     background: #FFFFFF;
     z-index: 123213213 ;
@@ -297,4 +289,30 @@ color: white;
 }
 .card img{
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+#subra{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.subrayado{
+    position: absolute;
+    width: 40px;
+    height: 3px;
+    left: 31%;
+    top: 80%;
+    background: #504DF2;
+    z-index: 12325634635135123423412342342352343241241234231232131;
+}
+#proyectLink2{
+    position: absolute;
+    width: 100%;
+    left: 10%;
+top: 88.5%;
+}
+#proyectLink2 a{
+    text-decoration: none;
+}
+#proyectLink2:hover{
+    opacity: 0.7;
 }
