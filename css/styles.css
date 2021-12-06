@@ -618,6 +618,7 @@ body{
     transition-duration: 1.5s;
     transform: translate(100%);
     z-index: 231421342342134132421342343432;
+    overflow-x: hidden;
     overflow-y: scroll;
 }
 #tituloss{
