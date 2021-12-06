@@ -47,14 +47,17 @@ function stickyScroll(){
         let sticky= document.querySelector(".sticky"); 
        sticky.classList.add("stickyScroll");
        var y = window.scrollY;
-       window.scrollTo(0);
+       var x = window.scrollX;
+     console.log(x);
        if(y==0){
         sticky.classList.remove("stickyScroll");
        }
+     
     }
        
     )
 }
+
 stickyScroll();
 
 
@@ -162,11 +165,12 @@ function carrusel3(){
             switch(contador){
                 case 0:   
                 gato.style.visibility="visible";
-                
+               
                 img.style.transform="translate(-100%)";
                 gato.style.transform="translate(-55%)";
                 buller.style.left="translate(100%)";
                 buller.style.transform="translate(-70%)";
+               
                 titulo.innerHTML="Mandatos";
                 identify.innerHTML="Campaña - Eva Miller";
                 proyectLink.innerHTML="<a id=subra3  href=#><p class=proyect>See proyect</p><div class=subrayado2></div></a>";
