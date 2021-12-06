@@ -1,11 +1,12 @@
 
 let body= document.querySelector("body");
+let y = body.scrollTop;
 console.log(body)
     body.addEventListener("scroll", function(){   
         let sticky= document.querySelector(".sticky");
         sticky.classList.add("stickyScroll");
-        let y = body.scrollTop;
-        console.log(y);
+        
+   
         if(y==0){
          sticky.classList.remove("stickyScroll");
         }
@@ -13,12 +14,24 @@ console.log(body)
     }
        
     )
-console.log(document.documentElement.scrollTop)
+
+let menu=document.querySelector("#menu");
+let xBar=document.querySelector("#xBar");
+
+let menuBar=document.querySelector("#menuBar");
+menu.addEventListener("click",function(e){
+    e.preventDefault();
+ 
+   menuBar.style.transform="translate(0%)"
+})    
+xBar.addEventListener("click",function(){
+menuBar.style.transform="translate(100%)"}
+)
 
 
 let ancho2= window.innerWidth || document.body.clientWidth;
 let ancho= ancho2/2;
-console.log(ancho);
+
 window.addEventListener("resize",function(){
    
     ancho= screen.width;

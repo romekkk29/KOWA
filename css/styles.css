@@ -601,8 +601,78 @@ body{
     height: 100%;
     
 }
-
-
+#menu{
+    display: none;
+}
+#menuBar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+    height: 772px;
+    width: 100vw;
+    position: fixed;
+    top: 0px;
+    transition-property: transform ;
+    transition-duration: 1.5s;
+    transform: translate(100%);
+    z-index: 231421342342134132421342343432;
+    overflow-y: scroll;
+}
+#tituloss{
+    padding: 0px 0px 50px 10%;
+}
+#titlss{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 70px;
+    display: flex;
+    align-items: center;
+    
+}
+#titls{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 70px;
+    display: flex;
+    align-items: center;
+    color: black;
+    text-decoration: none;
+ }
+#headerBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#headerBar a{
+    padding: 20px;
+}
+#redess{
+    
+    padding: 0px 0px 50px 10%;
+    width: 100%;
+}
+#redess a{
+    text-decoration: none;
+    color: black;
+}
+#redess p:hover{
+    opacity: 0.8;
+}
+#redess p{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+   
+}
  
 @media all and (max-width:700px){
     .mask{
@@ -616,6 +686,14 @@ body{
        
        
     }
+    #menu{
+        display: inline;
+        position: absolute;
+        right: 5%;
+    }
+    .logo{
+        left:5%
+    }
   
     .gato{
         left:55%;
@@ -625,9 +703,17 @@ body{
         background-size:cover;
     }
     .sticky{
-        display: none;
-        
+        height: 76px;
     }
+    .iconos{
+        display: none;
+    }
+    .stickyScroll{
+        width: 100%;
+    }
+    .display nav{
+        display: none
+    };
     .identify{
         font-size: 16px;
     line-height: 21px;
