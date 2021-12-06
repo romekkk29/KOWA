@@ -20,7 +20,7 @@ let ancho2= window.innerWidth || document.body.clientWidth;
 let ancho= ancho2/2;
 console.log(ancho);
 window.addEventListener("resize",function(){
-    location.reload();
+   
     ancho= screen.width;
     entraIf();
     
