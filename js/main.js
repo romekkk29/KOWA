@@ -8,7 +8,7 @@ window.addEventListener("resize",function(){
 
 })
 function entraIf(){
-    if(ancho<500){
+    if(ancho<700){
         let aqui=document.querySelector(".aqui");
         let imaFle=document.querySelector("#imaFle");
         imaFle.style.width="40%";
