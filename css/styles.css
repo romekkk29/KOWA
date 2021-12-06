@@ -673,6 +673,19 @@ body{
     align-items: center;
    
 }
+#footer2{
+    height: 337px;
+    position: relative;
+    background-color: #504DF2;
+    display: none;
+}
+.navito2{
+    flex-direction: column;
+    position: absolute;
+    left:5%;
+}
+
+
  
 @media all and (max-width:700px){
     .mask{
@@ -681,10 +694,6 @@ body{
         background-size:250%;
         background-repeat: no-repeat;
         background-position-x: center;
-        
-        
-       
-       
     }
     #menu{
         display: inline;
@@ -733,10 +742,116 @@ body{
         width: 6%;
         left:10%
     }
+    .unaSection{
+        flex-direction: column;
+    }
+    .sectionCard{
+        width: 100%;
+    }
+    .padWeWork li p{
+        font-size: 18px;
+        line-height: 25px;
+        
+    }
+    .padWeWork{
+        padding: 170px 5% 50px 10%;
+    }
+    .padWeWork li{
+        margin: 2px 4px;
+    }
+    .ppp{
+        font-size: 24px;
+        line-height: 30px;
+        padding: 0px;
+        left:10%;
+        top:100px;
+    }
+    hr{
+        height: 18px;
+        width: 1.5px;
+        border: 1.5px solid #555555;
+    }
+    .contactAss{
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 100%;
+    }
+    .contactUs{
+        align-items: flex-start;
+        padding: 0px 0px 80px 10%;
+    }
+    .contactUs p{
+        line-height: 45px;
+        overflow-y: hidden;
+    }
+    .weWork{
+        height: 409px;
+    }
+    .aboutUs div{
+        top: 80px
+    }
+    .aboutUs p{
+        
+        font-size: 18px;
+        line-height: 24px;
+        font-weight: normal;
+    }
+    .aboutUs{
+        padding:  130px 70px 0px 10%;;
+    }
+    .aboutUs div p{
+        font-size: 24px;
+        line-height: 32px;
+    }
+    .cargaMas{
+        width: 80vw;
+    }
+    .sis{
+        font-weight: bold;
+    }
+    .carGa{
+        padding: 20px 0px 0px 0px;
+    }
+    footer{
+        display: none;
+    }
+    #footer2{
+        display: block;
+    }
+    .logitor{
+        top:68%;
+        left:9%;
+    }
+    #seco{
+        margin:10px;
+    }
+    span{
+        margin:10px;
+        
+    }
+    #subra{
+        overflow-y: hidden;
+        margin:0px
+    }
+    .navito2{
+        top:50px
+    }
+    .subrayado3{
+        left: 35%;
+        top: 35px;
+        
+    }
+    .iconos2{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        left:60%;
+        top:55px;
+    }
+    .iconos2 a{
+        margin:10px;
+    }
    
-  
-
-
 }
 @media all and (max-width:370px){
     .titulo{
