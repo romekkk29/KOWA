@@ -1,3 +1,21 @@
+
+let body= document.querySelector("body");
+console.log(body)
+    body.addEventListener("scroll", function(){   
+        let sticky= document.querySelector(".sticky");
+        sticky.classList.add("stickyScroll");
+        let y = body.scrollTop;
+        console.log(y);
+        if(y==0){
+         sticky.classList.remove("stickyScroll");
+        }
+        
+    }
+       
+    )
+console.log(document.documentElement.scrollTop)
+
+
 let ancho2= window.innerWidth || document.body.clientWidth;
 let ancho= ancho2/2;
 console.log(ancho);
@@ -5,9 +23,11 @@ window.addEventListener("resize",function(){
     location.reload();
     ancho= screen.width;
     entraIf();
+    
 
 })
 function entraIf(){
+    
     if(ancho<700){
         let aqui=document.querySelector(".aqui");
         let imaFle=document.querySelector("#imaFle");
@@ -21,6 +41,7 @@ function entraIf(){
         let aqui2=document.querySelector(".aqui2");
         aqui2.classList.remove("carrusel");
         aqui2.classList.add("carrusel2");
+
         carrusel2();
       
     }
@@ -41,24 +62,12 @@ function entraIf(){
 }
 entraIf();
 
-function stickyScroll(){
-    
-    window.addEventListener("scroll", function(){
-        let sticky= document.querySelector(".sticky"); 
-       sticky.classList.add("stickyScroll");
-       var y = window.scrollY;
-       var x = window.scrollX;
-     console.log(x);
-       if(y==0){
-        sticky.classList.remove("stickyScroll");
-       }
-     
-    }
-       
-    )
-}
 
-stickyScroll();
+    
+ 
+
+
+
 
 
     
@@ -87,6 +96,9 @@ function carrusel3(){
             proyectLink.innerHTML="<a id=subra3  href=#><p class=proyect>See proyect</p><div class=subrayado2></div></a>";
             contador= contador+1;
             console.log(contador);
+
+           
+           
             break;
             case 1: 
             buller.style.visibility="visible";
@@ -176,6 +188,8 @@ function carrusel3(){
                 proyectLink.innerHTML="<a id=subra3  href=#><p class=proyect>See proyect</p><div class=subrayado2></div></a>";
                 contador= contador+1;
                 console.log(contador);
+            
+               
                 break;
                 case 1: 
                 buller.style.visibility="visible";
@@ -247,4 +261,5 @@ function carrusel3(){
         })
         
     }
-
+ 
+    
