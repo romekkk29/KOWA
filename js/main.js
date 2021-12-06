@@ -47,7 +47,7 @@ function stickyScroll(){
         let sticky= document.querySelector(".sticky"); 
        sticky.classList.add("stickyScroll");
        var y = window.scrollY;
-
+       window.scrollTo(0);
        if(y==0){
         sticky.classList.remove("stickyScroll");
        }
