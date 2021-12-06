@@ -1,11 +1,12 @@
 
 let body= document.querySelector("body");
-let y = body.scrollTop;
+
 console.log(body)
     body.addEventListener("scroll", function(){   
         let sticky= document.querySelector(".sticky");
         sticky.classList.add("stickyScroll");
-        
+        let y = body.scrollTop;
+        console.log(y)
    
         if(y==0){
          sticky.classList.remove("stickyScroll");
