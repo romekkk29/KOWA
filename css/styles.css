@@ -621,10 +621,12 @@ body{
     overflow-x: hidden;
     overflow-y: scroll;
 }
-
+#scrolea{
+    overflow-y: scroll;
+}
 #tituloss{
     padding: 0px 0px 50px 10%;
-    overflow-y: scroll;
+    overflow-y: hidden;
 }
 #titlss{
     font-family: 'Poppins',sans-serif;
