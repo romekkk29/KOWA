@@ -22,11 +22,18 @@ let xBar=document.querySelector("#xBar");
 let menuBar=document.querySelector("#menuBar");
 menu.addEventListener("click",function(e){
     e.preventDefault();
- 
-   menuBar.style.transform="translate(0%)"
+  
+
+   menuBar.style.transform="translate(0%)";
+
+   
+  
 })    
 xBar.addEventListener("click",function(){
-menuBar.style.transform="translate(100%)"}
+    
+    menuBar.style.transform="translate(100%)";
+    
+}
 )
 
 
