@@ -888,35 +888,7 @@ line-height: 24px;
 .card p{
     padding: 0px 0px 0px 5%;
 }
-#plantilla{
-    height: 100%;
-    overflow-y: scroll;
-}
-#fixea{
-    position: fixed;
-    width: 80vw;
-    height: 80vh;
-    left:10%;
-    top: 10%;
-    display: flex;
-   
-    z-index: 122341234124213412342123123421342342134234213412342341234123434;
-    flex-wrap: wrap;
-  
 
-    overflow-x: hidden;
-    overflow-y: scroll;
-   
-}
-#fixea img{
-    overflow-y: scroll;
-}
-#dosCruz{
-    position: absolute;
-    width: 100%;
-    top:10%;
-    left:90%
-}
 .contactAss{
     background-color: #222222
 }
@@ -946,6 +918,39 @@ line-height: 24px;
     font-size: 45px;
     
     color:white;
+}
+#plantilla{
+    height: 100%;
+    overflow-y: scroll;
+    
+}
+#fixea{
+    position:fixed;
+    width: 80vw;
+    height: 80vh;
+    left:10%;
+    top: 10%;
+    display: flex;
+    z-index: 122341234124213412342123123421342342134234213412342341234123434;
+    flex-wrap: wrap;
+    overflow-x: hidden;
+    overflow-y: scroll;
+   
+}
+#dosCruz{
+    position: fixed;
+    right: 1%;
+    top:1%;
+   z-index: 4324123412413241324124;
+   display: none;
+}
+#fixea img{
+    overflow-y: scroll;
+    margin:5px;
+}
+.haceFlex{
+    display: flex;
+  
 }
 
 
@@ -1065,7 +1070,10 @@ line-height: 24px;
     .card{
         margin:20px 0px;
     }
-    
+    .haceFlex{
+        flex-wrap: wrap;
+      
+    }
     
     
    
