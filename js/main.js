@@ -1,11 +1,40 @@
 
 let body= document.querySelector("body");
-let altura= window.innerHeight || document.body.clientHeight;
+let altura2= window.innerHeight || document.body.clientHeight;
+let altura=altura2*0.5;
 console.log("la altura es " +altura)
 let img1=document.querySelector("#img1");
 let img2=document.querySelector("#img2");
 let img3=document.querySelector("#img3");
 let img4=document.querySelector("#img4");
+let plantillaa=document.querySelector("#plantilla");
+img1.addEventListener("click",function(){
+    const plantilla=`<div id="fixea">  <img src="img/nasty1.jpg" alt=""><img src="img/nasty1.jpg" alt=""><img src="img/nasty1.jpg" alt=""><img src="img/nasty2.jpg" alt=""><a id="dosCruz">cruz</a></div>`;
+    plantillaa.innerHTML=plantilla;
+    let main=document.querySelector("main");
+    main.style.opacity="0.2";
+    let sstic=document.querySelector(".sticky");
+    sstic.style.display="none";
+    body.style.overflow="hidden";
+    let fixea=document.querySelector("#fixea");
+    fixea.style.opacity="1";
+    
+    quitar();
+});
+function quitar(){
+   let dosCruz=document.querySelector("#dosCruz");
+   dosCruz.addEventListener("click",function(e){
+       e.preventDefault();
+       let main=document.querySelector("main");
+       main.style.opacity="1";
+       let sstic=document.querySelector(".sticky");
+       sstic.style.opacity="1";
+      let fixea=document.querySelector("#fixea");
+      fixea.style.display="none";
+      body.style.opacity="1";
+      body.style.overflowY="scroll";
+   })
+}
 
 console.log(body)
     body.addEventListener("scroll", function(){   
@@ -20,14 +49,15 @@ console.log(body)
         }
         if(y>altura){
             img1.style.transform="translateY(0%)";
-            img2.style.transform="translateY(0%)"
-            img3.style.transform="translateY(0%)"
-            img4.style.transform="translateY(0%)"
+            img2.style.transform="translateY(0%)";
+            img3.style.transform="translateY(0%)";
+            img4.style.transform="translateY(0%)";
         }
         
     }
        
     )
+
 
 let menu=document.querySelector("#menu");
 let xBar=document.querySelector("#xBar");
