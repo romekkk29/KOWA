@@ -37,16 +37,10 @@ xBar.addEventListener("click",function(){
 )
 
 
-let ancho2= window.innerWidth || document.body.clientWidth;
-let ancho= screen.width;
-/* 
- window.addEventListener("resize",function(){
-   
-    location.reload();
-    
 
-})
-  */
+
+
+  
 
 
     
@@ -249,8 +243,10 @@ function carrusel3(){
     }
  
     function entraIf(){
-    
-        if(ancho<=750){
+        let ancho2= window.innerWidth || document.body.clientWidth;
+        let ancho= ancho2/2;
+        console.log("el ancho es  "+ ancho );
+        if(ancho2<=750){
             let aqui=document.querySelector(".aqui");
             let imaFle=document.querySelector("#imaFle");
             imaFle.style.width="40%";
@@ -283,3 +279,9 @@ function carrusel3(){
         }
     }
     entraIf();
+    window.addEventListener("resize",function(){
+    
+        entraIf();
+        
+    
+    }) 
