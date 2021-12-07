@@ -1,15 +1,28 @@
 
 let body= document.querySelector("body");
+let altura= window.innerHeight || document.body.clientHeight;
+console.log("la altura es " +altura)
+let img1=document.querySelector("#img1");
+let img2=document.querySelector("#img2");
+let img3=document.querySelector("#img3");
+let img4=document.querySelector("#img4");
 
 console.log(body)
     body.addEventListener("scroll", function(){   
         let sticky= document.querySelector(".sticky");
         sticky.classList.add("stickyScroll");
         let y = body.scrollTop;
+        
         console.log(y)
    
         if(y==0){
          sticky.classList.remove("stickyScroll");
+        }
+        if(y>altura){
+            img1.style.transform="translateY(0%)";
+            img2.style.transform="translateY(0%)"
+            img3.style.transform="translateY(0%)"
+            img4.style.transform="translateY(0%)"
         }
         
     }
@@ -244,8 +257,8 @@ function carrusel3(){
  
     function entraIf(){
         let ancho2= window.innerWidth || document.body.clientWidth;
-        let ancho= ancho2/2;
-        console.log("el ancho es  "+ ancho );
+        
+      
         if(ancho2<=750){
             let aqui=document.querySelector(".aqui");
             let imaFle=document.querySelector("#imaFle");

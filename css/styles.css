@@ -791,6 +791,48 @@ body{
     
    
 }
+main{
+    top:100vh;
+}
+.proyects{
+    display: none;
+}
+#workProyects{
+    display: flex;
+   
+    
+}
+#workProyects div{
+    display: flex;
+    flex-grow: 1;
+    overflow-y: hidden;
+  
+}
+#img1{
+    transform: translateY(100%);
+    transition-property: transform;
+    transition-duration: 1s;
+}
+#img2{
+    transform: translateY(100%);
+    transition-property: transform;
+    transition-duration: 1.5s;
+}
+#img3{
+    transform: translateY(100%);
+    transition-property: transform;
+    transition-duration: 2s;
+}
+#img4{
+    transform: translateY(100%);
+    transition-property: transform;
+    transition-duration: 2.5s;
+}
+
+#columnaa{
+    display: flex;
+    flex-direction: column;
+}
 @media all and (max-width:1100px){
     .contactAss{
         flex-direction: column;
