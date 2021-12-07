@@ -22,7 +22,7 @@ let xBar=document.querySelector("#xBar");
 let menuBar=document.querySelector("#menuBar");
 menu.addEventListener("click",function(e){
     e.preventDefault();
-  
+    menuBar.style.visibility="visible";
 
    menuBar.style.transform="translate(0%)";
 
@@ -38,50 +38,15 @@ xBar.addEventListener("click",function(){
 
 
 let ancho2= window.innerWidth || document.body.clientWidth;
-let ancho= ancho2/2;
+let ancho= screen.width;
 
-window.addEventListener("resize",function(){
+ window.addEventListener("resize",function(){
    
-    ancho= screen.width;
-    entraIf();
+    location.reload();
     
 
 })
-function entraIf(){
-    
-    if(ancho<700){
-        let aqui=document.querySelector(".aqui");
-        let imaFle=document.querySelector("#imaFle");
-        imaFle.style.width="40%";
-        imaFle.style.height="40%";
-        imaFle.style.position="absolute";
-        imaFle.style.left="29%";
-        imaFle.style.top="29%";
-        aqui.classList.remove("flecha");
-        aqui.classList.add("flechita");
-        let aqui2=document.querySelector(".aqui2");
-        aqui2.classList.remove("carrusel");
-        aqui2.classList.add("carrusel2");
-
-        carrusel2();
-      
-    }
-    else{
-        let imaFle=document.querySelector("#imaFle");
-        imaFle.style.width="100%";
-        imaFle.style.height="100%";
-        imaFle.style.position="inherit";
-        let aqui=document.querySelector(".aqui");
-        aqui.classList.remove("flechita");
-        aqui.classList.add("flecha");
-        let aqui2=document.querySelector(".aqui2");
-        aqui2.classList.remove("carrusel2");
-        aqui2.classList.add("carrusel");
-        carrusel3();
-      
-    }
-}
-entraIf();
+ 
 
 
     
@@ -109,7 +74,7 @@ function carrusel3(){
             gato.style.visibility="visible";
             
             img.style.transform="translate(-100%)";
-            gato.style.transform="translate(-55%)";
+            gato.style.transform="translate(-51.5%)";
             buller.style.left="translate(100%)";
             buller.style.transform="translate(-70%)";
             titulo.innerHTML="Mandatos";
@@ -124,7 +89,7 @@ function carrusel3(){
             case 1: 
             buller.style.visibility="visible";
             gato.style.transform="translate(-150%)";
-            buller.style.transform="translate(-110%)";
+            buller.style.transform="translate(-111.5%)";
             titulo.innerHTML="Buller";
             identify.innerHTML="Web Site";
             proyectLink.innerHTML="<a id=subra3  href=#><p class=proyect>See proyect</p><div class=subrayado2></div></a>";
@@ -132,18 +97,18 @@ function carrusel3(){
             gato.style.zIndex="14";
             buller.style.zIndex="12";
             img.style.left="200%";
-            img.style.transform="translate(-173%)";
+            img.style.transform="translate(-176%)";
             
             console.log(contador);
             break;
             case 2:
             img.style.visibility="visible";
-            img.style.transform="translate(-223%)";
+            img.style.transform="translate(-227%)";
             buller.style.transform="translate(-50%)";
             titulo.innerHTML="Nasty People";
             proyectLink.innerHTML="<a id=subra3  href=#><p class=proyect>See proyect</p><div class=subrayado2></div></a>";
             gato.style.left="300%";
-            gato.style.transform="translate(-250%)";
+            gato.style.transform="translate(-260%)";
             gato.style.zIndex="1";
             buller.style.zIndex="45";
             buller.style.transform="translate(-200%)";
@@ -155,7 +120,7 @@ function carrusel3(){
             case 3:
                 gato.style.visibility="visible";
                 img.style.transform="translate(-333%)";
-                gato.style.transform="translate(-305%)";
+                gato.style.transform="translate(-311.5%)";
                 buller.style.zIndex="0";
                 buller.style.left="300%";
                 buller.style.transform="translate(-270%)";
@@ -168,7 +133,7 @@ function carrusel3(){
             case 4: 
             buller.style.visibility="visible";
             gato.style.transform="translate(-400%)";
-            buller.style.transform="translate(-310%)";
+            buller.style.transform="translate(-311.5%)";
             titulo.innerHTML="Buller";
             identify.innerHTML="Web Site";
             proyectLink.innerHTML="<a id=subra3  href=#><p class=proyect>See proyect</p><div class=subrayado2></div></a>";
@@ -283,4 +248,38 @@ function carrusel3(){
         
     }
  
+    function entraIf(){
     
+        if(ancho<=750){
+            let aqui=document.querySelector(".aqui");
+            let imaFle=document.querySelector("#imaFle");
+            imaFle.style.width="40%";
+            imaFle.style.height="40%";
+            imaFle.style.position="absolute";
+            imaFle.style.left="29%";
+            imaFle.style.top="29%";
+            aqui.classList.remove("flecha");
+            aqui.classList.add("flechita");
+            let aqui2=document.querySelector(".aqui2");
+            aqui2.classList.remove("carrusel");
+            aqui2.classList.add("carrusel2");
+    
+            carrusel2();
+          
+        }
+        else{
+            let imaFle=document.querySelector("#imaFle");
+            imaFle.style.width="100%";
+            imaFle.style.height="100%";
+            imaFle.style.position="inherit";
+            let aqui=document.querySelector(".aqui");
+            aqui.classList.remove("flechita");
+            aqui.classList.add("flecha");
+            let aqui2=document.querySelector(".aqui2");
+            aqui2.classList.remove("carrusel2");
+            aqui2.classList.add("carrusel");
+            carrusel3();
+          
+        }
+    }
+    entraIf();
