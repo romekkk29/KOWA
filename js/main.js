@@ -39,14 +39,14 @@ xBar.addEventListener("click",function(){
 
 let ancho2= window.innerWidth || document.body.clientWidth;
 let ancho= screen.width;
-
+/* 
  window.addEventListener("resize",function(){
    
     location.reload();
     
 
 })
- 
+  */
 
 
     
