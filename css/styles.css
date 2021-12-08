@@ -1323,6 +1323,9 @@ border-bottom: 4px solid white;
         
         
     }
+    .sectionCard{
+        display: -webkit-flex;
+    }
     
     
     #fixea::-webkit-scrollbar{
