@@ -41,6 +41,15 @@ img11.addEventListener("click",function(){
     body.style.overflow="hidden";
     let fixea=document.querySelector("#fixea");
     fixea.style.opacity="1";
+    let cruz=document.querySelector("#dosCruz");
+    cruz.style.display="flex";
+    
+    let cruz33=document.querySelector("#dosCruz img");
+    cruz33.style.width="50%";
+    cruz33.style.height="50%";
+    cruz33.style.right="0%";
+    cruz.style.right="-5%";
+    cruz.style.top="92%";
     
     let header=document.querySelector("header");
     header.style.opacity="0.2";

@@ -210,7 +210,7 @@ z-index: 123213213 ;
     flex-direction: column;
     left: 10%;
     top: 90.5%;
-    z-index: 213213123123123123;
+    z-index: 23123;
 }
 .flecha{
     position: absolute;
@@ -1161,8 +1161,15 @@ border-radius: 5px;
       
     }
    
-    
-    
+    #fixea{
+       
+        width: 100vw;
+        left: 0;
+        
+    }
+    #fixea::-webkit-scrollbar{
+        width: 0px;
+    }
    
 }
 @media all and (max-width:1100px){
