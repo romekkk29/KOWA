@@ -920,7 +920,7 @@ line-height: 24px;
 }
 #plantilla{
     height: 100px;
-    overflow-y: scroll;
+    
    
   
     
@@ -938,7 +938,7 @@ line-height: 24px;
     transition-property: transform;
     transition-duration: 2s;  
     scroll-behavior: smooth;
-    overflow-y: scroll;
+    
     
 }
 #fixea img{
@@ -979,6 +979,9 @@ border-radius: 5px;
     display: flex;
     overflow: hidden;
   
+}
+#contacModal p{
+    overflow: hidden;
 }
 #contacModal{
     width: 100%;
