@@ -11,6 +11,26 @@ let img3=document.querySelector("#img3");
 let img33=document.querySelector("#img33");
 let img4=document.querySelector("#img4");
 let plantillaa=document.querySelector("#plantilla");
+img4.addEventListener("click",function(){
+    const plantilla=`<div id="fixea">  <img loading="lazy" src="img/buller1.jpg" alt=""><img loading="lazy" src="img/buller2.jpg" alt=""><div loading="lazy" class="haceFlex bullerDec"><img loading="lazy" src="img/buller31.jpg" alt=""><img loading="lazy" src="img/buller32.jpg" alt=""></div><div loading="lazy" class="haceFlex bullerDec"><img loading="lazy" src="img/buller33.jpg" alt=""><img loading="lazy" src="img/buller34.jpg" alt=""></div><img loading="lazy" src="img/buller4.jpg" alt=""><img  loading="lazy" src="img/buller5.jpg" alt=""><div id="contacModal"><img loading="lazy" id="loge" src="img/Logo.jpg" alt=""><div><p>BE CURIOUS</p><p>BE BRAVE</p><p>IT'S POSSIBLE</p><div class="carGa2"><a class="cargaMas2 sis2" href="contact.html">Contact Us</a></div></div></div></div>`;
+    plantillaa.innerHTML=plantilla;
+    let main=document.querySelector("main");
+   
+    main.style.opacity="0.2";
+    main.style.pointerEvents="none";
+    let sstic=document.querySelector(".sticky");
+    sstic.style.visibility="hidden";
+    body.style.overflow="hidden";
+    let fixea=document.querySelector("#fixea");
+    fixea.style.opacity="1";
+    let cruz=document.querySelector("#dosCruz");
+    cruz.style.display="flex";
+    let header=document.querySelector("header");
+    header.style.opacity="0.2";
+    header.style.pointerEvents="none";
+    scroleaParriba();
+    quitar();
+});
 img3.addEventListener("click",function(){
     const plantilla=`<div id="fixea">  <img loading="lazy" src="img/eva1.jpg" alt=""><img loading="lazy" src="img/eva2.jpg" alt=""><img loading="lazy" src="img/eva3.jpg" alt=""><img  loading="lazy" src="img/eva4.jpg" alt=""><img  loading="lazy" src="img/eva5.jpg" alt=""><div loading="lazy" class="haceFlex evaFlex"><img loading="lazy" src="img/eva61.jpg" alt=""><img loading="lazy" src="img/eva62.jpg" alt=""><img loading="lazy" src="img/eva63.jpg" alt=""></div><div id="contacModal"><img loading="lazy" id="loge" src="img/Logo.jpg" alt=""><div><p>BE CURIOUS</p><p>BE BRAVE</p><p>IT'S POSSIBLE</p><div class="carGa2"><a class="cargaMas2 sis2" href="contact.html">Contact Us</a></div></div></div></div>`;
     plantillaa.innerHTML=plantilla;

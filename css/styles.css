@@ -378,7 +378,7 @@ font-size: 20px;
     line-height: 63px;
     position: absolute;
     top:15%;
-    margin:0px 100px;
+    margin:0px 0px;
     
 }
 #titlee2{
@@ -1073,6 +1073,7 @@ border-bottom: 4px solid white;
 
 .evaFlex{
 background-color: white;
+margin-bottom: -5%;
 }
 .evaFlex img{
     padding:4%;
@@ -1358,6 +1359,7 @@ background-color: white;
         }
         .evaFlex img{
             padding: 0px;
+            
         }
 }
 
