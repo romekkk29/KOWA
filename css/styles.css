@@ -333,7 +333,7 @@ main{
   display: flex;
  flex-wrap: wrap;
   justify-content: space-around;
-  max-width: 100vw;
+  
 }
 .sectionCard{
     width: 33%;
@@ -343,7 +343,7 @@ main{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    flex-wrap: wrap;
+   
     align-items: center;
     position: relative;
    
@@ -1316,7 +1316,7 @@ border-bottom: 4px solid white;
         width: 0px;
     }
     #subra3{
-        top:80%;
+        top:83%;
     }
     .proyect{
 
