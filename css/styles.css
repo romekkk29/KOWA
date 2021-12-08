@@ -1038,7 +1038,152 @@ border-radius: 5px;
         top:50px;
         width: 100%;
 }
+.proyect{
 
+width: 120px; 
+border-bottom: 4px solid white;
+    padding-bottom: 3px;
+}
+.proyect2{
+    color: white;
+    font-family: 'PT Serif', serif;
+    font-style: italic;
+    font-size: 24px;
+    line-height: 32px;
+    z-index: 123213213;
+
+    width: 95px; 
+    border-bottom: 4px solid white;
+        padding-bottom: 3px;
+    }
+.proyect:hover{
+    opacity: 0.7;
+}
+.subrayado2{
+    display: none;
+}
+
+@media all and (max-width:1100px){
+    .contactAss{
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: 100%;
+        }
+        .contactUs{
+            align-items: flex-start;
+            padding: 0px 0px 80px 10%;
+        }
+        .contactUs p{
+            line-height: 45px;
+            overflow-y: hidden;
+        }
+    .aboutUs div{
+        top: 80px
+    }
+    .aboutUs p{
+        
+        font-size: 18px;
+        line-height: 24px;
+        font-weight: normal;
+    }
+    .aboutUs{
+        padding:  130px 70px 0px 10%;;
+    }
+    .aboutUs div p{
+        font-size: 24px;
+        line-height: 32px;
+    }
+    .cargaMas{
+        width: 80vw;
+    }
+    .sis{
+        font-weight: bold;
+    }
+    .carGa{
+        padding: 20px 0px 0px 0px;
+    }
+    .weWork{
+        height: 100%;
+    
+    }
+    .titulo{
+        font-size: 80px;
+    }
+}
+@media all and (max-width:900px){
+    footer{
+            display: none;
+        }
+        #footer2{
+            display: block;
+        }
+        .logitor{
+            top:68%;
+            left:9%;
+        }
+        #seco{
+            margin:10px;
+        }
+        #queso{
+            margin:10px;
+            
+        }
+        #subra22{
+            
+                display: flex;
+                flex-direction: column;
+                position: relative;
+                
+                margin: 0px 20px;
+            
+            overflow-y: hidden;
+            margin:0px
+        }
+        .navito2{
+            top:50px
+        }
+        .subrayado3{
+            left: 35%;
+            top: 35px;
+            
+        }
+        .iconos2{
+            display: flex;
+            flex-direction: column;
+            position: absolute;
+            left:60%;
+            top:55px;
+        }
+        .iconos2 a{
+            margin:10px;
+        }
+        #contacModal{
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        #contacModal div{
+            padding: 30px;
+          align-items: center;
+          
+        }
+        #contacModal div p{
+            font-size: 30px;
+        }
+        #contacModal div{
+            width: 100%;
+        }
+        .cargaMas2{
+            width: 200px;
+        }
+        .carGa2{
+            right: 0px;
+            top:10px;
+        }
+        .sis2{
+            font-size: 14px;
+        }
+    }  
 
 
 @media all and (max-width:750px){
@@ -1085,7 +1230,7 @@ border-radius: 5px;
     .titulo{
         font-size: 48px;
         line-height:72px;
-        top:70%
+        top:68%
     }
     .proyect{
         font-size: 16px;
@@ -1170,127 +1315,27 @@ border-radius: 5px;
     #fixea::-webkit-scrollbar{
         width: 0px;
     }
-   
-}
-@media all and (max-width:1100px){
-    .contactAss{
-        flex-direction: column;
-        flex-wrap: wrap;
-        height: 100%;
+    #subra3{
+        top:80%;
+    }
+    .proyect{
+
+        width: 78px; 
+        border-bottom: 2px solid white;
+            padding-bottom: 1px;
         }
-        .contactUs{
-            align-items: flex-start;
-            padding: 0px 0px 80px 10%;
+    .proyect2{
+            font-size: 20px;
+            width: 65px; 
+            border-bottom: 2px solid white;
+                padding-bottom: 0px;
+                font-size: 16px;
+    line-height: 21px;
         }
-        .contactUs p{
-            line-height: 45px;
-            overflow-y: hidden;
-        }
-    .aboutUs div{
-        top: 80px
-    }
-    .aboutUs p{
-        
-        font-size: 18px;
-        line-height: 24px;
-        font-weight: normal;
-    }
-    .aboutUs{
-        padding:  130px 70px 0px 10%;;
-    }
-    .aboutUs div p{
-        font-size: 24px;
-        line-height: 32px;
-    }
-    .cargaMas{
-        width: 80vw;
-    }
-    .sis{
-        font-weight: bold;
-    }
-    .carGa{
-        padding: 20px 0px 0px 0px;
-    }
-    .weWork{
-        height: 100%;
-    }
 }
 
 
-@media all and (max-width:900px){
-footer{
-        display: none;
-    }
-    #footer2{
-        display: block;
-    }
-    .logitor{
-        top:68%;
-        left:9%;
-    }
-    #seco{
-        margin:10px;
-    }
-    #queso{
-        margin:10px;
-        
-    }
-    #subra22{
-        
-            display: flex;
-            flex-direction: column;
-            position: relative;
-            
-            margin: 0px 20px;
-        
-        overflow-y: hidden;
-        margin:0px
-    }
-    .navito2{
-        top:50px
-    }
-    .subrayado3{
-        left: 35%;
-        top: 35px;
-        
-    }
-    .iconos2{
-        display: flex;
-        flex-direction: column;
-        position: absolute;
-        left:60%;
-        top:55px;
-    }
-    .iconos2 a{
-        margin:10px;
-    }
-    #contacModal{
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-    #contacModal div{
-        padding: 30px;
-      align-items: center;
-      
-    }
-    #contacModal div p{
-        font-size: 30px;
-    }
-    #contacModal div{
-        width: 100%;
-    }
-    .cargaMas2{
-        width: 200px;
-    }
-    .carGa2{
-        right: 0px;
-        top:10px;
-    }
-    .sis2{
-        font-size: 14px;
-    }
-}  
+
 @media all and (max-width:370px){
     .titulo{
         font-size: 38px;

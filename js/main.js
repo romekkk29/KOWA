@@ -57,6 +57,59 @@ img11.addEventListener("click",function(){
     scroleaParriba();
     quitar();
 });
+function agarraNus(){
+    let agarraNusty=document.querySelector("#agarraNusty");
+    agarraNusty.addEventListener("click",function(){
+        const plantilla=`<div id="fixea">  <img loading="lazy" src="img/nasty1.jpg" alt=""><img loading="lazy" src="img/nasty2.jpg" alt=""><img loading="lazy" src="img/nasty3.jpg" alt=""><img  loading="lazy" src="img/nasty4.jpg" alt=""><div loading="lazy" class="haceFlex"><img loading="lazy" src="img/nasty51.jpg" alt=""><img loading="lazy" src="img/nasty52.jpg" alt=""></div><img loading="lazy" src="img/nasty6.jpg" alt=""><img loading="lazy" src="img/nasty7.jpg" alt=""><img  loading="lazy" src="img/nasty8.jpg" alt=""><div id="contacModal"><img loading="lazy" id="loge" src="img/Logo.jpg" alt=""><div><p>BE CURIOUS</p><p>BE BRAVE</p><p>IT'S POSSIBLE</p><div class="carGa2"><a class="cargaMas2 sis2" href="contact.html">Contact Us</a></div></div></div></div>`;
+        plantillaa.innerHTML=plantilla;
+        let main=document.querySelector("main");
+   
+        main.style.opacity="0.2";
+        main.style.pointerEvents="none";
+        let sstic=document.querySelector(".sticky");
+        sstic.style.visibility="hidden";
+        body.style.overflow="hidden";
+        let fixea=document.querySelector("#fixea");
+        fixea.style.opacity="1";
+        let cruz=document.querySelector("#dosCruz");
+        cruz.style.display="flex";
+        
+        let cruz33=document.querySelector("#dosCruz img");
+        cruz33.style.width="70%";
+        cruz33.style.height="70%";
+        cruz33.style.right="0%";
+        cruz.style.right="0%";
+        cruz.style.top="90%";
+        
+        let header=document.querySelector("header");
+        header.style.opacity="0.2";
+        header.style.pointerEvents="none";
+        scroleaParriba();
+        quitar();
+    })};
+    function agarraNus2(){
+        let agarraNusty2=document.querySelector("#agarraNusty2");
+        agarraNusty2.addEventListener("click",function(){
+            const plantilla=`<div id="fixea">  <img loading="lazy" src="img/nasty1.jpg" alt=""><img loading="lazy" src="img/nasty2.jpg" alt=""><img loading="lazy" src="img/nasty3.jpg" alt=""><img  loading="lazy" src="img/nasty4.jpg" alt=""><div loading="lazy" class="haceFlex"><img loading="lazy" src="img/nasty51.jpg" alt=""><img loading="lazy" src="img/nasty52.jpg" alt=""></div><img loading="lazy" src="img/nasty6.jpg" alt=""><img loading="lazy" src="img/nasty7.jpg" alt=""><img  loading="lazy" src="img/nasty8.jpg" alt=""><div id="contacModal"><img loading="lazy" id="loge" src="img/Logo.jpg" alt=""><div><p>BE CURIOUS</p><p>BE BRAVE</p><p>IT'S POSSIBLE</p><div class="carGa2"><a class="cargaMas2 sis2" href="contact.html">Contact Us</a></div></div></div></div>`;
+            plantillaa.innerHTML=plantilla;
+            let main=document.querySelector("main");
+       
+            main.style.opacity="0.2";
+            main.style.pointerEvents="none";
+            let sstic=document.querySelector(".sticky");
+            sstic.style.visibility="hidden";
+            body.style.overflow="hidden";
+            let fixea=document.querySelector("#fixea");
+            fixea.style.opacity="1";
+            let cruz=document.querySelector("#dosCruz");
+            cruz.style.display="flex";
+            let header=document.querySelector("header");
+            header.style.opacity="0.2";
+            header.style.pointerEvents="none";
+            scroleaParriba();
+            quitar();
+        });
+}
 function scroleaParriba(){
   let fixea=document.querySelector("#fixea");
   fixea.addEventListener("scroll",function(){
@@ -126,22 +179,6 @@ xBar.addEventListener("click",function(){
     
 }
 )
-
-
-
-
-
-  
-
-
-    
- 
-
-
-
-
-
-    
     let contador=0;
     let img=document.querySelector(".nasty");
     let gato=document.querySelector(".gato");
@@ -191,15 +228,15 @@ function carrusel3(){
             img.style.transform="translate(-227%)";
             buller.style.transform="translate(-50%)";
             titulo.innerHTML="Nasty People";
-            proyectLink.innerHTML="<a id=subra3  href=#><p class=proyect>See proyect</p><div class=subrayado2></div></a>";
+            proyectLink.innerHTML="<a id=subra3  href=#><p id=agarraNusty2 class=proyect>See proyect</p><div class=subrayado2></div></a>";
             gato.style.left="300%";
             gato.style.transform="translate(-260%)";
             gato.style.zIndex="1";
             buller.style.zIndex="45";
             buller.style.transform="translate(-200%)";
             identify.innerHTML="Identity for vorterix";
-
             contador++;
+            agarraNus2();
             console.log(contador);
             break; 
             case 3:
@@ -256,7 +293,7 @@ function carrusel3(){
                
                 titulo.innerHTML="Mandatos";
                 identify.innerHTML="Campaña - Eva Miller";
-                proyectLink.innerHTML="<a id=subra3  href=#><p class=proyect>See proyect</p><div class=subrayado2></div></a>";
+                proyectLink.innerHTML="<a id=subra3  href=#><p  class=proyect>See proyect</p><div class=subrayado2></div></a>";
                 contador= contador+1;
                 console.log(contador);
             
@@ -281,7 +318,7 @@ function carrusel3(){
                 img.style.visibility="visible";
                 img.style.transform="translate(-200%)";
                 titulo.innerHTML="Nasty People";
-                proyectLink.innerHTML="<a id=subra3  href=#><p class=proyect>See proyect</p><div class=subrayado2></div></a>";
+                proyectLink.innerHTML="<a id=subra3  href=#><p id=agarraNusty class=proyect>See proyect</p><div class=subrayado2></div></a>";
                 gato.style.left="300%";
                 gato.style.transform="translate(-200%)";
                 gato.style.zIndex="1";
@@ -290,6 +327,7 @@ function carrusel3(){
                 identify.innerHTML="Identity for vorterix";
     
                 contador++;
+                agarraNus();
                 console.log(contador);
                 break; 
                 case 3:
