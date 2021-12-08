@@ -4,15 +4,18 @@ let altura2= window.innerHeight || document.body.clientHeight;
 let altura=altura2*0.5;
 console.log("la altura es " +altura)
 let img1=document.querySelector("#img1");
+let img11=document.querySelector("#img11");
 let img2=document.querySelector("#img2");
 let img3=document.querySelector("#img3");
 let img4=document.querySelector("#img4");
 let plantillaa=document.querySelector("#plantilla");
 img1.addEventListener("click",function(){
-    const plantilla=`<div id="fixea">  <img src="img/nasty1.jpg" alt=""><img src="img/nasty2.jpg" alt=""><img src="img/nasty3.jpg" alt=""><img src="img/nasty4.jpg" alt=""><div class="haceFlex"><img src="img/nasty51.jpg" alt=""><img src="img/nasty52.jpg" alt=""></div><img src="img/nasty6.jpg" alt=""><img src="img/nasty7.jpg" alt=""><img src="img/nasty8.jpg" alt=""></div>`;
+    const plantilla=`<div id="fixea">  <img loading="lazy" src="img/nasty1.jpg" alt=""><img loading="lazy" src="img/nasty2.jpg" alt=""><img loading="lazy" src="img/nasty3.jpg" alt=""><img  loading="lazy" src="img/nasty4.jpg" alt=""><div loading="lazy" class="haceFlex"><img loading="lazy" src="img/nasty51.jpg" alt=""><img loading="lazy" src="img/nasty52.jpg" alt=""></div><img loading="lazy" src="img/nasty6.jpg" alt=""><img loading="lazy" src="img/nasty7.jpg" alt=""><img  loading="lazy" src="img/nasty8.jpg" alt=""><div id="contacModal"><img loading="lazy" id="loge" src="img/Logo.jpg" alt=""><div><p>BE CURIOUS</p><p>BE BRAVE</p><p>IT'S POSSIBLE</p><div class="carGa2"><a class="cargaMas2 sis2" href="contact.html">Contact Us</a></div></div></div></div>`;
     plantillaa.innerHTML=plantilla;
     let main=document.querySelector("main");
+   
     main.style.opacity="0.2";
+    main.style.pointerEvents="none";
     let sstic=document.querySelector(".sticky");
     sstic.style.visibility="hidden";
     body.style.overflow="hidden";
@@ -20,15 +23,48 @@ img1.addEventListener("click",function(){
     fixea.style.opacity="1";
     let cruz=document.querySelector("#dosCruz");
     cruz.style.display="flex";
+    let header=document.querySelector("header");
+    header.style.opacity="0.2";
+    header.style.pointerEvents="none";
+    scroleaParriba();
     quitar();
 });
+img11.addEventListener("click",function(){
+    const plantilla=`<div id="fixea">  <img loading="lazy" src="img/nasty1.jpg" alt=""><img loading="lazy" src="img/nasty2.jpg" alt=""><img loading="lazy" src="img/nasty3.jpg" alt=""><img  loading="lazy" src="img/nasty4.jpg" alt=""><div loading="lazy" class="haceFlex"><img loading="lazy" src="img/nasty51.jpg" alt=""><img loading="lazy" src="img/nasty52.jpg" alt=""></div><img loading="lazy" src="img/nasty6.jpg" alt=""><img loading="lazy" src="img/nasty7.jpg" alt=""><img  loading="lazy" src="img/nasty8.jpg" alt=""><div id="contacModal"><img loading="lazy" id="loge" src="img/Logo.jpg" alt=""><div><p>BE CURIOUS</p><p>BE BRAVE</p><p>IT'S POSSIBLE</p><div class="carGa2"><a class="cargaMas2 sis2" href="contact.html">Contact Us</a></div></div></div></div>`;
+    plantillaa.innerHTML=plantilla;
+    let main=document.querySelector("main");
+   
+    main.style.opacity="0.2";
+    main.style.pointerEvents="none";
+    let sstic=document.querySelector(".sticky");
+    sstic.style.visibility="hidden";
+    body.style.overflow="hidden";
+    let fixea=document.querySelector("#fixea");
+    fixea.style.opacity="1";
+    
+    let header=document.querySelector("header");
+    header.style.opacity="0.2";
+    header.style.pointerEvents="none";
+    scroleaParriba();
+    quitar();
+});
+function scroleaParriba(){
+  let fixea=document.querySelector("#fixea");
+  fixea.addEventListener("scroll",function(){
+      fixea.style.transform="translateY(-10%)"
+  })
+};
 function quitar(){
    let dosCruz=document.querySelector("#dosCruz");
    dosCruz.addEventListener("click",function(e){
+    let header=document.querySelector("header");
+    header.style.opacity="1"
        e.preventDefault();
        dosCruz.style.display="none";
        let main=document.querySelector("main");
        main.style.opacity="1";
+       main.style.pointerEvents="painted";
+       header.style.pointerEvents="painted";
        let sstic=document.querySelector(".sticky");
        sstic.style.opacity="1";
       let fixea=document.querySelector("#fixea");
