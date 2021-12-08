@@ -1316,16 +1316,15 @@ border-bottom: 4px solid white;
     #fixea{
        
         width: 100%;
+        height: 100%;
         left: 0;
         display: -webkit-box;
         -webkit-box-pack:justify;
+        flex-direction: column;
         
         
     }
-    #fixea div{
-        display: -webkit-box;
-        -webkit-box-pack:justify;
-    }
+    
     .sectionCard{
         display: -webkit-box;
         -webkit-box-pack:center;
