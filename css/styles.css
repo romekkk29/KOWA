@@ -1310,7 +1310,7 @@ border-bottom: 4px solid white;
         margin:20px 0px;
     }
     .haceFlex{
-        flex-direction: column;
+        display: block;
       
     }
    
