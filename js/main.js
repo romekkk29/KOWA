@@ -136,6 +136,36 @@ function agarraNus(){
         scroleaParriba();
         quitar();
     })};
+    function agarraEva(){
+        let agarraEva=document.querySelector("#agarraEva");
+        agarraEva.addEventListener("click",function(){
+            const plantilla=`<div id="fixea">  <img loading="lazy" src="img/eva1.jpg" alt=""><img loading="lazy" src="img/eva2.jpg" alt=""><img loading="lazy" src="img/eva3.jpg" alt=""><img  loading="lazy" src="img/eva4.jpg" alt=""><div loading="lazy" class="haceFlex"><img loading="lazy" src="img/eva61.jpg" alt=""><img loading="lazy" src="img/eva62.jpg" alt=""><img loading="lazy" src="img/eva63.jpg" alt=""></div><div id="contacModal"><img loading="lazy" id="loge" src="img/Logo.jpg" alt=""><div><p>BE CURIOUS</p><p>BE BRAVE</p><p>IT'S POSSIBLE</p><div class="carGa2"><a class="cargaMas2 sis2" href="contact.html">Contact Us</a></div></div></div></div>`;
+            plantillaa.innerHTML=plantilla;
+            let main=document.querySelector("main");
+       
+            main.style.opacity="0.2";
+            main.style.pointerEvents="none";
+            let sstic=document.querySelector(".sticky");
+            sstic.style.visibility="hidden";
+            body.style.overflow="hidden";
+            let fixea=document.querySelector("#fixea");
+            fixea.style.opacity="1";
+            let cruz=document.querySelector("#dosCruz");
+            cruz.style.display="flex";
+            
+            let cruz33=document.querySelector("#dosCruz img");
+            cruz33.style.width="70%";
+            cruz33.style.height="70%";
+            cruz33.style.right="0%";
+            cruz.style.right="0%";
+            cruz.style.top="90%";
+            
+            let header=document.querySelector("header");
+            header.style.opacity="0.2";
+            header.style.pointerEvents="none";
+            scroleaParriba();
+            quitar();
+        })};
     function agarraNus2(){
         let agarraNusty2=document.querySelector("#agarraNusty2");
         agarraNusty2.addEventListener("click",function(){
@@ -158,6 +188,29 @@ function agarraNus(){
             scroleaParriba();
             quitar();
         });
+}
+function agarraEva2(){
+    let agarraEva2=document.querySelector("#agarraEva2");
+    agarraEva2.addEventListener("click",function(){
+        const plantilla=`<div id="fixea">  <img loading="lazy" src="img/eva1.jpg" alt=""><img loading="lazy" src="img/eva2.jpg" alt=""><img loading="lazy" src="img/eva3.jpg" alt=""><img  loading="lazy" src="img/eva4.jpg" alt=""><div loading="lazy" class="haceFlex"><img loading="lazy" src="img/eva61.jpg" alt=""><img loading="lazy" src="img/eva62.jpg" alt=""><img loading="lazy" src="img/eva63.jpg" alt=""></div><div id="contacModal"><img loading="lazy" id="loge" src="img/Logo.jpg" alt=""><div><p>BE CURIOUS</p><p>BE BRAVE</p><p>IT'S POSSIBLE</p><div class="carGa2"><a class="cargaMas2 sis2" href="contact.html">Contact Us</a></div></div></div></div>`;
+        plantillaa.innerHTML=plantilla;
+        let main=document.querySelector("main");
+   
+        main.style.opacity="0.2";
+        main.style.pointerEvents="none";
+        let sstic=document.querySelector(".sticky");
+        sstic.style.visibility="hidden";
+        body.style.overflow="hidden";
+        let fixea=document.querySelector("#fixea");
+        fixea.style.opacity="1";
+        let cruz=document.querySelector("#dosCruz");
+        cruz.style.display="flex";
+        let header=document.querySelector("header");
+        header.style.opacity="0.2";
+        header.style.pointerEvents="none";
+        scroleaParriba();
+        quitar();
+    });
 }
 function scroleaParriba(){
   let fixea=document.querySelector("#fixea");
@@ -250,8 +303,9 @@ function carrusel3(){
             buller.style.transform="translate(-70%)";
             titulo.innerHTML="Mandatos";
             identify.innerHTML="Campaña - Eva Miller";
-            proyectLink.innerHTML="<a id=subra3  href=#><p class=proyect>See proyect</p><div class=subrayado2></div></a>";
+            proyectLink.innerHTML="<a id=subra3  href=#><p id=agarraEva2 class=proyect>See proyect</p><div class=subrayado2></div></a>";
             contador= contador+1;
+            agarraEva2()
             console.log(contador);
 
            
@@ -297,8 +351,9 @@ function carrusel3(){
                 buller.style.transform="translate(-270%)";
                 titulo.innerHTML="Mandatos";
                 identify.innerHTML="Campaña - Eva Miller";
-                proyectLink.innerHTML="<a id=subra3  href=#><p class=proyect>See proyect</p><div class=subrayado2></div></a>";
+                proyectLink.innerHTML="<a id=subra3  href=#><p id=agarraEva2 class=proyect>See proyect</p><div class=subrayado2></div></a>";
                 contador= contador+1;
+                agarraEva2();
                 console.log(contador);
                 break; 
             case 4: 
@@ -342,10 +397,10 @@ function carrusel3(){
                
                 titulo.innerHTML="Mandatos";
                 identify.innerHTML="Campaña - Eva Miller";
-                proyectLink.innerHTML="<a id=subra3  href=#><p  class=proyect>See proyect</p><div class=subrayado2></div></a>";
+                proyectLink.innerHTML="<a id=subra3  href=#><p id=agarraEva class=proyect>See proyect</p><div class=subrayado2></div></a>";
                 contador= contador+1;
                 console.log(contador);
-            
+                agarraEva();
                
                 break;
                 case 1: 
@@ -388,8 +443,9 @@ function carrusel3(){
                     buller.style.transform="translate(-200%)";
                     titulo.innerHTML="Mandatos";
                     identify.innerHTML="Campaña - Eva Miller";
-                    proyectLink.innerHTML="<a id=subra3  href=#><p class=proyect>See proyect</p><div class=subrayado2></div></a>";
+                    proyectLink.innerHTML="<a id=subra3  href=#><p id=agarraEva class=proyect>See proyect</p><div class=subrayado2></div></a>";
                     contador= contador+1;
+                    agarraEva();
                     console.log(contador);
                     break; 
                 case 4: 
