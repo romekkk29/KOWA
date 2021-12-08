@@ -60,7 +60,7 @@ img11.addEventListener("click",function(){
 function agarraNus(){
     let agarraNusty=document.querySelector("#agarraNusty");
     agarraNusty.addEventListener("click",function(){
-        const plantilla=`<div id="fixea">   <img ssrc="img/nasty1.jpg" alt=""><img  src="img/nasty2.jpg" alt=""><img  src="img/nasty3.jpg" alt=""><img   src="img/nasty4.jpg" alt=""><div class="haceFlex"><img  src="img/nasty51.jpg" alt=""><img src="img/nasty52.jpg" alt=""></div><img  src="img/nasty6.jpg" alt=""><img  src="img/nasty7.jpg" alt=""><img  src="img/nasty8.jpg" alt=""><div id="contacModal"><img  id="loge" src="img/Logo.jpg" alt=""><div><p>BE CURIOUS</p><p>BE BRAVE</p><p>IT'S POSSIBLE</p><div class="carGa2"><a class="cargaMas2 sis2" href="contact.html">Contact Us</a></div></div></div></div>`;
+        const plantilla=`<div id="fixea">   <img src="img/nasty1.jpg" alt=""><img  src="img/nasty2.jpg" alt=""><img  src="img/nasty3.jpg" alt=""><img   src="img/nasty4.jpg" alt=""><div class="haceFlex"><img  src="img/nasty51.jpg" alt=""><img src="img/nasty52.jpg" alt=""></div><img  src="img/nasty6.jpg" alt=""><img  src="img/nasty7.jpg" alt=""><img  src="img/nasty8.jpg" alt=""><div id="contacModal"><img  id="loge" src="img/Logo.jpg" alt=""><div><p>BE CURIOUS</p><p>BE BRAVE</p><p>IT'S POSSIBLE</p><div class="carGa2"><a class="cargaMas2 sis2" href="contact.html">Contact Us</a></div></div></div></div>`;
         plantillaa.innerHTML=plantilla;
         let main=document.querySelector("main");
    

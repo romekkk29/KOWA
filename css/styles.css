@@ -931,10 +931,10 @@ line-height: 24px;
     height: 100%;
     left:15%;
     top: 10%;
-    display: flex;
+    
     z-index: 12234213412342134213423412342341243123434;
    
-    flex-wrap: wrap;
+    
     transition-property: transform;
     transition-duration: 2s;  
     scroll-behavior: smooth;
@@ -1314,7 +1314,7 @@ border-bottom: 4px solid white;
         width: 100%;
         height: 100%;
         left: 0;
-        display: -webkit-inline-box;
+       
      
         
         
