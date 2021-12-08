@@ -45,11 +45,11 @@ img11.addEventListener("click",function(){
     cruz.style.display="flex";
     
     let cruz33=document.querySelector("#dosCruz img");
-    cruz33.style.width="50%";
-    cruz33.style.height="50%";
+    cruz33.style.width="70%";
+    cruz33.style.height="70%";
     cruz33.style.right="0%";
-    cruz.style.right="-5%";
-    cruz.style.top="92%";
+    cruz.style.right="0%";
+    cruz.style.top="90%";
     
     let header=document.querySelector("header");
     header.style.opacity="0.2";
