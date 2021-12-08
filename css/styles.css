@@ -943,6 +943,7 @@ line-height: 24px;
 }
 #fixea img{
     width: 100%;
+ 
 }
 #fixea div{
     width: 100%;
@@ -972,10 +973,11 @@ border-radius: 5px;
 }
 #fixea img{
     overflow-y: scroll;
-    margin:0px;
+    margin-bottom: -5px;
 }
 .haceFlex{
     display: flex;
+    overflow: hidden;
   
 }
 #contacModal{
@@ -1305,7 +1307,7 @@ border-bottom: 4px solid white;
         margin:20px 0px;
     }
     .haceFlex{
-        flex-wrap: wrap;
+        flex-direction: column;
       
     }
    
