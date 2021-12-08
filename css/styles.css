@@ -1326,8 +1326,8 @@ border-bottom: 4px solid white;
     }
     
     .sectionCard{
-        display: -webkit-box;
-        -webkit-box-pack:center;
+        display: -webkit-flex;
+        -webkit-box-flex:initial;
     }
     #fixea::-webkit-scrollbar{
         width: 0px;
