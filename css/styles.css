@@ -1322,6 +1322,14 @@ border-bottom: 4px solid white;
         
         
     }
+    #fixea div{
+        display: -webkit-box;
+        -webkit-box-pack:justify;
+    }
+    .sectionCard{
+        display: -webkit-box;
+        -webkit-box-pack:justify;
+    }
     #fixea::-webkit-scrollbar{
         width: 0px;
     }
