@@ -354,7 +354,7 @@ main{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    flex-wrap: wrap;
+   
     align-items: center;
     height: 451px;
     text-align: center;
@@ -923,7 +923,9 @@ line-height: 24px;
     color:white;
 }
 #plantilla{
-    height: 100%;
+    height: 100px;
+    overflow-y: scroll;
+   
   
     
 }
@@ -935,10 +937,12 @@ line-height: 24px;
     top: 10%;
     display: flex;
     z-index: 12234213412342134213423412342341243123434;
+   
     flex-wrap: wrap;
     transition-property: transform;
     transition-duration: 2s;  
     scroll-behavior: smooth;
+    overflow-y: scroll;
     
 }
 #fixea img{
@@ -1062,6 +1066,9 @@ border-bottom: 4px solid white;
 .subrayado2{
     display: none;
 }
+.subrayado{
+    top: 75%
+}
 
 @media all and (max-width:1100px){
     .contactAss{
@@ -1143,7 +1150,7 @@ border-bottom: 4px solid white;
             top:50px
         }
         .subrayado3{
-            left: 35%;
+            left: 10%;
             top: 35px;
             
         }
@@ -1308,7 +1315,7 @@ border-bottom: 4px solid white;
    
     #fixea{
        
-        width: 100vw;
+        width: 100%;
         left: 0;
         
     }
