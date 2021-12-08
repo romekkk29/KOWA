@@ -6,6 +6,7 @@ console.log("la altura es " +altura)
 let img1=document.querySelector("#img1");
 let img11=document.querySelector("#img11");
 let img2=document.querySelector("#img2");
+let img22=document.querySelector("#img22");
 let img3=document.querySelector("#img3");
 let img33=document.querySelector("#img33");
 let img4=document.querySelector("#img4");
@@ -24,6 +25,54 @@ img3.addEventListener("click",function(){
     fixea.style.opacity="1";
     let cruz=document.querySelector("#dosCruz");
     cruz.style.display="flex";
+    let header=document.querySelector("header");
+    header.style.opacity="0.2";
+    header.style.pointerEvents="none";
+    scroleaParriba();
+    quitar();
+});
+img2.addEventListener("click",function(){
+    const plantilla=`<div id="fixea">  <img loading="lazy" src="img/sierra1.jpg" alt=""><img loading="lazy" src="img/sierra2.jpg" alt=""><img loading="lazy" src="img/sierra3.jpg" alt=""><img  loading="lazy" src="img/sierra4.jpg" alt=""><img  loading="lazy" src="img/sierra5.jpg" alt=""><div id="contacModal"><img loading="lazy" id="loge" src="img/Logo.jpg" alt=""><div><p>BE CURIOUS</p><p>BE BRAVE</p><p>IT'S POSSIBLE</p><div class="carGa2"><a class="cargaMas2 sis2" href="contact.html">Contact Us</a></div></div></div></div>`;
+    plantillaa.innerHTML=plantilla;
+    let main=document.querySelector("main");
+   
+    main.style.opacity="0.2";
+    main.style.pointerEvents="none";
+    let sstic=document.querySelector(".sticky");
+    sstic.style.visibility="hidden";
+    body.style.overflow="hidden";
+    let fixea=document.querySelector("#fixea");
+    fixea.style.opacity="1";
+    let cruz=document.querySelector("#dosCruz");
+    cruz.style.display="flex";
+    let header=document.querySelector("header");
+    header.style.opacity="0.2";
+    header.style.pointerEvents="none";
+    scroleaParriba();
+    quitar();
+});
+img22.addEventListener("click",function(){
+    const plantilla=`<div id="fixea">  <img loading="lazy" src="img/sierra1.jpg" alt=""><img loading="lazy" src="img/sierra2.jpg" alt=""><img loading="lazy" src="img/sierra3.jpg" alt=""><img  loading="lazy" src="img/sierra4.jpg" alt=""><img  loading="lazy" src="img/sierra5.jpg" alt=""><div id="contacModal"><img loading="lazy" id="loge" src="img/Logo.jpg" alt=""><div><p>BE CURIOUS</p><p>BE BRAVE</p><p>IT'S POSSIBLE</p><div class="carGa2"><a class="cargaMas2 sis2" href="contact.html">Contact Us</a></div></div></div></div>`;
+    plantillaa.innerHTML=plantilla;
+    let main=document.querySelector("main");
+   
+    main.style.opacity="0.2";
+    main.style.pointerEvents="none";
+    let sstic=document.querySelector(".sticky");
+    sstic.style.visibility="hidden";
+    body.style.overflow="hidden";
+    let fixea=document.querySelector("#fixea");
+    fixea.style.opacity="1";
+    let cruz=document.querySelector("#dosCruz");
+    cruz.style.display="flex";
+    
+    let cruz33=document.querySelector("#dosCruz img");
+    cruz33.style.width="70%";
+    cruz33.style.height="70%";
+    cruz33.style.right="0%";
+    cruz.style.right="0%";
+    cruz.style.top="90%";
+    
     let header=document.querySelector("header");
     header.style.opacity="0.2";
     header.style.pointerEvents="none";
