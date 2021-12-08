@@ -331,7 +331,7 @@ main{
 }
 .unaSection{
   display: flex;
- flex-wrap: wrap;
+ 
   justify-content: space-around;
   
 }
@@ -942,10 +942,10 @@ line-height: 24px;
     
 }
 #fixea img{
-    flex-grow: 1;
+    width: 100%;
 }
 #fixea div{
-    flex-grow: 1;
+    width: 100%;
 }
 #contacModal img{
     flex-grow: 0;
