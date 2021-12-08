@@ -1071,6 +1071,12 @@ border-bottom: 4px solid white;
     top: 75%
 }
 
+.evaFlex{
+background-color: white;
+}
+.evaFlex img{
+    padding:4%;
+}
 @media all and (max-width:1100px){
     .contactAss{
         flex-direction: column;
@@ -1349,6 +1355,9 @@ border-bottom: 4px solid white;
                 padding-bottom: 0px;
                 font-size: 16px;
     line-height: 21px;
+        }
+        .evaFlex img{
+            padding: 0px;
         }
 }
 
