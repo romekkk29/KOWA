@@ -1434,3 +1434,10 @@ margin-bottom: -5%;
         right: 10%;
     }
 }
+
+
+
+.unaSection{
+    display:-webkit-box;
+    overflow-x: scroll;
+}
