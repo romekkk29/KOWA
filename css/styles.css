@@ -930,11 +930,7 @@ line-height: 24px;
     color:white;
 }
 #plantilla{
-    height: 100px;
-    
-   
-  
-    
+    height: 100px;  
 }
 #fixea{
     position:fixed;
@@ -942,15 +938,11 @@ line-height: 24px;
     height: 100%;
     left:15%;
     top: 10%;
-  
     z-index: 12234213412342134213423412342341243123434;
-   
-    
     transition-property: transform;
-    transition-duration: 2s;  
+    transition-duration: 2s; 
     scroll-behavior: smooth;
-    
-    
+  
 }
 #fixea img{
     width: 100%;

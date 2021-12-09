@@ -10,6 +10,7 @@ let img22=document.querySelector("#img22");
 let img3=document.querySelector("#img3");
 let img33=document.querySelector("#img33");
 let img4=document.querySelector("#img4");
+let img44=document.querySelector("#img44");
 let plantillaa=document.querySelector("#plantilla");
 img4.addEventListener("click",function(){
     const plantilla=`<div id="fixea">  <img loading="lazy" src="img/buller1.jpg" alt=""><img loading="lazy" src="img/buller2.jpg" alt=""><div loading="lazy" class="haceFlex bullerDec"><img loading="lazy" src="img/buller31.jpg" alt=""><img loading="lazy" src="img/buller32.jpg" alt=""></div><div loading="lazy" class="haceFlex bullerDec"><img loading="lazy" src="img/buller33.jpg" alt=""><img loading="lazy" src="img/buller34.jpg" alt=""></div><img loading="lazy" src="img/buller4.jpg" alt=""><img  loading="lazy" src="img/buller5.jpg" alt=""><div id="contacModal"><img loading="lazy" id="loge" src="img/Logo.jpg" alt=""><div><p>BE CURIOUS</p><p>BE BRAVE</p><p>IT'S POSSIBLE</p><div class="carGa2"><a class="cargaMas2 sis2" href="contact.html">Contact Us</a></div></div></div></div>`;
@@ -99,6 +100,35 @@ img22.addEventListener("click",function(){
     scroleaParriba();
     quitar();
 });
+
+img44.addEventListener("click",function(){
+    const plantilla=`<div id="fixea">  <img loading="lazy" src="img/buller1.jpg" alt=""><img loading="lazy" src="img/buller2.jpg" alt=""><div loading="lazy" class="haceFlex bullerDec"><img loading="lazy" src="img/buller31.jpg" alt=""><img loading="lazy" src="img/buller32.jpg" alt=""></div><div loading="lazy" class="haceFlex bullerDec"><img loading="lazy" src="img/buller33.jpg" alt=""><img loading="lazy" src="img/buller34.jpg" alt=""></div><img loading="lazy" src="img/buller4.jpg" alt=""><img  loading="lazy" src="img/buller5.jpg" alt=""><div id="contacModal"><img loading="lazy" id="loge" src="img/Logo.jpg" alt=""><div><p>BE CURIOUS</p><p>BE BRAVE</p><p>IT'S POSSIBLE</p><div class="carGa2"><a class="cargaMas2 sis2" href="contact.html">Contact Us</a></div></div></div></div>`;
+    plantillaa.innerHTML=plantilla;
+    let main=document.querySelector("main");
+   
+    main.style.opacity="0.2";
+    main.style.pointerEvents="none";
+    let sstic=document.querySelector(".sticky");
+    sstic.style.visibility="hidden";
+    body.style.overflow="hidden";
+    let fixea=document.querySelector("#fixea");
+    fixea.style.opacity="1";
+    let cruz=document.querySelector("#dosCruz");
+    cruz.style.display="flex";
+    
+    let cruz33=document.querySelector("#dosCruz img");
+    cruz33.style.width="70%";
+    cruz33.style.height="70%";
+    cruz33.style.right="0%";
+    cruz.style.right="0%";
+    cruz.style.top="90%";
+    
+    let header=document.querySelector("header");
+    header.style.opacity="0.2";
+    header.style.pointerEvents="none";
+    scroleaParriba();
+    quitar();
+});
 img33.addEventListener("click",function(){
     const plantilla=`<div id="fixea">  <img loading="lazy" src="img/eva1.jpg" alt=""><img loading="lazy" src="img/eva2.jpg" alt=""><img loading="lazy" src="img/eva3.jpg" alt=""><img  loading="lazy" src="img/eva4.jpg" alt=""><img  loading="lazy" src="img/eva5.jpg" alt=""><div loading="lazy" class="haceFlex evaFlex"><img loading="lazy" src="img/eva61.jpg" alt=""><img loading="lazy" src="img/eva62.jpg" alt=""><img loading="lazy" src="img/eva63.jpg" alt=""></div><div id="contacModal"><img loading="lazy" id="loge" src="img/Logo.jpg" alt=""><div><p>BE CURIOUS</p><p>BE BRAVE</p><p>IT'S POSSIBLE</p><div class="carGa2"><a class="cargaMas2 sis2" href="contact.html">Contact Us</a></div></div></div></div>`;
     plantillaa.innerHTML=plantilla;
@@ -131,7 +161,7 @@ img1.addEventListener("click",function(){
     const plantilla=`<div id="fixea">  <img loading="lazy" src="img/nasty1.jpg" alt=""><img loading="lazy" src="img/nasty2.jpg" alt=""><img loading="lazy" src="img/nasty3.jpg" alt=""><img  loading="lazy" src="img/nasty4.jpg" alt=""><div loading="lazy" class="haceFlex"><img loading="lazy" src="img/nasty51.jpg" alt=""><img loading="lazy" src="img/nasty52.jpg" alt=""></div><img loading="lazy" src="img/nasty6.jpg" alt=""><img loading="lazy" src="img/nasty7.jpg" alt=""><img  loading="lazy" src="img/nasty8.jpg" alt=""><div id="contacModal"><img loading="lazy" id="loge" src="img/Logo.jpg" alt=""><div><p>BE CURIOUS</p><p>BE BRAVE</p><p>IT'S POSSIBLE</p><div class="carGa2"><a class="cargaMas2 sis2" href="contact.html">Contact Us</a></div></div></div></div>`;
     plantillaa.innerHTML=plantilla;
     let main=document.querySelector("main");
-   
+ 
     main.style.opacity="0.2";
     main.style.pointerEvents="none";
     let sstic=document.querySelector(".sticky");
@@ -139,7 +169,7 @@ img1.addEventListener("click",function(){
     body.style.overflow="hidden";
     let fixea=document.querySelector("#fixea");
     fixea.style.opacity="1";
-    
+   
     let cruz=document.querySelector("#dosCruz");
     cruz.style.display="flex";
     let header=document.querySelector("header");
@@ -237,6 +267,36 @@ function agarraNus(){
             scroleaParriba();
             quitar();
         })};
+        function agarraBuller(){
+            let agarraBuller=document.querySelector("#agarraBuller");
+            agarraBuller.addEventListener("click",function(){
+                const plantilla=`<div id="fixea">  <img loading="lazy" src="img/buller1.jpg" alt=""><img loading="lazy" src="img/buller2.jpg" alt=""><div loading="lazy" class="haceFlex bullerDec"><img loading="lazy" src="img/buller31.jpg" alt=""><img loading="lazy" src="img/buller32.jpg" alt=""></div><div loading="lazy" class="haceFlex bullerDec"><img loading="lazy" src="img/buller33.jpg" alt=""><img loading="lazy" src="img/buller34.jpg" alt=""></div><img loading="lazy" src="img/buller4.jpg" alt=""><img  loading="lazy" src="img/buller5.jpg" alt=""><div id="contacModal"><img loading="lazy" id="loge" src="img/Logo.jpg" alt=""><div><p>BE CURIOUS</p><p>BE BRAVE</p><p>IT'S POSSIBLE</p><div class="carGa2"><a class="cargaMas2 sis2" href="contact.html">Contact Us</a></div></div></div></div>`;
+                plantillaa.innerHTML=plantilla;
+                let main=document.querySelector("main");
+           
+                main.style.opacity="0.2";
+                main.style.pointerEvents="none";
+                let sstic=document.querySelector(".sticky");
+                sstic.style.visibility="hidden";
+                body.style.overflow="hidden";
+                let fixea=document.querySelector("#fixea");
+                fixea.style.opacity="1";
+                let cruz=document.querySelector("#dosCruz");
+                cruz.style.display="flex";
+                
+                let cruz33=document.querySelector("#dosCruz img");
+                cruz33.style.width="70%";
+                cruz33.style.height="70%";
+                cruz33.style.right="0%";
+                cruz.style.right="0%";
+                cruz.style.top="90%";
+                
+                let header=document.querySelector("header");
+                header.style.opacity="0.2";
+                header.style.pointerEvents="none";
+                scroleaParriba();
+                quitar();
+            })};
     function agarraNus2(){
         let agarraNusty2=document.querySelector("#agarraNusty2");
         agarraNusty2.addEventListener("click",function(){
@@ -259,6 +319,29 @@ function agarraNus(){
             scroleaParriba();
             quitar();
         });
+}
+function agarraBuller2(){
+    let agarraBuller2=document.querySelector("#agarraBuller2");
+    agarraBuller2.addEventListener("click",function(){
+        const plantilla=`<div id="fixea">  <img loading="lazy" src="img/buller1.jpg" alt=""><img loading="lazy" src="img/buller2.jpg" alt=""><div loading="lazy" class="haceFlex bullerDec"><img loading="lazy" src="img/buller31.jpg" alt=""><img loading="lazy" src="img/buller32.jpg" alt=""></div><div loading="lazy" class="haceFlex bullerDec"><img loading="lazy" src="img/buller33.jpg" alt=""><img loading="lazy" src="img/buller34.jpg" alt=""></div><img loading="lazy" src="img/buller4.jpg" alt=""><img  loading="lazy" src="img/buller5.jpg" alt=""><div id="contacModal"><img loading="lazy" id="loge" src="img/Logo.jpg" alt=""><div><p>BE CURIOUS</p><p>BE BRAVE</p><p>IT'S POSSIBLE</p><div class="carGa2"><a class="cargaMas2 sis2" href="contact.html">Contact Us</a></div></div></div></div>`;
+        plantillaa.innerHTML=plantilla;
+        let main=document.querySelector("main");
+   
+        main.style.opacity="0.2";
+        main.style.pointerEvents="none";
+        let sstic=document.querySelector(".sticky");
+        sstic.style.visibility="hidden";
+        body.style.overflow="hidden";
+        let fixea=document.querySelector("#fixea");
+        fixea.style.opacity="1";
+        let cruz=document.querySelector("#dosCruz");
+        cruz.style.display="flex";
+        let header=document.querySelector("header");
+        header.style.opacity="0.2";
+        header.style.pointerEvents="none";
+        scroleaParriba();
+        quitar();
+    });
 }
 function agarraEva2(){
     let agarraEva2=document.querySelector("#agarraEva2");
@@ -388,13 +471,13 @@ function carrusel3(){
             buller.style.transform="translate(-111.5%)";
             titulo.innerHTML="Buller";
             identify.innerHTML="Web Site";
-            proyectLink.innerHTML="<a id=subra3  href=#><p class=proyect>See proyect</p><div class=subrayado2></div></a>";
+            proyectLink.innerHTML="<a id=subra3  href=#><p id=agarraBuller2 class=proyect>See proyect</p><div class=subrayado2></div></a>";
             contador= contador+1;
             gato.style.zIndex="14";
             buller.style.zIndex="12";
             img.style.left="200%";
             img.style.transform="translate(-176%)";
-            
+            agarraBuller2();
             console.log(contador);
             break;
             case 2:
@@ -433,14 +516,14 @@ function carrusel3(){
             buller.style.transform="translate(-311.5%)";
             titulo.innerHTML="Buller";
             identify.innerHTML="Web Site";
-            proyectLink.innerHTML="<a id=subra3  href=#><p class=proyect>See proyect</p><div class=subrayado2></div></a>";
+            proyectLink.innerHTML="<a id=subra3  href=#><p id=agarraBuller2 class=proyect>See proyect</p><div class=subrayado2></div></a>";
             contador= contador+1;
             gato.style.zIndex="14";
             buller.style.zIndex="12";
             img.style.zIndex="-2";
             img.style.left="400%";
             img.style.transform="translate(-393%)";
-            
+            agarraBuller2();
             console.log(contador);
             break;
             case 5:
@@ -480,13 +563,13 @@ function carrusel3(){
                 buller.style.transform="translate(-110%)";
                 titulo.innerHTML="Buller";
                 identify.innerHTML="Web Site";
-                proyectLink.innerHTML="<a id=subra3  href=#><p class=proyect>See proyect</p><div class=subrayado2></div></a>";
+                proyectLink.innerHTML="<a id=subra3  href=#><p id=agarraBuller class=proyect>See proyect</p><div class=subrayado2></div></a>";
                 contador= contador+1;
                 gato.style.zIndex="14";
                 buller.style.zIndex="12";
                 img.style.left="200%";
                 img.style.transform="translate(-100%)";
-                
+                agarraBuller();
                 console.log(contador);
                 break;
                 case 2:
@@ -525,14 +608,14 @@ function carrusel3(){
                 buller.style.transform="translate(-299%)";
                 titulo.innerHTML="Buller";
                 identify.innerHTML="Web Site";
-                proyectLink.innerHTML="<a id=subra3  href=#><p class=proyect>See proyect</p><div class=subrayado2></div></a>";
+                proyectLink.innerHTML="<a id=subra3  href=#><p id=agarraBuller class=proyect>See proyect</p><div class=subrayado2></div></a>";
                 contador= contador+1;
                 gato.style.zIndex="14";
                 buller.style.zIndex="12";
                 img.style.zIndex="-2";
                 img.style.left="400%";
                 img.style.transform="translate(-393%)";
-                
+                agarraBuller();
                 console.log(contador);
                 break;
                 case 5:
