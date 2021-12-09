@@ -381,6 +381,17 @@ font-size: 20px;
     margin:0px 0px;
     
 }
+#achicale{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 45px;  
+    color: white;
+    line-height: 63px;
+    position: absolute;
+    top:15%;
+    margin:0px 0px;
+    
+}
 #titlee2{
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
@@ -400,8 +411,8 @@ font-size: 20px;
     text-align: center;
     color: #FFFFFF;
     line-height: 26px;
-    top:45%;
-    margin: 0px 20%;
+    top: 45%;
+    padding: 0px 20% 0px 20%;
 }
 .padd div{
     display: flex;
@@ -931,7 +942,7 @@ line-height: 24px;
     height: 100%;
     left:15%;
     top: 10%;
-    
+  
     z-index: 12234213412342134213423412342341243123434;
    
     
@@ -1360,6 +1371,12 @@ margin-bottom: -5%;
         .evaFlex img{
             padding: 0px;
             
+        }
+        #description{
+            top:40%;
+        }
+        #achicale{
+            font-size: 40px;
         }
 }
 
