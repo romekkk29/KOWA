@@ -1272,7 +1272,7 @@ margin-bottom: -5%;
         align-items: center;
     }
     .sectionCard{
-        width: 90%;
+        width: 420px;
         
     }
     .padWeWork li p{
@@ -1378,6 +1378,7 @@ margin-bottom: -5%;
         #achicale{
             font-size: 40px;
         }
+
 }
 
 
@@ -1392,11 +1393,18 @@ margin-bottom: -5%;
         font-size: 20px;
     }
 }
+@media all and (max-width:500px){
+    .sectionCard{
+        width: 320px;
+    }
+}
+
 @media all and (max-width:310px){
     .gato{
         background-size: 400%;
     }
 }
+
 @media all and (min-width:1600px){
     .flecha{
         right: 10%;

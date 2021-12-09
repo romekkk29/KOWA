@@ -139,6 +139,7 @@ img1.addEventListener("click",function(){
     body.style.overflow="hidden";
     let fixea=document.querySelector("#fixea");
     fixea.style.opacity="1";
+    
     let cruz=document.querySelector("#dosCruz");
     cruz.style.display="flex";
     let header=document.querySelector("header");
@@ -189,6 +190,7 @@ function agarraNus(){
         body.style.overflow="hidden";
         let fixea=document.querySelector("#fixea");
         fixea.style.opacity="1";
+        
         let cruz=document.querySelector("#dosCruz");
         cruz.style.display="flex";
         
