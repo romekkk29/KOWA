@@ -297,6 +297,24 @@ body{
 span {
     margin: 21px;
 }
+h1{
+    padding: 0px 0px 0px 10%;
+}
+#primerParrafo {
+    padding: 0px 300px 0px 10%;
+}
+#parrafo {
+ padding: 20px 40% 0px 10%;
+}
+#parrafo2 {
+
+    padding: 0px 40% 0px 10%;}
+    main div {
+  
+        margin: 5% 10%;}
+section{
+    display: flex;
+}
 @media all and (max-width:750px){
     #menu{
         display: inline;
@@ -347,8 +365,27 @@ span {
         font-size: 18px;
         line-height: 27px;
     }
+    .logo {
+        
+        left: 5%;
+    }
+    h1 {
+        padding: 0px 0px 0px 5%;
+    }
+    #primerParrafo {
+        padding: 80px 100px 0px 5%;
+    }
+    #parrafo {
+        padding: 5% 10% 0px 5%;
+    }    
+    #parrafo2 {
+        padding: 1% 10% 0px 5%;
     
-
+    }
+    main div {
+        width: 90%;
+        margin: 7% auto;
+    }
 }
 
 @media all and (max-width:900px){
