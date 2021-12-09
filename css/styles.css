@@ -331,7 +331,7 @@ main{
 }
 .unaSection{
   display: flex;
- 
+  width: 100%;
   justify-content: space-around;
   
 }
@@ -1317,7 +1317,7 @@ margin-bottom: -5%;
         margin:20px 0px;
     }
     .haceFlex{
-        display: block;
+        display:inline;
       
     }
    
