@@ -2,7 +2,6 @@
 let body= document.querySelector("body");
 let altura2= window.innerHeight || document.body.clientHeight;
 let altura=altura2*0.5;
-console.log("la altura es " +altura)
 let img1=document.querySelector("#img1");
 let img11=document.querySelector("#img11");
 let img2=document.querySelector("#img2");
@@ -394,14 +393,12 @@ function quitar(){
    })
 }
 
-console.log(body)
+
     body.addEventListener("scroll", function(){   
         let sticky= document.querySelector(".sticky");
         sticky.classList.add("stickyScroll");
         let y = body.scrollTop;
         
-        console.log(y)
-   
         if(y==0){
          sticky.classList.remove("stickyScroll");
         }
@@ -670,7 +667,18 @@ function carrusel3(){
     entraIf();
     window.addEventListener("resize",function(){
     
-        entraIf();
+       contador=5;
         
     
-    }) 
+    }) ;
+
+
+    let sectionBar=document.querySelector(".unaSection");
+    let progressBar=document.querySelector("#progressBar");
+   sectionBar.addEventListener("scroll",function(e){
+        let scrollX= e.currentTarget.scrollLeft*100;
+        let progressX= scrollX/1256;
+       progressBar.style.width= progressX+ "%"
+   })
+  
+    
