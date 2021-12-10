@@ -315,6 +315,9 @@ h1{
 section{
     display: flex;
 }
+main div a{
+    text-decoration: none;
+}
 @media all and (max-width:750px){
     #menu{
         display: inline;
