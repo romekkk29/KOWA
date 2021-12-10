@@ -1477,13 +1477,24 @@ margin-bottom: -5%;
         }
         #progressBar{
             height: 3px;
-            
-            max-width: 65vw;
+            width: 20%;
+            max-width: 60vw;
             position: absolute;
             bottom: 5%;
-            left: 22%;
+            left: 20%;
             background-color:#504df2;
+            z-index: 21321321;
             background:linear-gradient(to right,#504df2);
+        }
+        #progressBar2{
+            height: 3px;
+            width: 100%;
+            max-width: 60vw;
+            position: absolute;
+            bottom: 5%;
+            left: 20%;
+            background-color:#555555;
+         
         }
 }
 

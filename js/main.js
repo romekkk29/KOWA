@@ -676,9 +676,9 @@ function carrusel3(){
     let sectionBar=document.querySelector(".unaSection");
     let progressBar=document.querySelector("#progressBar");
    sectionBar.addEventListener("scroll",function(e){
-        let scrollX= e.currentTarget.scrollLeft*100;
+        let scrollX= e.currentTarget.scrollLeft*70;
         let progressX= scrollX/1256;
-       progressBar.style.width= progressX+ "%"
+       progressBar.style.width= progressX+20+ "%"
    })
   
     
