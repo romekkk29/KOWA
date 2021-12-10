@@ -111,7 +111,7 @@ body{
     max-height: 100vh;
     width: 87.5vw;
     height: 100vh;
-    background-image:url("../img/kowa.jpg") ;
+    
     background-size: cover;
     background-position-y: 30%;
     background-position-x:left;
@@ -124,7 +124,11 @@ body{
 }
 .nasty{
     transition-duration: 1.5s;
-  
+    background-image:url("../img/kowa.jpg") ;
+}
+.verdaderoNasty{
+    background-image:url("../img/Nasty_People.jpg") ;
+    left:100%;
 }
 
 

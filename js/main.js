@@ -435,6 +435,7 @@ xBar.addEventListener("click",function(){
 )
     let contador=0;
     let img=document.querySelector(".nasty");
+    let imgVerdadero=document.querySelector(".verdaderoNasty")
     let gato=document.querySelector(".gato");
     let titulo=document.querySelector(".titulo");
     let buller=document.querySelector(".buller");
@@ -473,14 +474,14 @@ function carrusel3(){
             contador= contador+1;
             gato.style.zIndex="14";
             buller.style.zIndex="12";
-            img.style.left="200%";
-            img.style.transform="translate(-176%)";
+            imgVerdadero.style.left="100%";
+            imgVerdadero.style.transform="translate(-56%)";
             agarraBuller2();
             console.log(contador);
             break;
             case 2:
             img.style.visibility="visible";
-            img.style.transform="translate(-227%)";
+            imgVerdadero.style.transform="translate(-114%)";
             buller.style.transform="translate(-50%)";
             titulo.innerHTML="Nasty People";
             proyectLink.innerHTML="<a id=subra3  href=#><p id=agarraNusty2 class=proyect>See proyect</p><div class=subrayado2></div></a>";
@@ -496,7 +497,7 @@ function carrusel3(){
             break; 
             case 3:
                 gato.style.visibility="visible";
-                img.style.transform="translate(-333%)";
+                imgVerdadero.style.transform="translate(-216%)";
                 gato.style.transform="translate(-311.5%)";
                 buller.style.zIndex="0";
                 buller.style.left="300%";
@@ -519,8 +520,8 @@ function carrusel3(){
             gato.style.zIndex="14";
             buller.style.zIndex="12";
             img.style.zIndex="-2";
-            img.style.left="400%";
-            img.style.transform="translate(-393%)";
+            img.style.left="200%";
+            img.style.transform="translate(-143%)";
             agarraBuller2();
             console.log(contador);
             break;
