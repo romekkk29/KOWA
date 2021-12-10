@@ -272,9 +272,7 @@ main{
 .card a:hover{
     opacity: 0.6;
 }
-.card img{
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-}
+
 #rodo{
     box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
 }
@@ -327,8 +325,12 @@ main{
 }
 .carGa{
     display: flex;
-    justify-content: center;
+    position: absolute;
+    left: 75%;
+    top: 340px;
 }
+   
+
 .unaSection{
   display: flex;
   width: 100%;
@@ -526,8 +528,23 @@ line-height: 34px;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
+    
+    
     padding: 0px 50px 0px 0px;
+}
+#beCurius{
+    top:160px;
+}
+#beBrave{
+    top:210px;
+}
+.contactUs p{
+    position: absolute;
+    left: 75%;
+
+}
+#itPosible{
+    top:260px;
 }
 .contactUs p {
     font-family: 'Poppins', sans-serif;
@@ -728,8 +745,8 @@ main{
 #segundo11{
     position: absolute;
     width: 100%;
-    top:50%;
-    left: 40%;
+    top:48%;
+    text-align: center;
     font-family: 'PT Sans',sans-serif;
     font-style: italic;
     font-weight: bold;
@@ -742,7 +759,7 @@ main{
     position: absolute;
     width: 100%;
     top:20%;
-    left: 35%;
+   text-align: center;
     font-family: 'PT Sans',sans-serif;
     font-style: italic;
     font-weight: bold;
@@ -757,7 +774,7 @@ main{
 #segundo23{
     position: absolute;
     width: 100%;
-    left: 40%;
+    text-align: center;
     top:25%;
     font-family: 'PT Serif',serif;
 font-style: normal;
@@ -772,8 +789,8 @@ line-height: 24px;
 #segundo12{
     position: absolute;
     width: 100%;
-    left: 47%;
-    top:55%;
+ text-align: center;
+    top:53%;
     font-family: 'PT Serif',serif;
 font-style: normal;
 font-weight: normal;
@@ -785,7 +802,7 @@ line-height: 24px;
     position: absolute;
     width: 100%;
     top:70%;
-    left: 40%;
+    text-align: center;
     font-family: 'PT Sans',sans-serif;
     font-style: italic;
     font-weight: bold;
@@ -801,7 +818,7 @@ line-height: 24px;
 #segundo45{
     position: absolute;
     width: 100%;
-    left: 40%;
+    text-align: center;
     top:75%;
     font-family: 'PT Serif',serif;
 font-style: normal;
@@ -812,8 +829,8 @@ line-height: 24px;
 #segundo33{
     position: absolute;
     width: 100%;
-    top:45%;
-    left: 35%;
+    top:48%;
+    text-align: center;
     font-family: 'PT Sans',sans-serif;
     font-style: italic;
     font-weight: bold;
@@ -828,8 +845,8 @@ line-height: 24px;
 #segundo34{
     position: absolute;
     width: 100%;
-    left: 20%;
-    top:50%;
+    text-align: center;
+    top:53%;
     font-family: 'PT Serif',serif;
 font-style: normal;
 font-weight: normal;
@@ -841,13 +858,13 @@ line-height: 24px;
 #workProyects a:hover{
     
     color: white;
+    
 
 }
 #workProyects img:hover{
-    opacity: 0.5;
    
+    opacity: 0.5;
 }
-
 
 
 #img1{
@@ -856,6 +873,7 @@ line-height: 24px;
     transition-duration: 1.5s;
     width: 100%;
     height: 100%;
+   
 }
 #img2{
     transform: translateY(100%);
@@ -1152,6 +1170,11 @@ margin-bottom: -5%;
     .titulo{
         font-size: 80px;
     }
+    .contactUs p {
+        position: unset;}
+        .carGa {
+           
+            position: unset;}
 }
 @media all and (max-width:900px){
     footer{
@@ -1512,7 +1535,7 @@ margin-bottom: -5%;
 }
 @media all and (max-width:500px){
     .sectionCard{
-        width: 340px;
+        width: 330px;
     }
 }
 
