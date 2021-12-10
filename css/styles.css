@@ -842,6 +842,9 @@ line-height: 24px;
 #segundo33:hover{
     text-decoration-line: underline;
 }
+#segundo11:hover{
+    text-decoration-line: underline;
+}
 #segundo34{
     position: absolute;
     width: 100%;
@@ -858,12 +861,12 @@ line-height: 24px;
 #workProyects a:hover{
     
     color: white;
-    
+   opacity: 1;
 
 }
-#workProyects img:hover{
-   
-    opacity: 0.5;
+#workProyects p:hover{
+
+  
 }
 
 

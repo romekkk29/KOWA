@@ -680,5 +680,153 @@ function carrusel3(){
         let progressX= scrollX/1256;
        progressBar.style.width= progressX+20+ "%"
    })
+
+
+   
+   let segundo=document.querySelector("#segundo11");
+   let segundo2=document.querySelector("#segundo12");
+   segundo.addEventListener("mouseover",function(){
+       img1.style.opacity="0.5";
+
+   })
+segundo2.addEventListener("mouseover",function(){
+    img1.style.opacity="0.5";
+
+})
+  img1.addEventListener("mouseleave",function(){
+    img1.style.opacity="1"
+  })
+  img1.addEventListener("mouseover",function(){
+    img1.style.opacity="0.5"
+  })
   
-    
+  let segundo22=document.querySelector("#segundo22");
+  let segundo23=document.querySelector("#segundo23");
+  segundo22.addEventListener("mouseover",function(){
+      img2.style.opacity="0.5";
+
+  })
+segundo23.addEventListener("mouseover",function(){
+   img2.style.opacity="0.5";
+
+})
+ img2.addEventListener("mouseleave",function(){
+   img2.style.opacity="1"
+ })
+ img2.addEventListener("mouseover",function(){
+   img2.style.opacity="0.5"
+ })
+ let segundo33=document.querySelector("#segundo33");
+  let segundo34=document.querySelector("#segundo34");
+  segundo33.addEventListener("mouseover",function(){
+      img3.style.opacity="0.5";
+
+  })
+segundo34.addEventListener("mouseover",function(){
+   img3.style.opacity="0.5";
+
+})
+ img3.addEventListener("mouseleave",function(){
+   img3.style.opacity="1"
+ })
+ img3.addEventListener("mouseover",function(){
+   img3.style.opacity="0.5"
+ })
+ let segundo44=document.querySelector("#segundo44");
+ let segundo45=document.querySelector("#segundo45");
+ segundo44.addEventListener("mouseover",function(){
+     img4.style.opacity="0.5";
+
+ })
+segundo45.addEventListener("mouseover",function(){
+  img4.style.opacity="0.5";
+
+})
+img4.addEventListener("mouseleave",function(){
+  img4.style.opacity="1"
+})
+img4.addEventListener("mouseover",function(){
+  img4.style.opacity="0.5"
+})
+
+segundo44.addEventListener("click",function(){
+    const plantilla=`<div id="fixea">  <img loading="lazy" src="img/buller1.jpg" alt=""><img loading="lazy" src="img/buller2.jpg" alt=""><div loading="lazy" class="haceFlex bullerDec"><img loading="lazy" src="img/buller31.jpg" alt=""><img loading="lazy" src="img/buller32.jpg" alt=""></div><div loading="lazy" class="haceFlex bullerDec"><img loading="lazy" src="img/buller33.jpg" alt=""><img loading="lazy" src="img/buller34.jpg" alt=""></div><img loading="lazy" src="img/buller4.jpg" alt=""><img  loading="lazy" src="img/buller5.jpg" alt=""><div id="contacModal"><img loading="lazy" id="loge" src="img/Logo.jpg" alt=""><div><p>BE CURIOUS</p><p>BE BRAVE</p><p>IT'S POSSIBLE</p><div class="carGa2"><a class="cargaMas2 sis2" href="contact.html">Contact Us</a></div></div></div></div>`;
+    plantillaa.innerHTML=plantilla;
+    let main=document.querySelector("main");
+   
+    main.style.opacity="0.2";
+    main.style.pointerEvents="none";
+    let sstic=document.querySelector(".sticky");
+    sstic.style.visibility="hidden";
+    body.style.overflow="hidden";
+    let fixea=document.querySelector("#fixea");
+    fixea.style.opacity="1";
+    let cruz=document.querySelector("#dosCruz");
+    cruz.style.display="flex";
+    let header=document.querySelector("header");
+    header.style.opacity="0.2";
+    header.style.pointerEvents="none";
+    scroleaParriba();
+    quitar();
+});
+segundo33.addEventListener("click",function(){
+    const plantilla=`<div id="fixea">  <img loading="lazy" src="img/eva1.jpg" alt=""><img loading="lazy" src="img/eva2.jpg" alt=""><img loading="lazy" src="img/eva3.jpg" alt=""><img  loading="lazy" src="img/eva4.jpg" alt=""><img  loading="lazy" src="img/eva5.jpg" alt=""><div loading="lazy" class="haceFlex evaFlex"><img loading="lazy" src="img/eva61.jpg" alt=""><img loading="lazy" src="img/eva62.jpg" alt=""><img loading="lazy" src="img/eva63.jpg" alt=""></div><div id="contacModal"><img loading="lazy" id="loge" src="img/Logo.jpg" alt=""><div><p>BE CURIOUS</p><p>BE BRAVE</p><p>IT'S POSSIBLE</p><div class="carGa2"><a class="cargaMas2 sis2" href="contact.html">Contact Us</a></div></div></div></div>`;
+    plantillaa.innerHTML=plantilla;
+    let main=document.querySelector("main");
+   
+    main.style.opacity="0.2";
+    main.style.pointerEvents="none";
+    let sstic=document.querySelector(".sticky");
+    sstic.style.visibility="hidden";
+    body.style.overflow="hidden";
+    let fixea=document.querySelector("#fixea");
+    fixea.style.opacity="1";
+    let cruz=document.querySelector("#dosCruz");
+    cruz.style.display="flex";
+    let header=document.querySelector("header");
+    header.style.opacity="0.2";
+    header.style.pointerEvents="none";
+    scroleaParriba();
+    quitar();
+});
+segundo22.addEventListener("click",function(){
+    const plantilla=`<div id="fixea">  <img loading="lazy" src="img/sierra1.jpg" alt=""><img loading="lazy" src="img/sierra2.jpg" alt=""><img loading="lazy" src="img/sierra3.jpg" alt=""><img  loading="lazy" src="img/sierra4.jpg" alt=""><img  loading="lazy" src="img/sierra5.jpg" alt=""><div id="contacModal"><img loading="lazy" id="loge" src="img/Logo.jpg" alt=""><div><p>BE CURIOUS</p><p>BE BRAVE</p><p>IT'S POSSIBLE</p><div class="carGa2"><a class="cargaMas2 sis2" href="contact.html">Contact Us</a></div></div></div></div>`;
+    plantillaa.innerHTML=plantilla;
+    let main=document.querySelector("main");
+   
+    main.style.opacity="0.2";
+    main.style.pointerEvents="none";
+    let sstic=document.querySelector(".sticky");
+    sstic.style.visibility="hidden";
+    body.style.overflow="hidden";
+    let fixea=document.querySelector("#fixea");
+    fixea.style.opacity="1";
+    let cruz=document.querySelector("#dosCruz");
+    cruz.style.display="flex";
+    let header=document.querySelector("header");
+    header.style.opacity="0.2";
+    header.style.pointerEvents="none";
+    scroleaParriba();
+    quitar();
+});
+segundo.addEventListener("click",function(){
+    const plantilla=`<div id="fixea">  <img loading="lazy" src="img/nasty1.jpg" alt=""><img loading="lazy" src="img/nasty2.jpg" alt=""><img loading="lazy" src="img/nasty3.jpg" alt=""><img  loading="lazy" src="img/nasty4.jpg" alt=""><div loading="lazy" class="haceFlex"><img loading="lazy" src="img/nasty51.jpg" alt=""><img loading="lazy" src="img/nasty52.jpg" alt=""></div><img loading="lazy" src="img/nasty6.jpg" alt=""><img loading="lazy" src="img/nasty7.jpg" alt=""><img  loading="lazy" src="img/nasty8.jpg" alt=""><div id="contacModal"><img loading="lazy" id="loge" src="img/Logo.jpg" alt=""><div><p>BE CURIOUS</p><p>BE BRAVE</p><p>IT'S POSSIBLE</p><div class="carGa2"><a class="cargaMas2 sis2" href="contact.html">Contact Us</a></div></div></div></div>`;
+    plantillaa.innerHTML=plantilla;
+    let main=document.querySelector("main");
+ 
+    main.style.opacity="0.2";
+    main.style.pointerEvents="none";
+    let sstic=document.querySelector(".sticky");
+    sstic.style.visibility="hidden";
+    body.style.overflow="hidden";
+    let fixea=document.querySelector("#fixea");
+    fixea.style.opacity="1";
+   
+    let cruz=document.querySelector("#dosCruz");
+    cruz.style.display="flex";
+    let header=document.querySelector("header");
+    header.style.opacity="0.2";
+    header.style.pointerEvents="none";
+    scroleaParriba();
+    quitar();
+});
