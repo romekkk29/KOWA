@@ -92,7 +92,7 @@ img22.addEventListener("click",function(){
     cruz33.style.height="70%";
     cruz33.style.right="0%";
     cruz.style.right="0%";
-    cruz.style.top="90%";
+    cruz.style.top="1%"
     
     let header=document.querySelector("header");
     header.style.opacity="0.2";
@@ -121,7 +121,7 @@ img44.addEventListener("click",function(){
     cruz33.style.height="70%";
     cruz33.style.right="0%";
     cruz.style.right="0%";
-    cruz.style.top="90%";
+                cruz.style.top="1%"
     
     let header=document.querySelector("header");
     header.style.opacity="0.2";
@@ -149,7 +149,7 @@ img33.addEventListener("click",function(){
     cruz33.style.height="70%";
     cruz33.style.right="0%";
     cruz.style.right="0%";
-    cruz.style.top="90%";
+    cruz.style.top="1%"
     
     let header=document.querySelector("header");
     header.style.opacity="0.2";
@@ -198,7 +198,7 @@ img11.addEventListener("click",function(){
     cruz33.style.height="70%";
     cruz33.style.right="0%";
     cruz.style.right="0%";
-    cruz.style.top="90%";
+                cruz.style.top="1%"
     
     let header=document.querySelector("header");
     header.style.opacity="0.2";
@@ -229,7 +229,7 @@ function agarraNus(){
         cruz33.style.height="70%";
         cruz33.style.right="0%";
         cruz.style.right="0%";
-        cruz.style.top="90%";
+                cruz.style.top="1%"
         
         let header=document.querySelector("header");
         header.style.opacity="0.2";
@@ -259,7 +259,7 @@ function agarraNus(){
             cruz33.style.height="70%";
             cruz33.style.right="0%";
             cruz.style.right="0%";
-            cruz.style.top="90%";
+            cruz.style.top="1%"
             
             let header=document.querySelector("header");
             header.style.opacity="0.2";
@@ -289,7 +289,7 @@ function agarraNus(){
                 cruz33.style.height="70%";
                 cruz33.style.right="0%";
                 cruz.style.right="0%";
-                cruz.style.top="90%";
+                cruz.style.top="1%";
                 
                 let header=document.querySelector("header");
                 header.style.opacity="0.2";
@@ -574,6 +574,7 @@ function carrusel3(){
                 case 2:
                 img.style.visibility="visible";
                 img.style.transform="translate(-200%)";
+                imgVerdadero.style.transform="translate(-100%)";
                 titulo.innerHTML="Nasty People";
                 proyectLink.innerHTML="<a id=subra3  href=#><p id=agarraNusty class=proyect>See proyect</p><div class=subrayado2></div></a>";
                 gato.style.left="300%";
@@ -591,6 +592,7 @@ function carrusel3(){
                     gato.style.visibility="visible";
                     img.style.transform="translate(-300%)";
                     gato.style.transform="translate(-300%)";
+                    imgVerdadero.style.transform="translate(-200%)";
                     buller.style.zIndex="0";
                     buller.style.left="300%";
                     buller.style.transform="translate(-200%)";
