@@ -1442,6 +1442,7 @@ margin-bottom: -5%;
         }
         .ppp{
             left:5%;
+            overflow-y: hidden;
         }
         .padWeWork {
             padding: 170px 5% 50px 5%;
@@ -1480,6 +1481,7 @@ margin-bottom: -5%;
             line-height: 23px;
             padding: 0px 12% 0px 12%;
             top:38%;
+            overflow-y: hidden;
         }
         #descriptionAparte{
                 font-size: 18px;
@@ -1491,6 +1493,7 @@ margin-bottom: -5%;
                 position: absolute;
                 text-align: center;
                 color: #FFFFFF;
+                overflow-y: hidden;
              
               
         }
