@@ -1000,6 +1000,9 @@ border-radius: 5px;
     overflow-y: scroll;
     margin-bottom: -5px;
 }
+#fixea video{
+    margin-bottom: -5px;
+}
 .haceFlex{
     display: flex;
     overflow: hidden;
