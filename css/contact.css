@@ -39,7 +39,7 @@
     height: 3px;
     background: #504DF2;
     left: 37%;
-    top: 80%;
+    top: 75%;
 }
 .display{
     
@@ -62,7 +62,7 @@
 nav{
     display: flex;
     position: absolute;
-    left:21%
+    left: 21%;
 }
 nav a{
     text-decoration: none;
@@ -169,7 +169,7 @@ footer{
     width: 30px;
     height: 3px;
     left: 35px;
-    top: 55px;
+    top: 48px;
     background: white;
 
 }
@@ -424,7 +424,7 @@ main div a{
             top:50px
         }
         .subrayado3{
-            left: 27%;
+            left: 12%;
             top: 35px;
             
         }

@@ -50,7 +50,7 @@
     z-index: 213123123123124124123;
 }
 span{
-    margin:21px;
+    margin:21px 0px;
 }
 .display{
     
@@ -78,7 +78,7 @@ nav{
 nav a{
     text-decoration: none;
     color: white;
-   margin:20px;
+   margin:20px 40px;
     font-style: normal;
     font-size: 18px;
     line-height: 23px;
@@ -186,12 +186,12 @@ z-index: 123213213 ;
 }
 
 #see{
-    background-color: rgba(0, 0, 0, 0.15);
+    background-color: rgba(0, 0, 0, 0.2);
     height: 100vh;
     position: absolute;
     top:0;
     width: 100%;
-    z-index: 23;
+    z-index: 25;
    
 }
 .subrayado2{
@@ -493,7 +493,7 @@ li p{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+ 
     flex-wrap: wrap;
     padding: 130px 90px 100px 10%;
     
@@ -591,7 +591,7 @@ footer{
     height: 3px;
     background: white;
     left: 38%;
-    top: 77%;
+    top: 48px;
     z-index: 213123123123124124123;
 }
 #segundo{
@@ -1161,7 +1161,7 @@ margin-bottom: -5%;
         line-height: 32px;
     }
     .cargaMas{
-        width: 80vw;
+        width: 90vw;
     }
     .sis{
         font-weight: bold;
@@ -1300,7 +1300,7 @@ margin-bottom: -5%;
     top:76%
     }
     .titulo{
-        font-size: 48px;
+        font-size: 52px;
         line-height:72px;
         top:68%
     }
@@ -1534,9 +1534,9 @@ margin-bottom: -5%;
 
 @media all and (max-width:370px){
     .titulo{
-        font-size: 38px;
+        font-size: 42px;
         
-        top:70%
+        top:68%
     }
     #contacModal div p{
         font-size: 20px;
