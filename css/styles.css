@@ -1457,7 +1457,7 @@ margin-bottom: -5%;
         .unaSection{
             display:-webkit-box;
             -webkit-box-align: center;
-            overflow-x: scroll;
+            overflow-x: auto;
             height: 546px;
             background-color: #333333;
 
