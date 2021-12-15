@@ -1532,6 +1532,11 @@ margin-bottom: -5%;
             background-color:#555555;
          
         }
+        .nasty{
+            background-position-x:48%;
+            width: 140%;
+        }
+      
 }
 
 
