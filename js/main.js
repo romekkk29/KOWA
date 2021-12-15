@@ -13,7 +13,7 @@ let img44=document.querySelector("#img44");
 let plantillaa=document.querySelector("#plantilla");
 
 img4.addEventListener("click",function(){
-    const plantilla=`<div id="fixea">  <img loading="lazy" src="img/buller1.jpg" alt=""><img loading="lazy" src="img/buller2.jpg" alt=""><div loading="lazy" class="haceFlex bullerDec"><video src="img/buller31.m4v" width=100% autoplay muted loop ></video><img loading="lazy" src="img/buller32.jpg" alt=""></div><div loading="lazy" class="haceFlex bullerDec"><img loading="lazy" src="img/buller33.jpg" alt=""><img loading="lazy" src="img/buller34.jpg" alt=""></div><img loading="lazy" src="img/buller4.jpg" alt=""><video src="img/bullerAnim.m4v" width=100% autoplay muted loop ></video><div id="contacModal"><img loading="lazy" id="loge" src="img/Logo.jpg" alt=""><div><p>BE CURIOUS</p><p>BE BRAVE</p><p>IT'S POSSIBLE</p><div class="carGa2"><a class="cargaMas2 sis2" href="contact.html">Contact Us</a></div></div></div></div>`;
+    const plantilla=`<div id="fixea">  <img loading="lazy" src="img/buller1.jpg" alt=""><img loading="lazy" src="img/buller2.jpg" alt=""><div loading="lazy" class="haceFlex bullerDec"><video src="img/buller31.m4v" width=100% autoplay muted loop playsinline ></video><img loading="lazy" src="img/buller32.jpg" alt=""></div><div loading="lazy" class="haceFlex bullerDec"><img loading="lazy" src="img/buller33.jpg" alt=""><img loading="lazy" src="img/buller34.jpg" alt=""></div><img loading="lazy" src="img/buller4.jpg" alt=""><video src="img/bullerAnim.m4v" width=100% autoplay muted loop playsinline ></video><div id="contacModal"><img loading="lazy" id="loge" src="img/Logo.jpg" alt=""><div><p>BE CURIOUS</p><p>BE BRAVE</p><p>IT'S POSSIBLE</p><div class="carGa2"><a class="cargaMas2 sis2" href="contact.html">Contact Us</a></div></div></div></div>`;
     plantillaa.innerHTML=plantilla;
     let main=document.querySelector("main");
    
@@ -53,7 +53,7 @@ img3.addEventListener("click",function(){
     quitar();
 });
 img2.addEventListener("click",function(){
-    const plantilla=`<div id="fixea">  <img loading="lazy" src="img/sierra1.jpg" alt=""><video src="img/V2.mp4" width=100% autoplay muted loop ></video><img loading="lazy" src="img/sierra2.jpg" alt=""><img loading="lazy" src="img/sierra3.jpg" alt=""><img  loading="lazy" src="img/sierra4.jpg" alt=""><video src="img/sierraAnim.m4v" width=100% autoplay muted loop ></video><div id="contacModal"><img loading="lazy" id="loge" src="img/Logo.jpg" alt=""><div><p>BE CURIOUS</p><p>BE BRAVE</p><p>IT'S POSSIBLE</p><div class="carGa2"><a class="cargaMas2 sis2" href="contact.html">Contact Us</a></div></div></div></div>`;
+    const plantilla=`<div id="fixea">  <img loading="lazy" src="img/sierra1.jpg" alt=""><video src="img/V2.mp4" width=100% autoplay muted loop playsinline ></video><img loading="lazy" src="img/sierra2.jpg" alt=""><img loading="lazy" src="img/sierra3.jpg" alt=""><img  loading="lazy" src="img/sierra4.jpg" alt=""><video src="img/sierraAnim.m4v" width=100% autoplay muted loop playsinline></video><div id="contacModal"><img loading="lazy" id="loge" src="img/Logo.jpg" alt=""><div><p>BE CURIOUS</p><p>BE BRAVE</p><p>IT'S POSSIBLE</p><div class="carGa2"><a class="cargaMas2 sis2" href="contact.html">Contact Us</a></div></div></div></div>`;
     plantillaa.innerHTML=plantilla;
     let main=document.querySelector("main");
    
@@ -73,7 +73,7 @@ img2.addEventListener("click",function(){
     quitar();
 });
 img22.addEventListener("click",function(){
-    const plantilla=`<div id="fixea">  <img loading="lazy" src="img/sierra1Mobile.jpg" alt=""><video src="img/V2.mp4" width=100% autoplay muted loop ></video><img loading="lazy" src="img/sierra2.jpg" alt=""><img loading="lazy" src="img/sierra3.jpg" alt=""><img  loading="lazy" src="img/sierra4.jpg" alt=""><video src="img/sierraAnim.m4v" width=100% autoplay muted loop ></video><div id="contacModal"><img loading="lazy" id="loge" src="img/Logo.jpg" alt=""><div><p>BE CURIOUS</p><p>BE BRAVE</p><p>IT'S POSSIBLE</p><div class="carGa2"><a class="cargaMas2 sis2" href="contact.html">Contact Us</a></div></div></div></div>`;
+    const plantilla=`<div id="fixea">  <img loading="lazy" src="img/sierra1Mobile.jpg" alt=""><video src="img/V2.mp4" width=100% autoplay muted loop playsinline></video><img loading="lazy" src="img/sierra2.jpg" alt=""><img loading="lazy" src="img/sierra3.jpg" alt=""><img  loading="lazy" src="img/sierra4.jpg" alt=""><video src="img/sierraAnim.m4v" width=100% autoplay muted loop playsinline></video><div id="contacModal"><img loading="lazy" id="loge" src="img/Logo.jpg" alt=""><div><p>BE CURIOUS</p><p>BE BRAVE</p><p>IT'S POSSIBLE</p><div class="carGa2"><a class="cargaMas2 sis2" href="contact.html">Contact Us</a></div></div></div></div>`;
     plantillaa.innerHTML=plantilla;
     let main=document.querySelector("main");
    
@@ -102,7 +102,7 @@ img22.addEventListener("click",function(){
 });
 
 img44.addEventListener("click",function(){
-    const plantilla=`<div id="fixea">  <img loading="lazy" src="img/buller1Mobile.jpg" alt=""><img loading="lazy" src="img/buller2.jpg" alt=""><div loading="lazy" class="haceFlex bullerDec"><video src="img/buller31.m4v" width=100% autoplay muted loop ></video><img loading="lazy" src="img/buller32.jpg" alt=""></div><div loading="lazy" class="haceFlex bullerDec"><img loading="lazy" src="img/buller33.jpg" alt=""><img loading="lazy" src="img/buller34.jpg" alt=""></div><img loading="lazy" src="img/buller4.jpg" alt=""><video src="img/bullerAnim.m4v" width=100% autoplay muted loop ></video><div id="contacModal"><img loading="lazy" id="loge" src="img/Logo.jpg" alt=""><div><p>BE CURIOUS</p><p>BE BRAVE</p><p>IT'S POSSIBLE</p><div class="carGa2"><a class="cargaMas2 sis2" href="contact.html">Contact Us</a></div></div></div></div>`;
+    const plantilla=`<div id="fixea">  <img loading="lazy" src="img/buller1Mobile.jpg" alt=""><img loading="lazy" src="img/buller2.jpg" alt=""><div loading="lazy" class="haceFlex bullerDec"><video src="img/buller31.m4v" width=100% autoplay muted loop playsinline ></video><img loading="lazy" src="img/buller32.jpg" alt=""></div><div loading="lazy" class="haceFlex bullerDec"><img loading="lazy" src="img/buller33.jpg" alt=""><img loading="lazy" src="img/buller34.jpg" alt=""></div><img loading="lazy" src="img/buller4.jpg" alt=""><video src="img/bullerAnim.m4v" width=100% autoplay muted loop playsinline ></video><div id="contacModal"><img loading="lazy" id="loge" src="img/Logo.jpg" alt=""><div><p>BE CURIOUS</p><p>BE BRAVE</p><p>IT'S POSSIBLE</p><div class="carGa2"><a class="cargaMas2 sis2" href="contact.html">Contact Us</a></div></div></div></div>`;
     plantillaa.innerHTML=plantilla;
     let main=document.querySelector("main");
    
@@ -159,7 +159,7 @@ img33.addEventListener("click",function(){
 });
 img1.addEventListener("click",function(){
     
-        const plantilla=`<div id="fixea"> <video src="img/nasty1Desktop.m4v" width=100% autoplay muted loop ></video> <img loading="lazy" src="img/nasty2.jpg" alt=""><img loading="lazy" src="img/nasty3.jpg" alt=""><img  loading="lazy" src="img/nasty4.jpg" alt=""><div loading="lazy" class="haceFlex"><img loading="lazy" src="img/nasty51.jpg" alt=""><img loading="lazy" src="img/nasty52.jpg" alt=""></div><img loading="lazy" src="img/nasty6.jpg" alt=""><img loading="lazy" src="img/nasty7.jpg" alt=""><img  loading="lazy" src="img/nasty8.jpg" alt=""><div id="contacModal"><img loading="lazy" id="loge" src="img/Logo.jpg" alt=""><div><p>BE CURIOUS</p><p>BE BRAVE</p><p>IT'S POSSIBLE</p><div class="carGa2"><a class="cargaMas2 sis2" href="contact.html">Contact Us</a></div></div></div></div>`;
+        const plantilla=`<div id="fixea"> <video src="img/nasty1Desktop.m4v" width=100% autoplay muted loop playsinline ></video> <img loading="lazy" src="img/nasty2.jpg" alt=""><img loading="lazy" src="img/nasty3.jpg" alt=""><img  loading="lazy" src="img/nasty4.jpg" alt=""><div loading="lazy" class="haceFlex"><img loading="lazy" src="img/nasty51.jpg" alt=""><img loading="lazy" src="img/nasty52.jpg" alt=""></div><img loading="lazy" src="img/nasty6.jpg" alt=""><img loading="lazy" src="img/nasty7.jpg" alt=""><img  loading="lazy" src="img/nasty8.jpg" alt=""><div id="contacModal"><img loading="lazy" id="loge" src="img/Logo.jpg" alt=""><div><p>BE CURIOUS</p><p>BE BRAVE</p><p>IT'S POSSIBLE</p><div class="carGa2"><a class="cargaMas2 sis2" href="contact.html">Contact Us</a></div></div></div></div>`;
     plantillaa.innerHTML=plantilla;
    
     
@@ -182,7 +182,7 @@ img1.addEventListener("click",function(){
     quitar();
 });
 img11.addEventListener("click",function(){
-    const plantilla=`<div id="fixea"> <video src="img/nasty1Mobile.m4v" width=100% autoplay muted loop ></video> <img loading="lazy" src="img/nasty2.jpg" alt=""><img loading="lazy" src="img/nasty3.jpg" alt=""><img  loading="lazy" src="img/nasty4.jpg" alt=""><div loading="lazy" class="haceFlex"><img loading="lazy" src="img/nasty51.jpg" alt=""><img loading="lazy" src="img/nasty52.jpg" alt=""></div><img loading="lazy" src="img/nasty6.jpg" alt=""><img loading="lazy" src="img/nasty7.jpg" alt=""><img  loading="lazy" src="img/nasty8.jpg" alt=""><div id="contacModal"><img loading="lazy" id="loge" src="img/Logo.jpg" alt=""><div><p>BE CURIOUS</p><p>BE BRAVE</p><p>IT'S POSSIBLE</p><div class="carGa2"><a class="cargaMas2 sis2" href="contact.html">Contact Us</a></div></div></div></div>`;
+    const plantilla=`<div id="fixea"> <video src="img/nasty1Mobile.m4v" width=100% autoplay muted loopplaysinline></video> <img loading="lazy" src="img/nasty2.jpg" alt=""><img loading="lazy" src="img/nasty3.jpg" alt=""><img  loading="lazy" src="img/nasty4.jpg" alt=""><div loading="lazy" class="haceFlex"><img loading="lazy" src="img/nasty51.jpg" alt=""><img loading="lazy" src="img/nasty52.jpg" alt=""></div><img loading="lazy" src="img/nasty6.jpg" alt=""><img loading="lazy" src="img/nasty7.jpg" alt=""><img  loading="lazy" src="img/nasty8.jpg" alt=""><div id="contacModal"><img loading="lazy" id="loge" src="img/Logo.jpg" alt=""><div><p>BE CURIOUS</p><p>BE BRAVE</p><p>IT'S POSSIBLE</p><div class="carGa2"><a class="cargaMas2 sis2" href="contact.html">Contact Us</a></div></div></div></div>`;
     plantillaa.innerHTML=plantilla;
     let main=document.querySelector("main");
    
@@ -212,7 +212,7 @@ img11.addEventListener("click",function(){
 function agarraNus(){
     let agarraNusty=document.querySelector("#agarraNusty");
     agarraNusty.addEventListener("click",function(){
-        const plantilla=`<div id="fixea">  <video src="img/nasty1Mobile.m4v" width=100% autoplay muted loop ></video> <img  src="img/nasty2.jpg" alt=""><img  src="img/nasty3.jpg" alt=""><img   src="img/nasty4.jpg" alt=""><div class="haceFlex"><img  src="img/nasty51.jpg" alt=""><img src="img/nasty52.jpg" alt=""></div><img  src="img/nasty6.jpg" alt=""><img  src="img/nasty7.jpg" alt=""><img  src="img/nasty8.jpg" alt=""><div id="contacModal"><img  id="loge" src="img/Logo.jpg" alt=""><div><p>BE CURIOUS</p><p>BE BRAVE</p><p>IT'S POSSIBLE</p><div class="carGa2"><a class="cargaMas2 sis2" href="contact.html">Contact Us</a></div></div></div></div>`;
+        const plantilla=`<div id="fixea">  <video src="img/nasty1Mobile.m4v" width=100% autoplay muted loop playsinline ></video> <img  src="img/nasty2.jpg" alt=""><img  src="img/nasty3.jpg" alt=""><img   src="img/nasty4.jpg" alt=""><div class="haceFlex"><img  src="img/nasty51.jpg" alt=""><img src="img/nasty52.jpg" alt=""></div><img  src="img/nasty6.jpg" alt=""><img  src="img/nasty7.jpg" alt=""><img  src="img/nasty8.jpg" alt=""><div id="contacModal"><img  id="loge" src="img/Logo.jpg" alt=""><div><p>BE CURIOUS</p><p>BE BRAVE</p><p>IT'S POSSIBLE</p><div class="carGa2"><a class="cargaMas2 sis2" href="contact.html">Contact Us</a></div></div></div></div>`;
         plantillaa.innerHTML=plantilla;
         let main=document.querySelector("main");
    
@@ -273,7 +273,7 @@ function agarraNus(){
         function agarraBuller(){
             let agarraBuller=document.querySelector("#agarraBuller");
             agarraBuller.addEventListener("click",function(){
-                const plantilla=`<div id="fixea">  <img loading="lazy" src="img/buller1Mobile.jpg" alt=""><img loading="lazy" src="img/buller2.jpg" alt=""><div loading="lazy" class="haceFlex bullerDec"><video src="img/buller31.m4v" width=100% autoplay muted loop ></video><img loading="lazy" src="img/buller32.jpg" alt=""></div><div loading="lazy" class="haceFlex bullerDec"><img loading="lazy" src="img/buller33.jpg" alt=""><img loading="lazy" src="img/buller34.jpg" alt=""></div><img loading="lazy" src="img/buller4.jpg" alt=""><video src="img/bullerAnim.m4v" width=100% autoplay muted loop ></video><div id="contacModal"><img loading="lazy" id="loge" src="img/Logo.jpg" alt=""><div><p>BE CURIOUS</p><p>BE BRAVE</p><p>IT'S POSSIBLE</p><div class="carGa2"><a class="cargaMas2 sis2" href="contact.html">Contact Us</a></div></div></div></div>`;;
+                const plantilla=`<div id="fixea">  <img loading="lazy" src="img/buller1Mobile.jpg" alt=""><img loading="lazy" src="img/buller2.jpg" alt=""><div loading="lazy" class="haceFlex bullerDec"><video src="img/buller31.m4v" width=100% autoplay muted loop playsinline></video><img loading="lazy" src="img/buller32.jpg" alt=""></div><div loading="lazy" class="haceFlex bullerDec"><img loading="lazy" src="img/buller33.jpg" alt=""><img loading="lazy" src="img/buller34.jpg" alt=""></div><img loading="lazy" src="img/buller4.jpg" alt=""><video src="img/bullerAnim.m4v" width=100% autoplay muted loop playsinline ></video><div id="contacModal"><img loading="lazy" id="loge" src="img/Logo.jpg" alt=""><div><p>BE CURIOUS</p><p>BE BRAVE</p><p>IT'S POSSIBLE</p><div class="carGa2"><a class="cargaMas2 sis2" href="contact.html">Contact Us</a></div></div></div></div>`;;
                 plantillaa.innerHTML=plantilla;
                 let main=document.querySelector("main");
            
@@ -303,7 +303,7 @@ function agarraNus(){
     function agarraNus2(){
         let agarraNusty2=document.querySelector("#agarraNusty2");
         agarraNusty2.addEventListener("click",function(){
-            const plantilla=`<div id="fixea">  <video src="img/nasty1Desktop.m4v" width=100% autoplay muted loop ></video><img loading="lazy" src="img/nasty2.jpg" alt=""><img loading="lazy" src="img/nasty3.jpg" alt=""><img  loading="lazy" src="img/nasty4.jpg" alt=""><div loading="lazy" class="haceFlex"><img loading="lazy" src="img/nasty51.jpg" alt=""><img loading="lazy" src="img/nasty52.jpg" alt=""></div><img loading="lazy" src="img/nasty6.jpg" alt=""><img loading="lazy" src="img/nasty7.jpg" alt=""><img  loading="lazy" src="img/nasty8.jpg" alt=""><div id="contacModal"><img loading="lazy" id="loge" src="img/Logo.jpg" alt=""><div><p>BE CURIOUS</p><p>BE BRAVE</p><p>IT'S POSSIBLE</p><div class="carGa2"><a class="cargaMas2 sis2" href="contact.html">Contact Us</a></div></div></div></div>`;
+            const plantilla=`<div id="fixea">  <video src="img/nasty1Desktop.m4v" width=100% autoplay muted loop playsinline></video><img loading="lazy" src="img/nasty2.jpg" alt=""><img loading="lazy" src="img/nasty3.jpg" alt=""><img  loading="lazy" src="img/nasty4.jpg" alt=""><div loading="lazy" class="haceFlex"><img loading="lazy" src="img/nasty51.jpg" alt=""><img loading="lazy" src="img/nasty52.jpg" alt=""></div><img loading="lazy" src="img/nasty6.jpg" alt=""><img loading="lazy" src="img/nasty7.jpg" alt=""><img  loading="lazy" src="img/nasty8.jpg" alt=""><div id="contacModal"><img loading="lazy" id="loge" src="img/Logo.jpg" alt=""><div><p>BE CURIOUS</p><p>BE BRAVE</p><p>IT'S POSSIBLE</p><div class="carGa2"><a class="cargaMas2 sis2" href="contact.html">Contact Us</a></div></div></div></div>`;
             plantillaa.innerHTML=plantilla;
             let main=document.querySelector("main");
        
@@ -326,7 +326,7 @@ function agarraNus(){
 function agarraBuller2(){
     let agarraBuller2=document.querySelector("#agarraBuller2");
     agarraBuller2.addEventListener("click",function(){
-        const plantilla=`<div id="fixea">  <img loading="lazy" src="img/buller1.jpg" alt=""><img loading="lazy" src="img/buller2.jpg" alt=""><div loading="lazy" class="haceFlex bullerDec"><video src="img/buller31.m4v" width=100% autoplay muted loop ></video><img loading="lazy" src="img/buller32.jpg" alt=""></div><div loading="lazy" class="haceFlex bullerDec"><img loading="lazy" src="img/buller33.jpg" alt=""><img loading="lazy" src="img/buller34.jpg" alt=""></div><img loading="lazy" src="img/buller4.jpg" alt=""><video src="img/bullerAnim.m4v" width=100% autoplay muted loop ></video><div id="contacModal"><img loading="lazy" id="loge" src="img/Logo.jpg" alt=""><div><p>BE CURIOUS</p><p>BE BRAVE</p><p>IT'S POSSIBLE</p><div class="carGa2"><a class="cargaMas2 sis2" href="contact.html">Contact Us</a></div></div></div></div>`;
+        const plantilla=`<div id="fixea">  <img loading="lazy" src="img/buller1.jpg" alt=""><img loading="lazy" src="img/buller2.jpg" alt=""><div loading="lazy" class="haceFlex bullerDec"><video src="img/buller31.m4v" width=100% autoplay muted loop playsinline ></video><img loading="lazy" src="img/buller32.jpg" alt=""></div><div loading="lazy" class="haceFlex bullerDec"><img loading="lazy" src="img/buller33.jpg" alt=""><img loading="lazy" src="img/buller34.jpg" alt=""></div><img loading="lazy" src="img/buller4.jpg" alt=""><video src="img/bullerAnim.m4v" width=100% autoplay muted loop playsinline></video><div id="contacModal"><img loading="lazy" id="loge" src="img/Logo.jpg" alt=""><div><p>BE CURIOUS</p><p>BE BRAVE</p><p>IT'S POSSIBLE</p><div class="carGa2"><a class="cargaMas2 sis2" href="contact.html">Contact Us</a></div></div></div></div>`;
         plantillaa.innerHTML=plantilla;
         let main=document.querySelector("main");
    
@@ -756,7 +756,7 @@ img4.addEventListener("mouseover",function(){
 })
 
 segundo44.addEventListener("click",function(){
-    const plantilla=`<div id="fixea">  <img loading="lazy" src="img/buller1.jpg" alt=""><img loading="lazy" src="img/buller2.jpg" alt=""><div loading="lazy" class="haceFlex bullerDec"><video src="img/buller31.m4v" width=100% autoplay muted loop ></video><img loading="lazy" src="img/buller32.jpg" alt=""></div><div loading="lazy" class="haceFlex bullerDec"><img loading="lazy" src="img/buller33.jpg" alt=""><img loading="lazy" src="img/buller34.jpg" alt=""></div><img loading="lazy" src="img/buller4.jpg" alt=""><video src="img/bullerAnim.m4v" width=100% autoplay muted loop ></video><div id="contacModal"><img loading="lazy" id="loge" src="img/Logo.jpg" alt=""><div><p>BE CURIOUS</p><p>BE BRAVE</p><p>IT'S POSSIBLE</p><div class="carGa2"><a class="cargaMas2 sis2" href="contact.html">Contact Us</a></div></div></div></div>`;
+    const plantilla=`<div id="fixea">  <img loading="lazy" src="img/buller1.jpg" alt=""><img loading="lazy" src="img/buller2.jpg" alt=""><div loading="lazy" class="haceFlex bullerDec"><video src="img/buller31.m4v" width=100% autoplay muted loop playsinline ></video><img loading="lazy" src="img/buller32.jpg" alt=""></div><div loading="lazy" class="haceFlex bullerDec"><img loading="lazy" src="img/buller33.jpg" alt=""><img loading="lazy" src="img/buller34.jpg" alt=""></div><img loading="lazy" src="img/buller4.jpg" alt=""><video src="img/bullerAnim.m4v" width=100% autoplay muted loop playsinline ></video><div id="contacModal"><img loading="lazy" id="loge" src="img/Logo.jpg" alt=""><div><p>BE CURIOUS</p><p>BE BRAVE</p><p>IT'S POSSIBLE</p><div class="carGa2"><a class="cargaMas2 sis2" href="contact.html">Contact Us</a></div></div></div></div>`;
     plantillaa.innerHTML=plantilla;
     let main=document.querySelector("main");
    
@@ -796,7 +796,7 @@ segundo33.addEventListener("click",function(){
     quitar();
 });
 segundo22.addEventListener("click",function(){
-    const plantilla=`<div id="fixea">  <img loading="lazy" src="img/sierra1.jpg" alt=""><video src="img/V2.mp4" width=100% autoplay muted loop ></video><img loading="lazy" src="img/sierra2.jpg" alt=""><img loading="lazy" src="img/sierra3.jpg" alt=""><img  loading="lazy" src="img/sierra4.jpg" alt=""><video src="img/sierraAnim.m4v" width=100% autoplay muted loop ></video><div id="contacModal"><img loading="lazy" id="loge" src="img/Logo.jpg" alt=""><div><p>BE CURIOUS</p><p>BE BRAVE</p><p>IT'S POSSIBLE</p><div class="carGa2"><a class="cargaMas2 sis2" href="contact.html">Contact Us</a></div></div></div></div>`;
+    const plantilla=`<div id="fixea">  <img loading="lazy" src="img/sierra1.jpg" alt=""><video src="img/V2.mp4" width=100% autoplay muted loop playsinline></video><img loading="lazy" src="img/sierra2.jpg" alt=""><img loading="lazy" src="img/sierra3.jpg" alt=""><img  loading="lazy" src="img/sierra4.jpg" alt=""><video src="img/sierraAnim.m4v" width=100% autoplay muted loop playsinline ></video><div id="contacModal"><img loading="lazy" id="loge" src="img/Logo.jpg" alt=""><div><p>BE CURIOUS</p><p>BE BRAVE</p><p>IT'S POSSIBLE</p><div class="carGa2"><a class="cargaMas2 sis2" href="contact.html">Contact Us</a></div></div></div></div>`;
     plantillaa.innerHTML=plantilla;
     let main=document.querySelector("main");
    
@@ -816,7 +816,7 @@ segundo22.addEventListener("click",function(){
     quitar();
 });
 segundo.addEventListener("click",function(){
-    const plantilla=`<div id="fixea">  <video src="img/nasty1Desktop.m4v" width=100% autoplay muted loop ></video><img loading="lazy" src="img/nasty2.jpg" alt=""><img loading="lazy" src="img/nasty3.jpg" alt=""><img  loading="lazy" src="img/nasty4.jpg" alt=""><div loading="lazy" class="haceFlex"><img loading="lazy" src="img/nasty51.jpg" alt=""><img loading="lazy" src="img/nasty52.jpg" alt=""></div><img loading="lazy" src="img/nasty6.jpg" alt=""><img loading="lazy" src="img/nasty7.jpg" alt=""><img  loading="lazy" src="img/nasty8.jpg" alt=""><div id="contacModal"><img loading="lazy" id="loge" src="img/Logo.jpg" alt=""><div><p>BE CURIOUS</p><p>BE BRAVE</p><p>IT'S POSSIBLE</p><div class="carGa2"><a class="cargaMas2 sis2" href="contact.html">Contact Us</a></div></div></div></div>`;
+    const plantilla=`<div id="fixea">  <video src="img/nasty1Desktop.m4v" width=100% autoplay muted loop playsinline></video><img loading="lazy" src="img/nasty2.jpg" alt=""><img loading="lazy" src="img/nasty3.jpg" alt=""><img  loading="lazy" src="img/nasty4.jpg" alt=""><div loading="lazy" class="haceFlex"><img loading="lazy" src="img/nasty51.jpg" alt=""><img loading="lazy" src="img/nasty52.jpg" alt=""></div><img loading="lazy" src="img/nasty6.jpg" alt=""><img loading="lazy" src="img/nasty7.jpg" alt=""><img  loading="lazy" src="img/nasty8.jpg" alt=""><div id="contacModal"><img loading="lazy" id="loge" src="img/Logo.jpg" alt=""><div><p>BE CURIOUS</p><p>BE BRAVE</p><p>IT'S POSSIBLE</p><div class="carGa2"><a class="cargaMas2 sis2" href="contact.html">Contact Us</a></div></div></div></div>`;
     plantillaa.innerHTML=plantilla;
     let main=document.querySelector("main");
  
