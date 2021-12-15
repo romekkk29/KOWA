@@ -173,9 +173,22 @@ footer{
     background: white;
 
 }
-main div{
+#margina{
+    margin: 5% -5%;
+    
+}
+#margina a{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#margina img{
+    margin:0px 10px;
+}
+main div div{
     height: 55px;
-    width: 380px;
+    width: 308px;
     border-radius: 2px;
     display: flex;
     justify-content: center;
@@ -309,7 +322,7 @@ h1{
 #parrafo2 {
 
     padding: 0px 40% 0px 10%;}
-    main div {
+    main div div{
   
         margin: 5% 10%;}
 section{
@@ -317,6 +330,9 @@ section{
 }
 main div a{
     text-decoration: none;
+}
+main div{
+        display: flex;
 }
 @media all and (max-width:750px){
     #menu{
@@ -388,6 +404,16 @@ main div a{
     main div {
         width: 90%;
         margin: 7% auto;
+    }
+    main div{
+        flex-direction: column;
+        
+    }
+    main div div{
+        margin: 5% 0px;
+    }
+    #margina{
+        margin:5% 0px;
     }
 }
 
