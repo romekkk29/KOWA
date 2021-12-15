@@ -196,7 +196,7 @@ main div div{
     margin:5% 130px;
     background-color: #504DF2;
 }
-main div:hover{
+main div div:hover{
     background-color:dimgrey;
 }
 #primerParrafo{
