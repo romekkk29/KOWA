@@ -433,7 +433,7 @@ menu.addEventListener("click",function(e){
 xBar.addEventListener("click",function(){
     
     menuBar.style.transform="translate(100%)";
-    body.style.overflowY="auto";
+    
     body.style.WebkitOverflowScrolling="touch"; 
 
 }
