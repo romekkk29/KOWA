@@ -562,7 +562,7 @@ function carrusel3(){
                 break;
                 case 1: 
                 buller.style.visibility="visible";
-                gato.style.transform="translate(-160%)";
+                gato.style.transform="translate(-155%)";
                 buller.style.transform="translate(-110%)";
                 titulo.innerHTML="Buller";
                 identify.innerHTML="Web Site";
@@ -578,7 +578,8 @@ function carrusel3(){
                 case 2:
                 img.style.visibility="visible";
                 img.style.transform="translate(-200%)";
-                imgVerdadero.style.transform="translate(-100%)";
+                imgVerdadero.style.left="50%";
+                imgVerdadero.style.transform="translate(-50%)";
                 titulo.innerHTML="Nasty People";
                 proyectLink.innerHTML="<a id=subra3  href=#><p id=agarraNusty class=proyect>See proyect</p><div class=subrayado2></div></a>";
                 gato.style.left="300%";
@@ -595,8 +596,9 @@ function carrusel3(){
                 case 3:
                     gato.style.visibility="visible";
                     img.style.transform="translate(-300%)";
-                    gato.style.transform="translate(-300%)";
-                    imgVerdadero.style.transform="translate(-200%)";
+                    gato.style.left="250%";
+                    gato.style.transform="translate(-250%)";
+                    imgVerdadero.style.transform="translate(-150%)";
                     buller.style.zIndex="0";
                     buller.style.left="300%";
                     buller.style.transform="translate(-200%)";
@@ -609,8 +611,9 @@ function carrusel3(){
                     break; 
                 case 4: 
                 buller.style.visibility="visible";
-                gato.style.transform="translate(-400%)";
-                buller.style.transform="translate(-299%)";
+                gato.style.transform="translate(-350%)";
+                buller.style.left="250%";
+                buller.style.transform="translate(-250%)";
                 titulo.innerHTML="Buller";
                 identify.innerHTML="Web Site";
                 proyectLink.innerHTML="<a id=subra3  href=#><p id=agarraBuller class=proyect>See proyect</p><div class=subrayado2></div></a>";
