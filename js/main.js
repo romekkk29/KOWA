@@ -434,7 +434,6 @@ xBar.addEventListener("click",function(){
     
     menuBar.style.transform="translate(100%)";
     
-    body.style.WebkitOverflowScrolling="touch"; 
 
 }
 )
@@ -526,7 +525,7 @@ function carrusel3(){
             buller.style.zIndex="12";
             img.style.zIndex="-2";
             img.style.left="200%";
-            img.style.transform="translate(-143%)";
+            img.style.transform="translate(-163%)";
             agarraBuller2();
             console.log(contador);
             break;

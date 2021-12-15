@@ -125,6 +125,8 @@ body{
 .nasty{
     transition-duration: 1.5s;
     background-image:url("../img/kowa.jpg") ;
+    background-position-y: 30%;
+    background-position-x: center;
 }
 .verdaderoNasty{
     background-image:url("../img/Nasty_People.jpg") ;
