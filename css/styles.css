@@ -111,12 +111,12 @@ body{
 .mask{
     position: absolute;
     top:0px;
-    max-height: 101vh;
+    max-height: 100vh;
     width: 87.5vw;
     height: 100vh;
     
     background-size: cover;
-    background-position-y: 10%;
+    background-position-y: 30%;
     background-position-x:left;
    
     transition-property: transform;
@@ -128,7 +128,7 @@ body{
 .nasty{
     transition-duration: 1.5s;
     background-image:url("../img/kowa.jpg") ;
-    background-position-y: 30%;
+    background-position-y: 60%;
     background-position-x: center;
 }
 .verdaderoNasty{
