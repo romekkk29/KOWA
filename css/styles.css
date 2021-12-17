@@ -220,7 +220,7 @@ z-index: 123213213 ;
     display: flex;
     flex-direction: column;
     left: 10%;
-    top: 90.5%;
+    top: 82.5%;
     z-index: 23123;
 }
 .flecha{
@@ -608,7 +608,7 @@ footer{
 .flechita{
     position: absolute;
     right: 7%;
-    top:82%;
+    top:81%;
     width: 55px;
     height: 55px;
     -moz-border-radius: 50%;
@@ -727,7 +727,7 @@ body{
 .navito2{
     flex-direction: column;
     position: absolute;
-    left:5%;
+    left:2.5%;
 }
 
 
@@ -1308,7 +1308,7 @@ margin-bottom: -5%;
     }
     .titulo{
         font-size: 62px;
-        line-height:58px;
+        line-height:68px;
         top:70%;
         overflow-y: hidden;
     }
@@ -1406,7 +1406,7 @@ margin-bottom: -5%;
         width: 0px;
     }
     #subra3{
-        top:88%;
+        top:80%;
     }
     .proyect{
 
@@ -1547,9 +1547,7 @@ margin-bottom: -5%;
 
 @media all and (max-width:370px){
     .titulo{
-        font-size: 42px;
         
-        top:68%
     }
     #contacModal div p{
         font-size: 20px;
