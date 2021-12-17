@@ -53,7 +53,7 @@ img3.addEventListener("click",function(){
     quitar();
 });
 img2.addEventListener("click",function(){
-    const plantilla=`<div id="fixea">  <img loading="lazy" src="img/sierra1.jpg" alt=""><video src="img/V2.mp4" width=100% autoplay muted loop playsinline ></video><img loading="lazy" src="img/sierra2.jpg" alt=""><img loading="lazy" src="img/sierra3.jpg" alt=""><img  loading="lazy" src="img/sierra4.jpg" alt=""><video src="img/sierraAnim.m4v" width=100% autoplay muted loop playsinline></video><div id="contacModal"><img loading="lazy" id="loge" src="img/Logo.jpg" alt=""><div><p>BE CURIOUS</p><p>BE BRAVE</p><p>IT'S POSSIBLE</p><div class="carGa2"><a class="cargaMas2 sis2" href="contact.html">Contact Us</a></div></div></div></div>`;
+    const plantilla=`<div id="fixea">  <img loading="lazy" src="img/sierra1.jpg" alt=""><video src="img/V2.mp4" width=100% autoplay muted loop playsinline ></video><img loading="lazy" src="img/sierra3.jpg" alt=""><img  loading="lazy" src="img/sierra4.jpg" alt=""><video src="img/sierraAnim.m4v" width=100% autoplay muted loop playsinline></video><div id="contacModal"><img loading="lazy" id="loge" src="img/Logo.jpg" alt=""><div><p>BE CURIOUS</p><p>BE BRAVE</p><p>IT'S POSSIBLE</p><div class="carGa2"><a class="cargaMas2 sis2" href="contact.html">Contact Us</a></div></div></div></div>`;
     plantillaa.innerHTML=plantilla;
     let main=document.querySelector("main");
    
@@ -73,7 +73,7 @@ img2.addEventListener("click",function(){
     quitar();
 });
 img22.addEventListener("click",function(){
-    const plantilla=`<div id="fixea">  <img loading="lazy" src="img/sierra1Mobile.jpg" alt=""><video src="img/V2.mp4" width=100% autoplay muted loop playsinline></video><img loading="lazy" src="img/sierra2.jpg" alt=""><img loading="lazy" src="img/sierra3.jpg" alt=""><img  loading="lazy" src="img/sierra4.jpg" alt=""><video src="img/sierraAnim.m4v" width=100% autoplay muted loop playsinline></video><div id="contacModal"><img loading="lazy" id="loge" src="img/Logo.jpg" alt=""><div><p>BE CURIOUS</p><p>BE BRAVE</p><p>IT'S POSSIBLE</p><div class="carGa2"><a class="cargaMas2 sis2" href="contact.html">Contact Us</a></div></div></div></div>`;
+    const plantilla=`<div id="fixea">  <img loading="lazy" src="img/sierra1Mobile.jpg" alt=""><video src="img/V2.mp4" width=100% autoplay muted loop playsinline></video><img loading="lazy" src="img/sierra3.jpg" alt=""><img  loading="lazy" src="img/sierra4.jpg" alt=""><video src="img/sierraAnim.m4v" width=100% autoplay muted loop playsinline></video><div id="contacModal"><img loading="lazy" id="loge" src="img/Logo.jpg" alt=""><div><p>BE CURIOUS</p><p>BE BRAVE</p><p>IT'S POSSIBLE</p><div class="carGa2"><a class="cargaMas2 sis2" href="contact.html">Contact Us</a></div></div></div></div>`;
     plantillaa.innerHTML=plantilla;
     let main=document.querySelector("main");
    
@@ -811,7 +811,7 @@ segundo33.addEventListener("click",function(){
     quitar();
 });
 segundo22.addEventListener("click",function(){
-    const plantilla=`<div id="fixea">  <img loading="lazy" src="img/sierra1.jpg" alt=""><video src="img/V2.mp4" width=100% autoplay muted loop playsinline></video><img loading="lazy" src="img/sierra2.jpg" alt=""><img loading="lazy" src="img/sierra3.jpg" alt=""><img  loading="lazy" src="img/sierra4.jpg" alt=""><video src="img/sierraAnim.m4v" width=100% autoplay muted loop playsinline ></video><div id="contacModal"><img loading="lazy" id="loge" src="img/Logo.jpg" alt=""><div><p>BE CURIOUS</p><p>BE BRAVE</p><p>IT'S POSSIBLE</p><div class="carGa2"><a class="cargaMas2 sis2" href="contact.html">Contact Us</a></div></div></div></div>`;
+    const plantilla=`<div id="fixea">  <img loading="lazy" src="img/sierra1.jpg" alt=""><video src="img/V2.mp4" width=100% autoplay muted loop playsinline></video><img loading="lazy" src="img/sierra3.jpg" alt=""><img  loading="lazy" src="img/sierra4.jpg" alt=""><video src="img/sierraAnim.m4v" width=100% autoplay muted loop playsinline ></video><div id="contacModal"><img loading="lazy" id="loge" src="img/Logo.jpg" alt=""><div><p>BE CURIOUS</p><p>BE BRAVE</p><p>IT'S POSSIBLE</p><div class="carGa2"><a class="cargaMas2 sis2" href="contact.html">Contact Us</a></div></div></div></div>`;
     plantillaa.innerHTML=plantilla;
     let main=document.querySelector("main");
    
