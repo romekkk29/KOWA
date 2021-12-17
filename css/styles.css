@@ -6,10 +6,13 @@
     padding: 0px;
     font-family: 'PT Sans', sans-serif;
     overflow-x: hidden;
-    scroll-behavior: smooth;
+    
     box-sizing: border-box;
    
 }
+
+
+
 .mask{
     overflow-x: hidden;
     
@@ -239,7 +242,7 @@ z-index: 123213213 ;
     padding: 20px;
 }
 .flecha:hover{
-    background-color: rgba(112, 110, 110, 0.8);
+    background-color:#504DF2
 }
 a:hover{
     opacity: 0.8;
@@ -604,26 +607,25 @@ footer{
 }
 .flechita{
     position: absolute;
-    right: 8.5%;
-    top:41%;
+    right: 7%;
+    top:82%;
     width: 55px;
     height: 55px;
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
     border-radius: 50%;
-    border: solid 2px #AEAEAE;
+    border: solid 3.5px #AEAEAE;
     display: flex;
     align-items: center;
     justify-content: center;
     z-index: 123213213 ;
+    background-color: #504DF2;
 }
 .flechita a{
     padding: 10px;
     
 }
-.flechita:hover{
-    background-color: rgba(112, 110, 110, 0.8);
-}
+
 
 body{
     overflow-x: hidden;
@@ -736,6 +738,7 @@ main{
     top:100vh;
 }
 .proyects{
+  
     display: none;
 }
 #workProyects{
@@ -1304,9 +1307,10 @@ margin-bottom: -5%;
     top:76%
     }
     .titulo{
-        font-size: 52px;
-        line-height:72px;
-        top:68%
+        font-size: 62px;
+        line-height:58px;
+        top:70%;
+        overflow-y: hidden;
     }
     .proyect{
         font-size: 16px;
@@ -1402,7 +1406,7 @@ margin-bottom: -5%;
         width: 0px;
     }
     #subra3{
-        top:83%;
+        top:88%;
     }
     .proyect{
 

@@ -13,7 +13,7 @@ let img44=document.querySelector("#img44");
 let plantillaa=document.querySelector("#plantilla");
 
 img4.addEventListener("click",function(){
-    const plantilla=`<div id="fixea">  <img loading="lazy" src="img/buller1.jpg" alt=""><img loading="lazy" src="img/buller2.jpg" alt=""><div loading="lazy" class="haceFlex bullerDec"><video src="img/buller31.m4v" width=100% autoplay muted loop playsinline ></video><img loading="lazy" src="img/buller32.jpg" alt=""></div><div loading="lazy" class="haceFlex bullerDec"><img loading="lazy" src="img/buller33.jpg" alt=""><img loading="lazy" src="img/buller34.jpg" alt=""></div><img loading="lazy" src="img/buller4.jpg" alt=""><video src="img/bullerAnim.m4v" width=100% autoplay muted loop playsinline ></video><div id="contacModal"><img loading="lazy" id="loge" src="img/Logo.jpg" alt=""><div><p>BE CURIOUS</p><p>BE BRAVE</p><p>IT'S POSSIBLE</p><div class="carGa2"><a class="cargaMas2 sis2" href="contact.html">Contact Us</a></div></div></div></div>`;
+    const plantilla=`<div id="fixea">  <img loading="lazy" src="img/buller1.jpg" alt=""><div loading="lazy" class="haceFlex bullerDec"><video src="img/buller31.m4v" width=100% autoplay muted loop playsinline ></video><img loading="lazy" src="img/buller32.jpg" alt=""></div><div loading="lazy" class="haceFlex bullerDec"><img loading="lazy" src="img/buller33.jpg" alt=""><img loading="lazy" src="img/buller34.jpg" alt=""></div><img loading="lazy" src="img/buller4.jpg" alt=""><video src="img/bullerAnim.m4v" width=100% autoplay muted loop playsinline ></video><div id="contacModal"><img loading="lazy" id="loge" src="img/Logo.jpg" alt=""><div><p>BE CURIOUS</p><p>BE BRAVE</p><p>IT'S POSSIBLE</p><div class="carGa2"><a class="cargaMas2 sis2" href="contact.html">Contact Us</a></div></div></div></div>`;
     plantillaa.innerHTML=plantilla;
     let main=document.querySelector("main");
    
@@ -33,7 +33,7 @@ img4.addEventListener("click",function(){
     quitar();
 });
 img3.addEventListener("click",function(){
-    const plantilla=`<div id="fixea">  <img loading="lazy" src="img/eva1Desktop.jpg" alt=""><img loading="lazy" src="img/eva2.jpg" alt=""><img loading="lazy" src="img/eva3.jpg" alt=""><img  loading="lazy" src="img/eva4.jpg" alt=""><img  loading="lazy" src="img/eva5.jpg" alt=""><div loading="lazy" class="haceFlex bullerDec"><img loading="lazy" src="img/eva61.jpg" alt=""><img loading="lazy" src="img/eva62.jpg" alt=""></div><div loading="lazy" class="haceFlex bullerDec"><img loading="lazy" src="img/eva63.jpg" alt=""><img loading="lazy" src="img/eva64.jpg" alt=""></div><div id="contacModal"><img loading="lazy" id="loge" src="img/Logo.jpg" alt=""><div><p>BE CURIOUS</p><p>BE BRAVE</p><p>IT'S POSSIBLE</p><div class="carGa2"><a class="cargaMas2 sis2" href="contact.html">Contact Us</a></div></div></div></div>`;
+    const plantilla=`<div id="fixea">  <img loading="lazy" src="img/eva1Desktop.jpg" alt=""><img loading="lazy" src="img/eva2.jpg" alt=""><img  loading="lazy" src="img/eva4.jpg" alt=""><img  loading="lazy" src="img/eva5.jpg" alt=""><div loading="lazy" class="haceFlex bullerDec"><img loading="lazy" src="img/eva61.jpg" alt=""><img loading="lazy" src="img/eva62.jpg" alt=""></div><div loading="lazy" class="haceFlex bullerDec"><img loading="lazy" src="img/eva63.jpg" alt=""><img loading="lazy" src="img/eva64.jpg" alt=""></div><div id="contacModal"><img loading="lazy" id="loge" src="img/Logo.jpg" alt=""><div><p>BE CURIOUS</p><p>BE BRAVE</p><p>IT'S POSSIBLE</p><div class="carGa2"><a class="cargaMas2 sis2" href="contact.html">Contact Us</a></div></div></div></div>`;
     plantillaa.innerHTML=plantilla;
     let main=document.querySelector("main");
    
@@ -102,7 +102,7 @@ img22.addEventListener("click",function(){
 });
 
 img44.addEventListener("click",function(){
-    const plantilla=`<div id="fixea">  <img loading="lazy" src="img/buller1Mobile.jpg" alt=""><img loading="lazy" src="img/buller2.jpg" alt=""><div loading="lazy" class="haceFlex bullerDec"><video src="img/buller31.m4v" width=100% autoplay muted loop playsinline ></video><img loading="lazy" src="img/buller32.jpg" alt=""></div><div loading="lazy" class="haceFlex bullerDec"><img loading="lazy" src="img/buller33.jpg" alt=""><img loading="lazy" src="img/buller34.jpg" alt=""></div><img loading="lazy" src="img/buller4.jpg" alt=""><video src="img/bullerAnim.m4v" width=100% autoplay muted loop playsinline ></video><div id="contacModal"><img loading="lazy" id="loge" src="img/Logo.jpg" alt=""><div><p>BE CURIOUS</p><p>BE BRAVE</p><p>IT'S POSSIBLE</p><div class="carGa2"><a class="cargaMas2 sis2" href="contact.html">Contact Us</a></div></div></div></div>`;
+    const plantilla=`<div id="fixea">  <img loading="lazy" src="img/buller1Mobile.jpg" alt=""><div loading="lazy" class="haceFlex bullerDec"><video src="img/buller31.m4v" width=100% autoplay muted loop playsinline ></video><img loading="lazy" src="img/buller32.jpg" alt=""></div><div loading="lazy" class="haceFlex bullerDec"><img loading="lazy" src="img/buller33.jpg" alt=""><img loading="lazy" src="img/buller34.jpg" alt=""></div><img loading="lazy" src="img/buller4.jpg" alt=""><video src="img/bullerAnim.m4v" width=100% autoplay muted loop playsinline ></video><div id="contacModal"><img loading="lazy" id="loge" src="img/Logo.jpg" alt=""><div><p>BE CURIOUS</p><p>BE BRAVE</p><p>IT'S POSSIBLE</p><div class="carGa2"><a class="cargaMas2 sis2" href="contact.html">Contact Us</a></div></div></div></div>`;
     plantillaa.innerHTML=plantilla;
     let main=document.querySelector("main");
    
@@ -130,7 +130,7 @@ img44.addEventListener("click",function(){
     quitar();
 });
 img33.addEventListener("click",function(){
-    const plantilla=`<div id="fixea">  <img loading="lazy" src="img/eva1Mobile.jpg" alt=""><img loading="lazy" src="img/eva2.jpg" alt=""><img loading="lazy" src="img/eva3.jpg" alt=""><img  loading="lazy" src="img/eva4.jpg" alt=""><img  loading="lazy" src="img/eva5.jpg" alt=""><div loading="lazy" class="haceFlex bullerDec"><img loading="lazy" src="img/eva61.jpg" alt=""><img loading="lazy" src="img/eva62.jpg" alt=""></div><div loading="lazy" class="haceFlex bullerDec"><img loading="lazy" src="img/eva63.jpg" alt=""><img loading="lazy" src="img/eva64.jpg" alt=""></div><div id="contacModal"><img loading="lazy" id="loge" src="img/Logo.jpg" alt=""><div><p>BE CURIOUS</p><p>BE BRAVE</p><p>IT'S POSSIBLE</p><div class="carGa2"><a class="cargaMas2 sis2" href="contact.html">Contact Us</a></div></div></div></div>`;
+    const plantilla=`<div id="fixea">  <img loading="lazy" src="img/eva1Mobile.jpg" alt=""><img loading="lazy" src="img/eva2.jpg" alt=""><img  loading="lazy" src="img/eva4.jpg" alt=""><img  loading="lazy" src="img/eva5.jpg" alt=""><div loading="lazy" class="haceFlex bullerDec"><img loading="lazy" src="img/eva61.jpg" alt=""><img loading="lazy" src="img/eva62.jpg" alt=""></div><div loading="lazy" class="haceFlex bullerDec"><img loading="lazy" src="img/eva63.jpg" alt=""><img loading="lazy" src="img/eva64.jpg" alt=""></div><div id="contacModal"><img loading="lazy" id="loge" src="img/Logo.jpg" alt=""><div><p>BE CURIOUS</p><p>BE BRAVE</p><p>IT'S POSSIBLE</p><div class="carGa2"><a class="cargaMas2 sis2" href="contact.html">Contact Us</a></div></div></div></div>`;
     plantillaa.innerHTML=plantilla;
     let main=document.querySelector("main");
    
@@ -243,7 +243,7 @@ function agarraNus(){
     function agarraEva(){
         let agarraEva=document.querySelector("#agarraEva");
         agarraEva.addEventListener("click",function(){
-            const plantilla=`<div id="fixea">  <img loading="lazy" src="img/eva1Mobile.jpg" alt=""><img loading="lazy" src="img/eva2.jpg" alt=""><img loading="lazy" src="img/eva3.jpg" alt=""><img  loading="lazy" src="img/eva4.jpg" alt=""><img  loading="lazy" src="img/eva5.jpg" alt=""><div loading="lazy" class="haceFlex bullerDec"><img loading="lazy" src="img/eva61.jpg" alt=""><img loading="lazy" src="img/eva62.jpg" alt=""></div><div loading="lazy" class="haceFlex bullerDec"><img loading="lazy" src="img/eva63.jpg" alt=""><img loading="lazy" src="img/eva64.jpg" alt=""></div><div id="contacModal"><img loading="lazy" id="loge" src="img/Logo.jpg" alt=""><div><p>BE CURIOUS</p><p>BE BRAVE</p><p>IT'S POSSIBLE</p><div class="carGa2"><a class="cargaMas2 sis2" href="contact.html">Contact Us</a></div></div></div></div>`;
+            const plantilla=`<div id="fixea">  <img loading="lazy" src="img/eva1Mobile.jpg" alt=""><img loading="lazy" src="img/eva2.jpg" alt=""><img  loading="lazy" src="img/eva4.jpg" alt=""><img  loading="lazy" src="img/eva5.jpg" alt=""><div loading="lazy" class="haceFlex bullerDec"><img loading="lazy" src="img/eva61.jpg" alt=""><img loading="lazy" src="img/eva62.jpg" alt=""></div><div loading="lazy" class="haceFlex bullerDec"><img loading="lazy" src="img/eva63.jpg" alt=""><img loading="lazy" src="img/eva64.jpg" alt=""></div><div id="contacModal"><img loading="lazy" id="loge" src="img/Logo.jpg" alt=""><div><p>BE CURIOUS</p><p>BE BRAVE</p><p>IT'S POSSIBLE</p><div class="carGa2"><a class="cargaMas2 sis2" href="contact.html">Contact Us</a></div></div></div></div>`;
             plantillaa.innerHTML=plantilla;
             let main=document.querySelector("main");
        
@@ -273,7 +273,7 @@ function agarraNus(){
         function agarraBuller(){
             let agarraBuller=document.querySelector("#agarraBuller");
             agarraBuller.addEventListener("click",function(){
-                const plantilla=`<div id="fixea">  <img loading="lazy" src="img/buller1Mobile.jpg" alt=""><img loading="lazy" src="img/buller2.jpg" alt=""><div loading="lazy" class="haceFlex bullerDec"><video src="img/buller31.m4v" width=100% autoplay muted loop playsinline></video><img loading="lazy" src="img/buller32.jpg" alt=""></div><div loading="lazy" class="haceFlex bullerDec"><img loading="lazy" src="img/buller33.jpg" alt=""><img loading="lazy" src="img/buller34.jpg" alt=""></div><img loading="lazy" src="img/buller4.jpg" alt=""><video src="img/bullerAnim.m4v" width=100% autoplay muted loop playsinline ></video><div id="contacModal"><img loading="lazy" id="loge" src="img/Logo.jpg" alt=""><div><p>BE CURIOUS</p><p>BE BRAVE</p><p>IT'S POSSIBLE</p><div class="carGa2"><a class="cargaMas2 sis2" href="contact.html">Contact Us</a></div></div></div></div>`;;
+                const plantilla=`<div id="fixea">  <img loading="lazy" src="img/buller1Mobile.jpg" alt=""><div loading="lazy" class="haceFlex bullerDec"><video src="img/buller31.m4v" width=100% autoplay muted loop playsinline></video><img loading="lazy" src="img/buller32.jpg" alt=""></div><div loading="lazy" class="haceFlex bullerDec"><img loading="lazy" src="img/buller33.jpg" alt=""><img loading="lazy" src="img/buller34.jpg" alt=""></div><img loading="lazy" src="img/buller4.jpg" alt=""><video src="img/bullerAnim.m4v" width=100% autoplay muted loop playsinline ></video><div id="contacModal"><img loading="lazy" id="loge" src="img/Logo.jpg" alt=""><div><p>BE CURIOUS</p><p>BE BRAVE</p><p>IT'S POSSIBLE</p><div class="carGa2"><a class="cargaMas2 sis2" href="contact.html">Contact Us</a></div></div></div></div>`;;
                 plantillaa.innerHTML=plantilla;
                 let main=document.querySelector("main");
            
@@ -326,7 +326,7 @@ function agarraNus(){
 function agarraBuller2(){
     let agarraBuller2=document.querySelector("#agarraBuller2");
     agarraBuller2.addEventListener("click",function(){
-        const plantilla=`<div id="fixea">  <img loading="lazy" src="img/buller1.jpg" alt=""><img loading="lazy" src="img/buller2.jpg" alt=""><div loading="lazy" class="haceFlex bullerDec"><video src="img/buller31.m4v" width=100% autoplay muted loop playsinline ></video><img loading="lazy" src="img/buller32.jpg" alt=""></div><div loading="lazy" class="haceFlex bullerDec"><img loading="lazy" src="img/buller33.jpg" alt=""><img loading="lazy" src="img/buller34.jpg" alt=""></div><img loading="lazy" src="img/buller4.jpg" alt=""><video src="img/bullerAnim.m4v" width=100% autoplay muted loop playsinline></video><div id="contacModal"><img loading="lazy" id="loge" src="img/Logo.jpg" alt=""><div><p>BE CURIOUS</p><p>BE BRAVE</p><p>IT'S POSSIBLE</p><div class="carGa2"><a class="cargaMas2 sis2" href="contact.html">Contact Us</a></div></div></div></div>`;
+        const plantilla=`<div id="fixea">  <img loading="lazy" src="img/buller1.jpg" alt=""><div loading="lazy" class="haceFlex bullerDec"><video src="img/buller31.m4v" width=100% autoplay muted loop playsinline ></video><img loading="lazy" src="img/buller32.jpg" alt=""></div><div loading="lazy" class="haceFlex bullerDec"><img loading="lazy" src="img/buller33.jpg" alt=""><img loading="lazy" src="img/buller34.jpg" alt=""></div><img loading="lazy" src="img/buller4.jpg" alt=""><video src="img/bullerAnim.m4v" width=100% autoplay muted loop playsinline></video><div id="contacModal"><img loading="lazy" id="loge" src="img/Logo.jpg" alt=""><div><p>BE CURIOUS</p><p>BE BRAVE</p><p>IT'S POSSIBLE</p><div class="carGa2"><a class="cargaMas2 sis2" href="contact.html">Contact Us</a></div></div></div></div>`;
         plantillaa.innerHTML=plantilla;
         let main=document.querySelector("main");
    
@@ -349,7 +349,7 @@ function agarraBuller2(){
 function agarraEva2(){
     let agarraEva2=document.querySelector("#agarraEva2");
     agarraEva2.addEventListener("click",function(){
-        const plantilla=`<div id="fixea">  <img loading="lazy" src="img/eva1Desktop.jpg" alt=""><img loading="lazy" src="img/eva2.jpg" alt=""><img loading="lazy" src="img/eva3.jpg" alt=""><img  loading="lazy" src="img/eva4.jpg" alt=""><img  loading="lazy" src="img/eva5.jpg" alt=""><div loading="lazy" class="haceFlex bullerDec"><img loading="lazy" src="img/eva61.jpg" alt=""><img loading="lazy" src="img/eva62.jpg" alt=""></div><div loading="lazy" class="haceFlex bullerDec"><img loading="lazy" src="img/eva63.jpg" alt=""><img loading="lazy" src="img/eva64.jpg" alt=""></div><div id="contacModal"><img loading="lazy" id="loge" src="img/Logo.jpg" alt=""><div><p>BE CURIOUS</p><p>BE BRAVE</p><p>IT'S POSSIBLE</p><div class="carGa2"><a class="cargaMas2 sis2" href="contact.html">Contact Us</a></div></div></div></div>`;
+        const plantilla=`<div id="fixea">  <img loading="lazy" src="img/eva1Desktop.jpg" alt=""><img loading="lazy" src="img/eva2.jpg" alt=""><img  loading="lazy" src="img/eva4.jpg" alt=""><img  loading="lazy" src="img/eva5.jpg" alt=""><div loading="lazy" class="haceFlex bullerDec"><img loading="lazy" src="img/eva61.jpg" alt=""><img loading="lazy" src="img/eva62.jpg" alt=""></div><div loading="lazy" class="haceFlex bullerDec"><img loading="lazy" src="img/eva63.jpg" alt=""><img loading="lazy" src="img/eva64.jpg" alt=""></div><div id="contacModal"><img loading="lazy" id="loge" src="img/Logo.jpg" alt=""><div><p>BE CURIOUS</p><p>BE BRAVE</p><p>IT'S POSSIBLE</p><div class="carGa2"><a class="cargaMas2 sis2" href="contact.html">Contact Us</a></div></div></div></div>`;
         plantillaa.innerHTML=plantilla;
         let main=document.querySelector("main");
    
@@ -415,6 +415,7 @@ function quitar(){
     }
        
     )
+    
 
 
 let menu=document.querySelector("#menu");
@@ -459,8 +460,8 @@ function carrusel3(){
             buller.style.left="translate(100%)";
             buller.style.transform="translate(-70%)";
             titulo.innerHTML="Mandatos";
-            identify.innerHTML="Campaña - Eva Miller";
-            proyectLink.innerHTML="<a id=subra3  href=#><p id=agarraEva2 class=proyect>See proyect</p><div class=subrayado2></div></a>";
+            identify.innerHTML="Campaign - Eva Miller";
+            proyectLink.innerHTML="<a id=subra3  href=#><p id=agarraEva2 class=proyect>See project</p><div class=subrayado2></div></a>";
             contador= contador+1;
             agarraEva2()
             console.log(contador);
@@ -474,7 +475,7 @@ function carrusel3(){
             buller.style.transform="translate(-111.5%)";
             titulo.innerHTML="Buller";
             identify.innerHTML="Web Site";
-            proyectLink.innerHTML="<a id=subra3  href=#><p id=agarraBuller2 class=proyect>See proyect</p><div class=subrayado2></div></a>";
+            proyectLink.innerHTML="<a id=subra3  href=#><p id=agarraBuller2 class=proyect>See project</p><div class=subrayado2></div></a>";
             contador= contador+1;
             gato.style.zIndex="14";
             buller.style.zIndex="12";
@@ -488,7 +489,7 @@ function carrusel3(){
             imgVerdadero.style.transform="translate(-114%)";
             buller.style.transform="translate(-50%)";
             titulo.innerHTML="Nasty People";
-            proyectLink.innerHTML="<a id=subra3  href=#><p id=agarraNusty2 class=proyect>See proyect</p><div class=subrayado2></div></a>";
+            proyectLink.innerHTML="<a id=subra3  href=#><p id=agarraNusty2 class=proyect>See project</p><div class=subrayado2></div></a>";
             gato.style.left="300%";
             gato.style.transform="translate(-260%)";
             gato.style.zIndex="1";
@@ -507,8 +508,8 @@ function carrusel3(){
                 buller.style.left="300%";
                 buller.style.transform="translate(-270%)";
                 titulo.innerHTML="Mandatos";
-                identify.innerHTML="Campaña - Eva Miller";
-                proyectLink.innerHTML="<a id=subra3  href=#><p id=agarraEva2 class=proyect>See proyect</p><div class=subrayado2></div></a>";
+                identify.innerHTML="Campaign - Eva Miller";
+                proyectLink.innerHTML="<a id=subra3  href=#><p id=agarraEva2 class=proyect>See project</p><div class=subrayado2></div></a>";
                 contador= contador+1;
                 agarraEva2();
                 console.log(contador);
@@ -519,7 +520,7 @@ function carrusel3(){
             buller.style.transform="translate(-311.5%)";
             titulo.innerHTML="Buller";
             identify.innerHTML="Web Site";
-            proyectLink.innerHTML="<a id=subra3  href=#><p id=agarraBuller2 class=proyect>See proyect</p><div class=subrayado2></div></a>";
+            proyectLink.innerHTML="<a id=subra3  href=#><p id=agarraBuller2 class=proyect>See project</p><div class=subrayado2></div></a>";
             contador= contador+1;
             gato.style.zIndex="14";
             buller.style.zIndex="12";
@@ -553,8 +554,8 @@ function carrusel3(){
                 buller.style.transform="translate(-70%)";
                
                 titulo.innerHTML="Mandatos";
-                identify.innerHTML="Campaña - Eva Miller";
-                proyectLink.innerHTML="<a id=subra3  href=#><p id=agarraEva class=proyect>See proyect</p><div class=subrayado2></div></a>";
+                identify.innerHTML="Campaign - Eva Miller";
+                proyectLink.innerHTML="<a id=subra3  href=#><p id=agarraEva class=proyect>See project</p><div class=subrayado2></div></a>";
                 contador= contador+1;
                 console.log(contador);
                 agarraEva();
@@ -566,7 +567,7 @@ function carrusel3(){
                 buller.style.transform="translate(-110%)";
                 titulo.innerHTML="Buller";
                 identify.innerHTML="Web Site";
-                proyectLink.innerHTML="<a id=subra3  href=#><p id=agarraBuller class=proyect>See proyect</p><div class=subrayado2></div></a>";
+                proyectLink.innerHTML="<a id=subra3  href=#><p id=agarraBuller class=proyect>See project</p><div class=subrayado2></div></a>";
                 contador= contador+1;
                 gato.style.zIndex="14";
                 buller.style.zIndex="12";
@@ -581,7 +582,7 @@ function carrusel3(){
                 imgVerdadero.style.left="50%";
                 imgVerdadero.style.transform="translate(-50%)";
                 titulo.innerHTML="Nasty People";
-                proyectLink.innerHTML="<a id=subra3  href=#><p id=agarraNusty class=proyect>See proyect</p><div class=subrayado2></div></a>";
+                proyectLink.innerHTML="<a id=subra3  href=#><p id=agarraNusty class=proyect>See project</p><div class=subrayado2></div></a>";
                 gato.style.left="300%";
                 gato.style.transform="translate(-200%)";
                 gato.style.zIndex="1";
@@ -603,8 +604,8 @@ function carrusel3(){
                     buller.style.left="300%";
                     buller.style.transform="translate(-200%)";
                     titulo.innerHTML="Mandatos";
-                    identify.innerHTML="Campaña - Eva Miller";
-                    proyectLink.innerHTML="<a id=subra3  href=#><p id=agarraEva class=proyect>See proyect</p><div class=subrayado2></div></a>";
+                    identify.innerHTML="Campaign - Eva Miller";
+                    proyectLink.innerHTML="<a id=subra3  href=#><p id=agarraEva class=proyect>See project</p><div class=subrayado2></div></a>";
                     contador= contador+1;
                     agarraEva();
                     console.log(contador);
@@ -616,7 +617,7 @@ function carrusel3(){
                 buller.style.transform="translate(-250%)";
                 titulo.innerHTML="Buller";
                 identify.innerHTML="Web Site";
-                proyectLink.innerHTML="<a id=subra3  href=#><p id=agarraBuller class=proyect>See proyect</p><div class=subrayado2></div></a>";
+                proyectLink.innerHTML="<a id=subra3  href=#><p id=agarraBuller class=proyect>See project</p><div class=subrayado2></div></a>";
                 contador= contador+1;
                 gato.style.zIndex="14";
                 buller.style.zIndex="12";
@@ -637,6 +638,7 @@ function carrusel3(){
         })
         
     }
+    
  
     function entraIf(){
         let ancho2= window.innerWidth || document.body.clientWidth;
@@ -645,11 +647,13 @@ function carrusel3(){
         if(ancho2<=750){
             let aqui=document.querySelector(".aqui");
             let imaFle=document.querySelector("#imaFle");
-            imaFle.style.width="40%";
-            imaFle.style.height="40%";
+            imaFle.setAttribute("src","img/flecha2.png")
             imaFle.style.position="absolute";
-            imaFle.style.left="29%";
-            imaFle.style.top="29%";
+            imaFle.style.width= "16px";
+            imaFle.style.height= "23px";
+            imaFle.style.left=" 37%";
+            imaFle.style.top= "27%";
+           
             aqui.classList.remove("flecha");
             aqui.classList.add("flechita");
             let aqui2=document.querySelector(".aqui2");
@@ -760,7 +764,7 @@ img4.addEventListener("mouseover",function(){
 })
 
 segundo44.addEventListener("click",function(){
-    const plantilla=`<div id="fixea">  <img loading="lazy" src="img/buller1.jpg" alt=""><img loading="lazy" src="img/buller2.jpg" alt=""><div loading="lazy" class="haceFlex bullerDec"><video src="img/buller31.m4v" width=100% autoplay muted loop playsinline ></video><img loading="lazy" src="img/buller32.jpg" alt=""></div><div loading="lazy" class="haceFlex bullerDec"><img loading="lazy" src="img/buller33.jpg" alt=""><img loading="lazy" src="img/buller34.jpg" alt=""></div><img loading="lazy" src="img/buller4.jpg" alt=""><video src="img/bullerAnim.m4v" width=100% autoplay muted loop playsinline ></video><div id="contacModal"><img loading="lazy" id="loge" src="img/Logo.jpg" alt=""><div><p>BE CURIOUS</p><p>BE BRAVE</p><p>IT'S POSSIBLE</p><div class="carGa2"><a class="cargaMas2 sis2" href="contact.html">Contact Us</a></div></div></div></div>`;
+    const plantilla=`<div id="fixea">  <img loading="lazy" src="img/buller1.jpg" alt=""><div loading="lazy" class="haceFlex bullerDec"><video src="img/buller31.m4v" width=100% autoplay muted loop playsinline ></video><img loading="lazy" src="img/buller32.jpg" alt=""></div><div loading="lazy" class="haceFlex bullerDec"><img loading="lazy" src="img/buller33.jpg" alt=""><img loading="lazy" src="img/buller34.jpg" alt=""></div><img loading="lazy" src="img/buller4.jpg" alt=""><video src="img/bullerAnim.m4v" width=100% autoplay muted loop playsinline ></video><div id="contacModal"><img loading="lazy" id="loge" src="img/Logo.jpg" alt=""><div><p>BE CURIOUS</p><p>BE BRAVE</p><p>IT'S POSSIBLE</p><div class="carGa2"><a class="cargaMas2 sis2" href="contact.html">Contact Us</a></div></div></div></div>`;
     plantillaa.innerHTML=plantilla;
     let main=document.querySelector("main");
    
@@ -779,8 +783,10 @@ segundo44.addEventListener("click",function(){
     scroleaParriba();
     quitar();
 });
+
+
 segundo33.addEventListener("click",function(){
-    const plantilla=`<div id="fixea">  <img loading="lazy" src="img/eva1Desktop.jpg" alt=""><img loading="lazy" src="img/eva2.jpg" alt=""><img loading="lazy" src="img/eva3.jpg" alt=""><img  loading="lazy" src="img/eva4.jpg" alt=""><img  loading="lazy" src="img/eva5.jpg" alt=""><div loading="lazy" class="haceFlex bullerDec"><img loading="lazy" src="img/eva61.jpg" alt=""><img loading="lazy" src="img/eva62.jpg" alt=""></div><div loading="lazy" class="haceFlex bullerDec"><img loading="lazy" src="img/eva63.jpg" alt=""><img loading="lazy" src="img/eva64.jpg" alt=""></div><div id="contacModal"><img loading="lazy" id="loge" src="img/Logo.jpg" alt=""><div><p>BE CURIOUS</p><p>BE BRAVE</p><p>IT'S POSSIBLE</p><div class="carGa2"><a class="cargaMas2 sis2" href="contact.html">Contact Us</a></div></div></div></div>`;
+    const plantilla=`<div id="fixea">  <img loading="lazy" src="img/eva1Desktop.jpg" alt=""><img loading="lazy" src="img/eva2.jpg" alt=""><img  loading="lazy" src="img/eva4.jpg" alt=""><img  loading="lazy" src="img/eva5.jpg" alt=""><div loading="lazy" class="haceFlex bullerDec"><img loading="lazy" src="img/eva61.jpg" alt=""><img loading="lazy" src="img/eva62.jpg" alt=""></div><div loading="lazy" class="haceFlex bullerDec"><img loading="lazy" src="img/eva63.jpg" alt=""><img loading="lazy" src="img/eva64.jpg" alt=""></div><div id="contacModal"><img loading="lazy" id="loge" src="img/Logo.jpg" alt=""><div><p>BE CURIOUS</p><p>BE BRAVE</p><p>IT'S POSSIBLE</p><div class="carGa2"><a class="cargaMas2 sis2" href="contact.html">Contact Us</a></div></div></div></div>`;
     plantillaa.innerHTML=plantilla;
     let main=document.querySelector("main");
    
