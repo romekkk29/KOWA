@@ -651,8 +651,8 @@ function carrusel3(){
             imaFle.style.position="absolute";
             imaFle.style.width= "16px";
             imaFle.style.height= "23px";
-            imaFle.style.left=" 37%";
-            imaFle.style.top= "27%";
+            imaFle.style.left=" 36.5%";
+            imaFle.style.top= "26.5%";
            
             aqui.classList.remove("flecha");
             aqui.classList.add("flechita");
