@@ -581,12 +581,12 @@ function carrusel3(){
                     proyectLink.innerHTML="<a id=subra3  href=#><p id=agarraNusty class=proyect>See project</p><div class=subrayado2></div></a>";
                     let subra3=document.querySelector("#subra3");
                     console.log(subra3);
-                    subra3.style.top="91%";
+                    subra3.style.top="92%";
                 img.style.visibility="visible";
                 img.style.transform="translate(-200%)";
                 imgVerdadero.style.left="50%";
                 imgVerdadero.style.transform="translate(-50%)";
-                titulo.innerHTML="Nasty People";
+                titulo.innerHTML="Nasty &nbsp People";
               
                 gato.style.left="300%";
                 gato.style.transform="translate(-200%)";
