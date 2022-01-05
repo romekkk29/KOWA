@@ -221,7 +221,7 @@ z-index: 123213213 ;
     flex-direction: column;
     left: 10%;
     top: 82.5%;
-    z-index: 23123;
+    z-index: 231230003;
 }
 .flecha{
     position: absolute;
@@ -1546,9 +1546,7 @@ margin-bottom: -5%;
 
 
 @media all and (max-width:370px){
-    .titulo{
-        
-    }
+   
     #contacModal div p{
         font-size: 20px;
     }
