@@ -1,7 +1,7 @@
 
 let body= document.querySelector("body");
 let altura2= window.innerHeight || document.body.clientHeight;
-let altura=altura2*0.5;
+let altura=altura2*0.8;
 let img1=document.querySelector("#img1");
 let img11=document.querySelector("#img11");
 let img2=document.querySelector("#img2");
